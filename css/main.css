@@ -40,7 +40,7 @@ h2 {
   font-size: 24px;
   margin-bottom: 18px;
   margin-top: 36px;
-  color: #7a3676;
+  color: #04084F;
 }
 
 blockquote {
@@ -69,7 +69,7 @@ article {
   height: 100%;
   overflow: scroll;
   white-space: normal;
-  background-color: #e4d9e3;
+  background-color: #e4e5ff;
 }
 
 .container {
@@ -418,6 +418,7 @@ article {
 
 article .container {
   padding-top: 80px;
+  background-color: #e4e5ff;
 }
 
 @media (max-width: 960px) {
@@ -447,7 +448,7 @@ article li {
 }
 
 article a {
-  color: #7a3676;
+  color: #04084F;
   text-decoration: none;
 }
 
@@ -504,7 +505,7 @@ ul.posts p {
 }
 
 .cardfront_color {
-	background-color:#f0e6f7;
+	background-color:#cacdff;
 }
 
 .cardfront_corner_tr, .cardback_corner_tr {
@@ -539,7 +540,7 @@ ul.posts p {
 }
 
 .cardfront_description p {
-	color:#423b7d;
+	color:#212686;
 	padding-top:6px;
 	line-height:1.4em;
 	font-size:12px;
@@ -601,7 +602,7 @@ ul.posts p {
 }
 
 .cardback_description p {
-	color:#e4cfff;
+	color:#ccccff;
 	padding-top:6px;
 	line-height:1.4em;
 }
@@ -620,13 +621,13 @@ td.starback_stat {
 }
 
 td.starback_statDescription {
-	color:#e4cfff;
+	color:#ccccff;
 	font-size:13px;
 	padding:7px 0px 0px 0px;
 }
 
 .cardback_color {
-	background-color:#36215e;
+	background-color:#333366;
 }
 
 .cardback_corner_bl {
@@ -648,7 +649,7 @@ td.starback_statDescription {
 	text-align:right;
 	width:100%;
 	line-height:1.1em;
-	color:#cf17fc;
+	color:#04084f;
 	font-weight:600;
 }
 
