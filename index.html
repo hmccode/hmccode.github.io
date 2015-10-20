@@ -1,0 +1,138 @@
+---
+layout: default
+---
+
+<!-- cards container -->
+<div ng-app="reposApp" ng-controller="reposCtrl">
+    <div ng-hide="isLoading">
+        <!-- card container -->
+        <div class="card_container" ng-repeat="rep in sourceReps">
+
+            <!-- card 1 front -->
+            <div class="cardfront">
+                <table class="card" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td colspan="2" class="cardfront_color"></td>
+                    <td class="cardfront_corner_tr"></td>
+                </tr>
+                <tr>
+                    <td colspan="3" class="cardfront_color">
+                        <div class="cardfront_description">
+                            <h2 ng-bind="rep.name"></h2>
+                            <p ng-bind="rep.description"></p>
+                        </div>
+                        <div class="cardfront_contributor">
+                            <ul>
+                                <li>Contributor: &nbsp;<span class="data" ng-bind="rep.fullName"></span></li>
+                                <li>Last commit: &nbsp;<span class="data" ng-bind="rep.updatedAt | date:'dd MMM yyyy'"></span></li>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="cardfront_corner_bl"></td>
+                    <td colspan="2" class="cardfront_color">
+                        <table class="cardfront_stats_row" >
+                            <tr>
+                                <td><div class="icon_star"></div></td>
+                                <td><div class="cardfront_stats" ng-bind="rep.stargazersCount"></div></td>
+                                <td><div class="icon_fork"></div></td>
+                                <td><div class="cardfront_stats" ng-bind="rep.forksCount"></div></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                </table>
+            </div>
+
+            <!-- card 1 back -->
+            <a href="">
+            <div class="cardback" ng-click="gotoRepo(rep.htmlUrl)">
+
+                <table class="card" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td colspan="2" class="cardback_color"></td>
+                    <td class="cardback_corner_tr"></td>
+                </tr>
+                <tr>
+                    <td colspan="3" class="cardback_color">
+                        <div class="cardback_description">
+                            <h2 ng-bind="rep.name"></h2>
+                            <table class="cardback_table" cellspacing="0" border="0" width="100%">
+                                <tr>
+                                    <td class="starback_statIcon"><a href="readme.html"><div class="icon_star_cardback"></div></a></td>
+                                    <td class="starback_stat" ng-bind="rep.stargazersCount"></td>
+                                    <td class="starback_statDescription">Stars</td>
+                                </tr>
+                                <tr>
+                                    <td class="starback_statIcon"><a href="readme.html"><div class="icon_fork_cardback"></div></a></td>
+                                    <td class="starback_stat" ng-bind="rep.forksCount"></td>
+                                    <td class="starback_statDescription">Forks</td>
+                                </tr>
+                                <tr>
+                                    <td class="starback_statIcon"><a href="readme.html"><div class="icon_contributors_cardback"></div></a></td>
+                                    <td class="starback_stat" ng-bind="rep.subscribersCount"></td>
+                                    <td class="starback_statDescription">Contributors</td>
+                                </tr>
+                                <tr>
+                                    <td class="starback_statIcon"><a href="readme.html"><div class="icon_issues_cardback"></div></a></td>
+                                    <td class="starback_stat" ng-bind="rep.openIssuesCount"></td>
+                                    <td class="starback_statDescription">Open issues</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="cardback_corner_bl"></td>
+                    <td colspan="2" class="cardback_color"></td>
+                </tr>
+                </table>
+            </div>
+            </a>
+    
+        </div> <!-- end card container -->
+    </div>
+    <div ng-show="isLoading">
+        Loading.....
+    </div>    
+</div>
+
+<script>
+var reposApp = angular.module('reposApp', []);
+
+reposApp.factory('reposSvc', ['$http', function ($http) {
+
+    var repsEndpoint = "https://miscwebjobs.blob.core.windows.net/jsons/repositories.json";
+
+    return {
+        getRepositories: function () {
+            return $http.get(repsEndpoint);
+        }
+    };
+}]);
+
+reposApp.controller('reposCtrl', ['$scope', '$window', 'reposSvc', function ($scope, $window, reposSvc) {
+    reposSvc.getRepositories().success(function (data) {
+        console.log("repositories data arrived");
+        console.log(data);
+        $scope.sourceReps = data.organizations[0].repositories;
+        $scope.docReps = data.organizations[1].repositories;
+
+        // Turn off the indicator
+        $scope.isLoading = false;
+    }).error(function (err) {
+        console.log("repositories data errored: " + err);
+        $scope.error = err;
+    });
+    
+    $scope.gotoRepo = function (url) {
+        console.log('gotoRepo: ' + url);
+        $window.open(url, '_blank');
+    };
+
+	$scope.isLoading = true;
+}]);
+</script>
+
+

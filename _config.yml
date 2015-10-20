@@ -1,0 +1,13 @@
+# Site Settings
+title: "HMC code"
+tagline: "Real company asset!!"
+sidebar_image: /images/cover.jpg
+
+# Build Settings
+markdown: kramdown
+kramdown: 
+  input: GFM
+permalink: /:year-:month-:day/:title
+baseurl: 
+encoding: utf-8
+highlighter: pygments
