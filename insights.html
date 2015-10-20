@@ -276,7 +276,7 @@ insightsApp.controller('insightsCtrl', ['$scope', '$window', 'insightsSvc', func
         // The activities series data
         // Series1 = additions
         var values = [];
-        var result = $scope.insightsData.periods[$scope.period].averageDocsAdditions.queryResult.result;
+        var result = $scope.insightsData.periods[$scope.period].averageCodeAdditions.queryResult.result;
         for (var i=0; i < result.length; i++) {
             if (result[i].value === null)
                 values.push(0);
@@ -291,7 +291,7 @@ insightsApp.controller('insightsCtrl', ['$scope', '$window', 'insightsSvc', func
 
         // Series2 = deletions
         values = [];
-        result = $scope.insightsData.periods[$scope.period].averageDocsDeletions.queryResult.result;
+        result = $scope.insightsData.periods[$scope.period].averageCodeDeletions.queryResult.result;
         for (var i=0; i < result.length; i++) {
             if (result[i].value === null)
                 values.push(0);
@@ -306,7 +306,7 @@ insightsApp.controller('insightsCtrl', ['$scope', '$window', 'insightsSvc', func
 
         // Series3 = modifications
         values = [];
-        result = $scope.insightsData.periods[$scope.period].averageDocsModifications.queryResult.result;
+        result = $scope.insightsData.periods[$scope.period].averageCodeModifications.queryResult.result;
         for (var i=0; i < result.length; i++) {
             if (result[i].value === null)
                 values.push(0);
@@ -323,7 +323,7 @@ insightsApp.controller('insightsCtrl', ['$scope', '$window', 'insightsSvc', func
         // First clear any existing categories
         $scope.activitiesChartCfg.xAxis.categories = [];
         
-        result = $scope.insightsData.periods[$scope.period].averageDocsAdditions.queryResult.result;
+        result = $scope.insightsData.periods[$scope.period].averageCodeAdditions.queryResult.result;
         for (var i=0; i < result.length; i++) {
             $scope.activitiesChartCfg.xAxis.categories.push(result[i].timeframe.start.substring(0, 10));
         }
@@ -335,7 +335,7 @@ insightsApp.controller('insightsCtrl', ['$scope', '$window', 'insightsSvc', func
 
         // Series = commits
         values = [];
-        result = $scope.insightsData.periods[$scope.period].countDocsCommits.queryResult.result;
+        result = $scope.insightsData.periods[$scope.period].countCodeCommits.queryResult.result;
         for (var i=0; i < result.length; i++) {
             if (result[i].value === null)
                 values.push(0);
@@ -352,7 +352,7 @@ insightsApp.controller('insightsCtrl', ['$scope', '$window', 'insightsSvc', func
         // First clear any existing categories
         $scope.commitsChartCfg.xAxis.categories = [];
         
-        result = $scope.insightsData.periods[$scope.period].countDocsCommits.queryResult.result;
+        result = $scope.insightsData.periods[$scope.period].countCodeCommits.queryResult.result;
         for (var i=0; i < result.length; i++) {
             $scope.commitsChartCfg.xAxis.categories.push(result[i].timeframe.start.substring(0, 10));
         }
@@ -363,7 +363,7 @@ insightsApp.controller('insightsCtrl', ['$scope', '$window', 'insightsSvc', func
         
         // Series = commits per repository
         values = [];
-        result = $scope.insightsData.periods[$scope.period].countDocsCommitsByRepo.queryResult.result;
+        result = $scope.insightsData.periods[$scope.period].countCodeCommitsByRepo.queryResult.result;
         for (var i=0; i < result.length; i++) {
             if (result[i].result === null)
                 values.push(0);
@@ -379,7 +379,7 @@ insightsApp.controller('insightsCtrl', ['$scope', '$window', 'insightsSvc', func
         
         $scope.commitsPerRepChartCfg.xAxis.categories = [];
         
-        result = $scope.insightsData.periods[$scope.period].countDocsCommitsByRepo.queryResult.result;
+        result = $scope.insightsData.periods[$scope.period].countCodeCommitsByRepo.queryResult.result;
         for (var i=0; i < result.length; i++) {
             $scope.commitsPerRepChartCfg.xAxis.categories.push(result[i]['repository.name']);
         }
