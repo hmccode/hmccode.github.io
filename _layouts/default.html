@@ -7,9 +7,9 @@
       {{ site.title }}
       &mdash;
       {% if page.title %}
-        {{ page.title }}
+        {{ page.title | truncate: 52 }}
       {% else %}
-        {{ site.tagline }}
+        {{ site.tagline | truncate: 52 }}
       {% endif %}
     </title>
 
