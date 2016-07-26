@@ -4,11 +4,11 @@
   <head>
     <meta charset="utf-8">
     <title>
+      {{ site.title }}
+      &mdash;
       {% if page.title %}
         {{ page.title }}
       {% else %}
-        {{ site.title }}
-        &mdash;
         {{ site.tagline }}
       {% endif %}
     </title>
