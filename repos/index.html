@@ -1,0 +1,94 @@
+---
+layout: page
+title: Repositories
+---
+
+<!-- cards container -->
+<div ng-app="reposApp" ng-controller="reposCtrl">
+    <div ng-hide="isLoading">
+
+      <h4>Source Repo</h4>
+      <div class="card-grid">
+        <div class="card-item color-2" ng-repeat="rep in sourceReps">
+          <a class="wrapper" ng-href="[[rep.htmlUrl]]" target="_blank">
+            <h2 class="title" ng-bind="rep.name"></h2>
+            <p class="description" ng-bind="rep.description"></p>
+          </a>
+            <ul class="detail">
+                <!-- <li>Contributor: &nbsp;<span class="data" ng-bind="rep.fullName"></span></li> -->
+                <li>Last commit: &nbsp;<span class="data" ng-bind="rep.updatedAt | date:'dd MMM yyyy'"></span></li>
+            </ul>
+          <div class="counts">
+            <span class="fa fa-star">&nbsp;[[rep.stargazersCount]]</span>
+            <span class="fa fa-code-fork">&nbsp;[[rep.forksCount]]</span>
+            <a ng-href="[[rep.htmlUrl]]/graph/contributors"><small>Contributors&nbsp;</small>[[rep.subscribersCount]]</a>
+            <a ng-href="[[rep.htmlUrl]]/issues"><small>Issues&nbsp;</small>[[rep.openIssuesCount]]</a>
+          </div>
+        </div>
+      </div>
+
+      <h4>Docs Repo</h4>
+      <div class="card-grid">
+        <div class="card-item color-2" ng-repeat="rep in docReps">
+          <a class="wrapper" ng-href="[[rep.htmlUrl]]" target="_blank">
+            <h2 class="title" ng-bind="rep.name"></h2>
+            <p class="description" ng-bind="rep.description"></p>
+          </a>
+            <ul class="detail">
+                <!-- <li>Contributor: &nbsp;<span class="data" ng-bind="rep.fullName"></span></li> -->
+                <li>Last commit: &nbsp;<span class="data" ng-bind="rep.updatedAt | date:'dd MMM yyyy'"></span></li>
+            </ul>
+          <div class="counts">
+            <span class="fa fa-star">&nbsp;[[rep.stargazersCount]]</span>
+            <span class="fa fa-code-fork">&nbsp;[[rep.forksCount]]</span>
+            <a ng-href="[[rep.htmlUrl]]/graph/contributors"><small>Contributors&nbsp;</small>[[rep.subscribersCount]]</a>
+            <a ng-href="[[rep.htmlUrl]]/issues"><small>Issues&nbsp;</small>[[rep.openIssuesCount]]</a>
+          </div>
+        </div>
+      </div>
+<p class="top"><small><a href="#top">[top]</a></small></p>
+    </div>
+    <div ng-show="isLoading">
+        Loading.....
+    </div>
+</div>
+
+<script>
+var reposApp = angular.module('reposApp', [], function($interpolateProvider) {
+  $interpolateProvider.startSymbol('[[');
+  $interpolateProvider.endSymbol(']]');
+});
+
+reposApp.factory('reposSvc', ['$http', function ($http) {
+
+    var repsEndpoint = "https://miscwebjobs.blob.core.windows.net/jsons/repositories.json";
+
+    return {
+        getRepositories: function () {
+            return $http.get(repsEndpoint);
+        }
+    };
+}]);
+
+reposApp.controller('reposCtrl', ['$scope', '$window', 'reposSvc', function ($scope, $window, reposSvc) {
+    reposSvc.getRepositories().success(function (data) {
+        console.log("repositories data arrived");
+        console.log(data);
+        $scope.sourceReps = data.organizations[0].repositories;
+        $scope.docReps = data.organizations[1].repositories;
+
+        // Turn off the indicator
+        $scope.isLoading = false;
+    }).error(function (err) {
+        console.log("repositories data errored: " + err);
+        $scope.error = err;
+    });
+
+    $scope.gotoRepo = function (url) {
+        console.log('gotoRepo: ' + url);
+        $window.open(url, '_blank');
+    };
+
+	$scope.isLoading = true;
+}]);
+</script>

@@ -1,13 +1,23 @@
-# Site Settings
-title: "HMC code"
+# General
+title: "HMC Code"
 tagline: "Source code and architecture!!"
-sidebar_image: /images/cover.jpg
 
-# Build Settings
 markdown: kramdown
-kramdown: 
+kramdown:
   input: GFM
+highlighter: rouge
+
+# Gems
+gems: [jekyll-paginate]
+paginate: 5
 permalink: /:year-:month-:day/:title
-baseurl: 
-encoding: utf-8
-highlighter: pygments
+
+# Social share and comments.
+# disqus-id: yourusername
+# twitter: yourusername
+# github: yourusername
+# google: +yourusername
+
+# RSS feed
+# rss-feed-limit: 10
+# rss-show-full: "no"
