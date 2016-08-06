@@ -5,7 +5,7 @@ title:  "Documentation Guidelines"
 date:   2015-09-20 10:12:45
 summary: "An HMC documentation set of guidelines"
 categories: HMC Doc
-tags: Doc, Guideline
+tags: Docs Guidelines
 featured_image: /images/cover.jpg
 ---
 
@@ -22,6 +22,7 @@ If you are planning to contribute to HMC documentation, we are excited for you..
 * Always provide a link from the top of the document to the items i.e. Table of content.
 * Please remember that the `README.md` file is your friend! It auto renders when a directory is accessed. In other words, if you create a sub-directory in which you are planning to describe a single section, you can use the README file...do not create another .md file....there is no need.
 * In the `README.md` file of every repository, please include a reference to these guidelines...something like this:
+
 
 >  please note...if you are planning to contribute to this repository or any of HMC's documentation, please read the guidelines [here](https://github.com/hmcdocs/guidelines/blob/master/README.md).
 

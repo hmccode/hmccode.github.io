@@ -9,7 +9,7 @@
 .card-grid .card-item {
 	flex: 0 0 18em;
 	background:#D9E8F7;
-	border: 1px solid #4A706A;
+	border: 1px solid #2c3e50;
 	margin: .5em;
 	min-height: 10em;
 	display: flex;
@@ -23,7 +23,7 @@
 }
 
 .card-item .title {
-	color: #5C928F;
+	color: #34495e;
 	font-size: 1.1em
 }
 .card-item .description {
@@ -35,15 +35,15 @@
 	flex-flow: row nowrap;
 	align-items: center;
 	justify-content: center;
-	border-top: 1px solid #4A706A;
-	background: #5C928F;
+	border-top: 1px solid #2c3e50;
+	background: #4D6A87;
 	overflow: hidden;
 }
 .card-item .counts span,.card-item .counts a {
 	flex: 1 1 auto;
 	color: white;
 	padding:.25em  5px;
-	border-left: 1px solid #4A706A;
+	border-left: 1px solid #2c3e50;
 }
 .card-item .counts a {
 	text-decoration: underline;
@@ -53,7 +53,7 @@
 }
 .card-item .detail {
 	font-size: .8em;
-	color: #5C928F;
+	color: #34495e;
 	list-style: none;
 	padding: 0 1em;
 }
