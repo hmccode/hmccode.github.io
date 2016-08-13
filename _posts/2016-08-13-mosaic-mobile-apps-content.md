@@ -1,15 +1,13 @@
 ---
 layout: post
 author: "Khaled A"
-title:  "Mobile Apps Content"
+title:  "Mosaic Mobile Apps Content Management"
 date:   2016-08-13 10:12:45
 summary: "A description of the new content management aspects of Mobile Apps"
 categories: mosaic mobile-app
 tags: Mobile-Apps Content Management
 featured_image: /images/cover.jpg
 ---
-
-# Mosaic Mobile App Content Management
 
 This article discusses the content management aspects of the Mosaic Mobile Apps. If you are not interested in reading in general or reading this article, please watch this [screen cast ]() which explains how the content manager works. Once you finish watching the screen cast, you can refer back to this article for details. Also...if you would like to get a PDF version of this article, it can be downloaded from [here](https://www.dropbox.com/s/ny5q0r5fxkbhc1b/content-management.pdf?dl=0).   
 
