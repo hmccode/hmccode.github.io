@@ -61,6 +61,7 @@ Where **VERB** is:
 ### Retrieve
 
 Here are some **Retrieve Examples**:
+
 - `get-circlem-program` => Retrieve CircleM program 
 - `get-circlem-hotels` => Retrieve CircleM hotels 
 - `get-circlem-outlets` => Retrieve CircleM outlets 
@@ -74,6 +75,7 @@ When you issue a `get` request, the content Email bot responds with an Email wit
 ### Store
 
 Here are some **Store Examples**:
+
 - `save-circlem-program` => Store CircleM program 
 - `save-circlem-hotels` => Store CircleM hotels 
 - `save-circlem-outlets` => Store CircleM outlets 
@@ -109,6 +111,7 @@ In this section, we will discuss the file format for each content type and provi
 ### Program
 
 The program content requires the following properties:
+
 - Name: The program name i.e. circlem, pcme, pcasia, etc
 - Support Email Addresses: The support email addresses where inbound requests arrive i.e support@test.com
 - Is Voucher Redeemable: if true, this makes the app support the in-app redemption as required by the `My Mazaya` app for example
@@ -162,6 +165,7 @@ You can **download** the CSV sample from [here](https://www.dropbox.com/s/85yj7c
 ### Art
 
 The art content requires the following properties:
+
 - Text Color: The theme text color. Please see below for how it should be specified.
 - Background Color: The theme background color. Please see below for how it should be specified.
 - Links Color: The theme URL links color. Please see below for how it should be specified.
@@ -212,6 +216,7 @@ You can **download** the CSV sample from [here](https://www.dropbox.com/s/4tx5yt
 ### Store
 
 The store content requires the following properties:
+
 - Banner Image Url: PNG 1000x800
 - Language bound properties (the following properties are language specific and should be available for each desired language):
 	- Summary: a language specific summary
@@ -263,6 +268,7 @@ You can **download** the CSV sample from [here](https://www.dropbox.com/s/adu465
 ### Hotels
 
 The hotel content requires the following properties:
+
 - Name: The hotel name which serves as the main identifier. Must be unique within a program
 - Phone: The hotel phone number to call from the app
 - Image Url: PNG 620x258
@@ -324,6 +330,7 @@ You can **download** the CSV sample from [here](https://www.dropbox.com/s/tk44lq
 ### Outlets
 
 The outlet content requires the following properties:
+
 - Name: The outlet name which serves as the main identifier. Must be unique within a program
 - Hotel: The associated hotel where the outlet is located
 - Phone: The outlet phone number to call from the app
