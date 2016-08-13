@@ -38,12 +38,14 @@ Simply, you create a new email to `mosaic-app-content@clubhotel.com`  (subject t
 `VERB-PROGRAM-TYPE-SLOT`
 
 Where **VERB** is:
+
 - `get`- to retrieve
 - `save`- to store
 
 **PROGRAM** is the name of the program i.e. `circlem`
 
 **TYPE** is the content type that you wish to either retrieve or store. Currently there are the following content types:
+
 - `program` - refers to general information about the program 
 - `hotels` - a list of all hotels (in multiple languages) supported by the program
 - `outlets` - a list of all outlets (in multiple languages) supported by the program
@@ -53,6 +55,7 @@ Where **VERB** is:
 - `json` - refers to the JSON representation of the entire content. *This is mainly used by IT*.
 
 **SLOT** is the slot that you wish this content to apply to. This is an optional parameter. If omitted, the engine defaults to `staging`:
+
 - `staging`- staging slot
 - `production`- production slot
 
