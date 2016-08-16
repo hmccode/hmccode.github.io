@@ -35,7 +35,7 @@ A list of all Mobile Apps in stores and currently under development. The apps li
   - [Under Development](#under-development-1)
     - [Voilà Hotel Rewards](#voil-hotel-rewards)
     - [Karam Club Card](#karam-club-card)
-    - [Deville Starclub](#deville-startclub)
+    - [Hoteis Othon](#hoteis-othon)
 
 ----
 
@@ -163,6 +163,6 @@ _Status: Pending app store review_
   - User Name: testmak@test.com
   - Password: test
 
-#### Deville Starclub
+#### Hoteis Othon
 
 _In progress_
