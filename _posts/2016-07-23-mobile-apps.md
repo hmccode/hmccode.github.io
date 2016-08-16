@@ -18,9 +18,9 @@ A list of all Mobile Apps in stores and currently under development. The apps li
     - [Circle M](#circle-m)
     - [Marco Polo Elite](#marco-polo-elite)
     - [Premium Club ME](#premium-club-me)
+    - [Gourmet Club](#gourmet-club)
   - [Under Development](#under-development)
     - [Premium Club Asia](#premium-club-asia)
-    - [Gourmet Club](#gourmet-club)
     - [My Mazaya](#my-mazaya)
     - [Caravelle](#caravelle)
     - [One Farrer](#one-farrer)
@@ -59,6 +59,12 @@ A list of all Mobile Apps in stores and currently under development. The apps li
 * Android: <https://play.google.com/store/apps/details?id=hmc.mosaic.mobile.app.pcme.android>
 
 
+#### Gourmet Club
+
+* iOS: <https://itunes.apple.com/us/app/gourmet-club-by-swissotel/id1108385232?ls=1&mt=8>
+* Android: <https://play.google.com/store/apps/details?id=com.hmc.mobileapps.mosaic.gourmetclub>
+
+
 ## Under Development
 
 To test apps under development for iOS requires TestFlight to be installed on your iOS device, incase you haven't received your test-flight invitation send us a request email with your email address.
@@ -72,17 +78,6 @@ _Status: Pending Approval_
 * Test activation
   - Mobile Number: 5551414
   - Activation Code: KEGM9
-
-
-#### Gourmet Club
-
-_Status: Ready for release_
-
-* Android: <https://www.dropbox.com/s/jjm62ybd964i9w6/gourmetclub-release-signed.apk?dl=0>
-* iOS: [Request Invite](mailto:ios@clubhotel.com?subject=Invitation for Gourmet Club&body=Please send an invite @)
-* Test activation
-  - Mobile Number: 5551414
-  - Activation Code: D20VZ
 
 
 #### My Mazaya
@@ -150,6 +145,8 @@ To test apps under development for iOS requires TestFlight to be installed on yo
 
 #### Voilà Hotel Rewards
 
+_Status: Pending app store review_
+
 * Android: <https://www.dropbox.com/s/dux1840p8moej9g/voila-debug.apk?dl=0>
 * iOS: [Request Invite](mailto:ios@clubhotel.com?subject=Invitation for Voila&body=Please send an invite @)
 * Test activation
@@ -157,6 +154,8 @@ To test apps under development for iOS requires TestFlight to be installed on yo
   - Password: test
 
 #### Karam Club Card
+
+_Status: Pending app store review_
 
 * Android: <https://www.dropbox.com/s/4iyzp9gy9a2lkwy/makarem-debug.apk?dl=0>
 * iOS: [Request Invite](mailto:ios@clubhotel.com?subject=Invitation for Makarem&body=Please send an invite @)
