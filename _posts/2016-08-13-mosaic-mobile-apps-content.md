@@ -270,7 +270,7 @@ You can **download** the CSV sample from [here](https://www.dropbox.com/s/adu465
 
 The hotel content requires the following properties:
 
-- Name: The hotel name which serves as the main identifier. Must be unique within a program
+- Code: The hotel code which serves as the main identifier. Must be unique within a program. This will not be displayed...the title in specific language will be displayed
 - Phone: The hotel phone number to call from the app
 - Image Url: PNG 620x258
 - Site Url: Usually the hotel own site where they can provide more information
@@ -289,7 +289,7 @@ The hotel content requires the following properties:
 {
   "hotels": [
     {
-      "name": "Movenpick Jumeira Beach Resort",
+      "code": "MPJBR",
       "phone": "P971043901708",
       "image": "https://images.url",
       "siteUrl": "https://www.movenpick.com",
@@ -317,8 +317,8 @@ The hotel content requires the following properties:
 #### CSV sample
 
 ```
-name,phone,image,siteurl,resurl,countrycode,latitude,longitude,title-en,city-en,country-en,title-es,city-es,country-es
-Movenpick Jumeira Beach Resort,P971043901708,https://images.url,https://www.movenpick.com,https://www.movenpick.com,UAE,54.34,34.10,Movenpick Jumeira Beach Resort (en),Dubai,United Arab Emirates,Movenpick Jumeira Beach Resort (es),Dubai,United Arab Emirates
+code,phone,image,siteurl,resurl,countrycode,latitude,longitude,title-en,city-en,country-en,title-es,city-es,country-es
+MPJBR,P971043901708,https://images.url,https://www.movenpick.com,https://www.movenpick.com,UAE,54.34,34.10,Movenpick Jumeira Beach Resort (en),Dubai,United Arab Emirates,Movenpick Jumeira Beach Resort (es),Dubai,United Arab Emirates
 ```
 
 *We opted to show the hotel phone number preceeded with a `P` instead of `+`. The reason is to force Excel to consider the field as text. Otherwise, Excel would format the number as exponential which looks rather odd.
@@ -332,8 +332,8 @@ You can **download** the CSV sample from [here](https://www.dropbox.com/s/tk44lq
 
 The outlet content requires the following properties:
 
-- Name: The outlet name which serves as the main identifier. Must be unique within a program
-- Hotel: The associated hotel where the outlet is located
+- Code: The outlet name which serves as the main identifier. Must be unique within a program. This will not be displayed....only titles in the specific languages will be displayed 
+- HotelCode: The associated hotel code where the outlet is located
 - Phone: The outlet phone number to call from the app
 - Image Url: PNG 620x258
 - Site Url: Usually the hotel own site where they can provide more information
@@ -349,8 +349,8 @@ The outlet content requires the following properties:
 {
   "outlets": [
     {
-      "name": "outlet1",
-      "hotel": "Jumeira Beach Resort",
+      "code": "outlet1",
+      "hotelCode": "Jumeira Beach Resort",
       "phone": "P971048889099",
       "image": "https://images.com",
       "siteUrl": "https://www.mvc.com",
@@ -376,8 +376,8 @@ The outlet content requires the following properties:
 #### CSV sample
 
 ```
-name,hotel,phone,image,siteurl,title-en,city-en,country-en,cuisine-en,title-es,city-es,country-es,cuisine-es
-outlet1,Movenpick Jumeira Beach Resort,P971048889099,https://images.com,https://www.mvc.com,outlet1-en,Dubai-en,UAE-en,Lebanese-en,outlet1-es,Dubai-es,UAE-es,Lebanese-es
+code,hotelcode,phone,image,siteurl,title-en,city-en,country-en,cuisine-en,title-es,city-es,country-es,cuisine-es
+outlet1,MPJBR,P971048889099,https://images.com,https://www.mvc.com,outlet1-en,Dubai-en,UAE-en,Lebanese-en,outlet1-es,Dubai-es,UAE-es,Lebanese-es
 ```
 
 *We opted to show the outlet phone number preceeded with a `P` instead of `+`. The reason is to force Excel to consider the field as text. Otherwise, Excel would format the number as exponential which looks rather odd.
