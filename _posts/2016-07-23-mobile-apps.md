@@ -104,7 +104,14 @@ _Status: Pending Approval_
 
 #### One Farrer
 
-_In progress_
+_Status: Available for testing_
+
+* Android: <https://www.dropbox.com/s/g9vaj8b5pabossf/pcasia-release-signed.apk?dl=0>
+* iOS: [Request Invite](mailto:ios@clubhotel.com?subject=Invitation for OneFarrer&body=Please send an invite @)
+* Test activation
+  - Mobile Number: 5551414
+  - Activation Code: KEGM9
+
 
 #### Khaisilk
 
