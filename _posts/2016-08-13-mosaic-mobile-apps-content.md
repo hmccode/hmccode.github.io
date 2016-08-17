@@ -9,31 +9,45 @@ tags: Mobile-Apps Content Management
 featured_image: /images/cover.jpg
 ---
 
-This article discusses the content management aspects of the Mosaic Mobile Apps. If you are not interested in reading in general or reading this article, please watch this [screen cast ](http://www.screencast.com/users/HMCIT/folders/Mosaic%20Mobile%20Apps/media/af32c883-5f42-49bd-816c-a4a5ac195fc2) which explains how the content manager works. Once you finish watching the screen cast, you can refer back to this article for details. Also...if you would like to get a PDF version of this article, it can be downloaded from [here](https://www.dropbox.com/s/ny5q0r5fxkbhc1b/content-management.pdf?dl=0).   
+This article discusses the content management aspects of the Mosaic Mobile Apps. I think you should start by watching this [screen cast ](http://www.screencast.com/users/HMCIT/folders/Mosaic%20Mobile%20Apps/media/af32c883-5f42-49bd-816c-a4a5ac195fc2) which explains how the content manager works in principle. Once you finish watching the screen cast, you can refer back to this article for details. Also...if you would like to get a PDF version of this article, it can be downloaded from [here](https://www.dropbox.com/s/ny5q0r5fxkbhc1b/content-management.pdf?dl=0).   
 
 
 ## Motivation
 
-In our current setup for the Mobile Apps development, content management taxes our resources heavily. Mainly this is because we are trying to match our mobile apps content with what the hotels already have on their sites or mobile apps. IT and marketing resources are constantly consumed trying to make our mobile apps compliant. In addition managing the mobile app assets (i.e. images, art, etc) is becoming a major issue as well as IT receives this content in different formats (i.e. Dropbox, WeTransfer, etc) which even adds more overhead to our development process.   
+In our Mobile Apps development, the content management phase is the number one resource consumer because:
 
-Currently IT and Marketing are involved at every level to make changes to the mobile app content. This will not allow us to scale well and will diminish our ability to deliver apps faster as our resources are spent on the wrong thing as opposed to make the apps faster, better and more beautiful. We need a new approach to the mobile app content management and this is what we are discussing here.
+- Both IT and marketing resources are involved as there is a lot of effort to gather the content and even more effort to make it fit for the app.
+- The content is placed in Asana, Dropbox and WeTransfer!! It takes significant effort from IT to pull it all together and make it suitable for the app. 
+- Usually the images and assets do not match our required dimensions or resolution!! So IT ends up having to re-size or change the image resolution to match what the app requires
 
-Although hotels and outlet listings can be useful in our app, they add little value to the app value proposition. Members are more interested in the offers, the vouchers and the discount that the membership buys for them rather than checking out hotel or outlet listings. Hence we recently have launched a new initiative we are referring to as *Membership-centric App* as opposed to *Brochure-centric App*. We have already mocked some screens to show off new app designs that surface the membership. You can try it on your Android device using this [link](http://hmccode.github.io/2016-07-23/mobile-apps#member-centric-app) if you like. This new approach makes the content a second class citizen by providing only a slim version of the content. 
+In addition to the above (which adds a significant overhead to the development process), we see the following issues with the current app content:
 
-Since the new *Membership-centric* design is not approved yet and may require several iterations to get an agreement on, we decided to use this slim-down content on the new apps that we are now building with the existing design. This will help us scale better at delivering the new apps.
+- It is an attempt to match the what the hotels already have on their sites or mobile apps. Hence IT and marketing resources are constantly consumed trying to make our mobile apps compliant with the hotels content. Needless to mention, this usually ends up being a huge process that involves exhausting communication with the hotels.
+- Given that we place hotel content in our app, this actually ends up being a liability for us. In fact, we have seen some cases of this where the hotel requested an Excel sheet of all the content that we have in the app so they can review it to make sure it matches theirs.
 
-The new content manager has three main objectives:
-- Reduce the amount of resources required to manage the mobile apps content by organizing the process better and make it easier for marketing to submit content changes without involving IT. In other words, we want the content to be fully owned by marketing! 
+The above issues, of course, will not allow us to scale well and will diminish our ability to deliver apps faster as our resources are spent on the wrong thing as opposed to make the apps faster, better and more beautiful. We need a new approach to the mobile app content management.....hence this proposal.
+
+Here is how we feel about content:
+
+- Although hotels and outlet listings can be useful in our app, they add little value to the app value proposition. Members are more interested in the offers, the vouchers and the discount that the membership buys for them rather than checking out hotel or outlet listings. 
+- We recently launched a new initiative we are referring to as *Membership-centric App* as opposed to *Brochure-centric App*. We actually have already mocked some screens to show off new app designs that surface the membership. You can try it on your Android device using this [link](http://hmccode.github.io/2016-07-23/mobile-apps#member-centric-app) if you like. This new approach makes the content a second class citizen by providing only a slim version of the content. 
+- Since the new *Membership-centric* design is not approved yet and may require several iterations to get an agreement on, it is probably a good idea to use the slim-down content on the new apps that we are now building with the existing design. This will help us scale better at delivering the new apps.
+
+Hence the new content manager has three main objectives:
+
+- Reduce the amount of resources required to manage the mobile apps content by organizing the process better and make it easier for marketing to own the process and submit content changes without involving IT. 
 - Use a much slimmer content version which allows marketing to assemble content much faster and reduce app content liability.  
 - Use a simpler method to retrieve and update mobile app content.   
 
 ## How it works
 
-In order to make things easy for folks to retrieve and update mobile apps content, we created a content Email bot which listens on emails arriving to `mosaic-app-content@clubhotel.com` inbox. The bot uses the email's subject as a command to either retrieve or update content. Since Emails are quite familiar to most folks, we feel this method will be quite helpful. Here is a block diagram:
+In order to make things easy for folks to retrieve and update mobile apps content, we created a content Email bot which listens on emails arriving to `mosaic-app-content@clubhotel.com` inbox. The bot uses the email's subject as a command to either retrieve or update content. Since communicating over Emails is a very familiar work process, we feel this method will be quite helpful as it mimics this very familiar process!
+
+Here is a block diagram:
 
 ![Block Diagram](http://i.imgur.com/843qcJq.png)
 
-Simply, you create a new email to `mosaic-app-content@clubhotel.com`  (subject to change) with a subject that commands the bot to do things on your behalf. Currently the bot responds to the following form of commands:
+Simply, you create a new email to `mosaic-app-content@clubhotel.com` with a subject that commands the bot to do things on your behalf. Currently the bot responds to the following form of commands:
 
 `VERB-PROGRAM-TYPE-SLOT`
 
@@ -71,8 +85,8 @@ Here are some **Retrieve Examples**:
 
 When you issue a `get` request, the content Email bot responds with an Email with an attachment. The attachment is a CSV file that has the desired content. For example, if you request `hotels` for a specific program, you will get a `hotels.csv` attachment which contains all the program hotels. 
 
-*The `json` content type is an exception where the attachment is not a `.csv` but `.json`. But, as mentioned, the `json` content type is for IT use only. 
-* 
+*The `json` content type is an exception where the attachment is not a `.csv` but `.json`. But, as mentioned, the `json` content type is for IT use only.*
+ 
 ### Store
 
 Here are some **Store Examples**:
@@ -85,8 +99,7 @@ Here are some **Store Examples**:
 
 When you issue a `save` request, the content Email bot responds with a confirmation Email whether the operation succeeds or not. All `save` commands require that an attachment be added to the email. For example, if you want to update `hotels` for a specific program, you will send n email with subject `save-circlem-hotels` and attached `hotels.csv`. 
 
-*The `json` content type is an exception where the attachment is not a `.csv` but `.json`. But, as mentioned, the `json` content type is for IT use only. 
-* 
+*The `json` content type is an exception where the attachment is not a `.csv` but `.json`. But, as mentioned, the `json` content type is for IT use only.* 
 
 ### Notes
 
@@ -180,8 +193,8 @@ The art content requires the following properties:
 - Home Image4 Url: PNG 640x258
 - Splash Image4 Url: PNG 1242x2208
 
-*Color must be specified using a hexadecimal value in the form: `#RRGGBB`, where `RR` (red), `GG` (green) and `BB` (blue) are hexadecimal values between `00` and `FF` (same as decimal 0-255)
-*
+*Color must be specified using a hexadecimal value in the form: `#RRGGBB`, where `RR` (red), `GG` (green) and `BB` (blue) are hexadecimal values between `00` and `FF` (same as decimal 0-255)*
+
 #### JSON sample
 
 ```json
@@ -270,7 +283,7 @@ You can **download** the CSV sample from [here](https://www.dropbox.com/s/adu465
 
 The hotel content requires the following properties:
 
-- Code: The hotel code which serves as the main identifier. Must be unique within a program. This will not be displayed...the title in specific language will be displayed
+- Code: The hotel code which serves as the main identifier. Must be unique within a program. This will not be displayed...the title in specific language will be displayed instead.
 - Phone: The hotel phone number to call from the app
 - Image Url: PNG 620x258
 - Site Url: Usually the hotel own site where they can provide more information
@@ -321,8 +334,7 @@ code,phone,image,siteurl,resurl,countrycode,latitude,longitude,title-en,city-en,
 MPJBR,P971043901708,https://images.url,https://www.movenpick.com,https://www.movenpick.com,UAE,54.34,34.10,Movenpick Jumeira Beach Resort (en),Dubai,United Arab Emirates,Movenpick Jumeira Beach Resort (es),Dubai,United Arab Emirates
 ```
 
-*We opted to show the hotel phone number preceeded with a `P` instead of `+`. The reason is to force Excel to consider the field as text. Otherwise, Excel would format the number as exponential which looks rather odd.
-*
+*We opted to show the hotel phone number preceeded with a `P` instead of `+`. The reason is to force Excel to consider the field as text. Otherwise, Excel would format the number as exponential which looks rather odd.*
 
 #### Download Sample
 
@@ -332,8 +344,8 @@ You can **download** the CSV sample from [here](https://www.dropbox.com/s/tk44lq
 
 The outlet content requires the following properties:
 
-- Code: The outlet name which serves as the main identifier. Must be unique within a program. This will not be displayed....only titles in the specific languages will be displayed 
-- HotelCode: The associated hotel code where the outlet is located
+- Code: The outlet name which serves as the main identifier. Must be unique within a program. This will not be displayed....the title in specific language will be displayed instead.
+- HotelCode: The associated hotel code where the outlet is located. In other words, this code is what links outlets to hotels.
 - Phone: The outlet phone number to call from the app
 - Image Url: PNG 620x258
 - Site Url: Usually the hotel own site where they can provide more information
@@ -380,8 +392,7 @@ code,hotelcode,phone,image,siteurl,title-en,city-en,country-en,cuisine-en,title-
 outlet1,MPJBR,P971048889099,https://images.com,https://www.mvc.com,outlet1-en,Dubai-en,UAE-en,Lebanese-en,outlet1-es,Dubai-es,UAE-es,Lebanese-es
 ```
 
-*We opted to show the outlet phone number preceeded with a `P` instead of `+`. The reason is to force Excel to consider the field as text. Otherwise, Excel would format the number as exponential which looks rather odd.
-*
+*We opted to show the outlet phone number preceeded with a `P` instead of `+`. The reason is to force Excel to consider the field as text. Otherwise, Excel would format the number as exponential which looks rather odd.*
 
 #### Download Sample
 
