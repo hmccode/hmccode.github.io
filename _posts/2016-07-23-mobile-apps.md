@@ -154,7 +154,7 @@ To test apps under development for iOS requires TestFlight to be installed on yo
 
 _Status: Pending app store review_
 
-* Android: <https://www.dropbox.com/s/dux1840p8moej9g/voila-debug.apk?dl=0>
+* Android: <https://www.dropbox.com/s/m8q8uza6zd1s2nh/voila-release-signed.apk?dl=0>
 * iOS: [Request Invite](mailto:ios@clubhotel.com?subject=Invitation for Voila&body=Please send an invite @)
 * Test activation
   - User Name: test@test.com
