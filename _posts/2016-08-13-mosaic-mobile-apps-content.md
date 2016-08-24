@@ -9,7 +9,7 @@ tags: Mobile-Apps Content Management
 featured_image: /images/cover.jpg
 ---
 
-This article discusses the content management aspects of the Mosaic Mobile Apps. I think you should start by watching this [screen cast ](https://www.dropbox.com/s/y3t27u0uc49mbrw/mosaic-app-content-management.MP4?dl=0) which explains how the content manager works in principle. Once you finish watching the screen cast, you can refer back to this article for details. Also...if you would like to get a PDF version of this article, it can be downloaded from [here](https://www.dropbox.com/s/ny5q0r5fxkbhc1b/content-management.pdf?dl=0).   
+This article discusses the content management aspects of the Mosaic Mobile Apps. I think you should start by watching this [screen cast ](https://www.dropbox.com/s/gfqiup8vwyzgoa8/mosaic-app-content-management.MP4?dl=0) which explains how the content manager works in principle. Once you finish watching the screen cast, you can refer back to this article for details. Also...if you would like to get a PDF version of this article, it can be downloaded from [here](https://www.dropbox.com/s/knoytwzvjv11qkn/content-management.pdf?dl=0).   
 
 
 ## Motivation
@@ -174,7 +174,7 @@ Test,support@test.com,false,Test-en,some html fragment,https://site.com/benefits
 
 #### Download Sample
 
-You can **download** the CSV sample from [here](https://www.dropbox.com/s/85yj7czg0jaf1xx/program.csv?dl=0)
+You can **download** the CSV sample from [here](https://www.dropbox.com/s/ukwyzk2f5mr13qi/program.csv?dl=0)
 
 ### Art
 
@@ -225,7 +225,7 @@ textcolor,bgndcolor,linkscolor,accentcolor,iconbgndimageurl,logobgndimageurl,car
 
 #### Download Sample
 
-You can **download** the CSV sample from [here](https://www.dropbox.com/s/4tx5ytszhyl9ny8/art.csv?dl=0)
+You can **download** the CSV sample from [here](https://www.dropbox.com/s/2paw2otmysjfwr5/art.csv?dl=0)
 
 ### Store
 
@@ -277,7 +277,7 @@ http://images.com/banner,some summary,some description,http://site.com/privacy,h
 
 #### Download Sample
 
-You can **download** the CSV sample from [here](https://www.dropbox.com/s/adu465e4cxahz4c/store.csv?dl=0)
+You can **download** the CSV sample from [here](https://www.dropbox.com/s/sk0ar00zyi9u6sj/store.csv?dl=0)
 
 ### Hotels
 
@@ -338,7 +338,7 @@ MPJBR,P971043901708,https://images.url,https://www.movenpick.com,https://www.mov
 
 #### Download Sample
 
-You can **download** the CSV sample from [here](https://www.dropbox.com/s/tk44lqotdaapkse/hotels.csv?dl=0)
+You can **download** the CSV sample from [here](https://www.dropbox.com/s/pvi6bvygwmqn7zr/hotels.csv?dl=0)
 
 ### Outlets
 
@@ -396,7 +396,7 @@ outlet1,MPJBR,P971048889099,https://images.com,https://www.mvc.com,outlet1-en,Du
 
 #### Download Sample
 
-You can **download** the CSV sample from [here](https://www.dropbox.com/s/bwervd3axyeq62n/outlets.csv?dl=0)
+You can **download** the CSV sample from [here](https://www.dropbox.com/s/g07keibghy8czz7/outlets.csv?dl=0)
 
 ### Strings
 
@@ -426,7 +426,7 @@ some_key,some_value_en,some_value_es
 
 #### Download Sample
 
-You can **download** the CSV sample from [here](https://www.dropbox.com/s/s3inovwy8mx8s6m/strings.csv?dl=0)
+You can **download** the CSV sample from [here](https://www.dropbox.com/s/3m8cvf8yob9fnv8/strings.csv?dl=0)
 
 ### Json
 
@@ -552,5 +552,5 @@ The JSON content provides the full content as JSON. We expect that this be used 
 
 #### Download Sample
 
-You can **download** the JSON sample from [here](https://www.dropbox.com/s/kjlcd2ork2mwi08/test-json.json?dl=0)
+You can **download** the JSON sample from [here](https://www.dropbox.com/s/3r0bhxs5sflwhf6/test-json.json?dl=0)
 
