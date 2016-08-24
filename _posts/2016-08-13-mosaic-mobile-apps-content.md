@@ -128,7 +128,10 @@ The program content requires the following properties:
 
 - Name: The program name i.e. circlem, pcme, pcasia, etc
 - Support Email Addresses: The support email addresses where inbound requests arrive i.e support@test.com
+- Supported Languages: The languages that must be supported by this app (separated by a pipe) i.e EN|ES
 - Is Voucher Redeemable: if true, this makes the app support the in-app redemption as required by the `My Mazaya` app for example
+- Is Show Offer Notification: if true, this makes the app pop up a dialog to prompt the user when an offer notification arrives when a push notification arrives while the app is active
+- Hotel Group Ids: The hotel group ids (separated by a pipe) i.e 1|1999
 - Language bound properties (the following properties are language specific and should be available for each desired language):
 	- Title: a language specific program title
 	- Support Phone Numbers: an HTML fragment in the specific language
@@ -143,7 +146,10 @@ The program content requires the following properties:
 {
   "name": "Test",
   "supportEmailAddresses": "support@test.com",
+  "supportedLanguages": "en|es",
   "isVoucherRedeemable": false,
+  "isShowOfferNotification": false,
+  "hotelGroupIds": "1|1999",
   "languages": {
     "en": {
       "title": "Test-en",
@@ -168,8 +174,8 @@ The program content requires the following properties:
 #### CSV sample
 
 ```
-name,supportemailaddresses,isvoucherredeemable,title-en,supportphonenumbers-en,memberbenefitsurl-en,termsurl-en,privacypolicyurl-en,cookiestatementurl-en,title-es,supportphonenumbers-es,memberbenefitsurl-es,termsurl-es,privacypolicyurl-es,cookiesstatementurl-es
-Test,support@test.com,false,Test-en,some html fragment,https://site.com/benefits,https://site.com/terms,https://site.com/privacy,https://site.com/cookies,Test-es,some html fragment,https://site.com/benefits,https://site.com/terms,https://site.com/privacy,https://site.com/cookies
+name,supportemailaddresses,supportedlanguages,isvoucherredeemable,isshowoffernotification,hotelgroupids,title-en,supportphonenumbers-en,memberbenefitsurl-en,termsurl-en,privacypolicyurl-en,cookiestatementurl-en,title-es,supportphonenumbers-es,memberbenefitsurl-es,termsurl-es,privacypolicyurl-es,cookiesstatementurl-es
+Test,support@test.com,EN|ES,false,false,Test-en,1|1999,some html fragment,https://site.com/benefits,https://site.com/terms,https://site.com/privacy,https://site.com/cookies,Test-es,some html fragment,https://site.com/benefits,https://site.com/terms,https://site.com/privacy,https://site.com/cookies
 ```
 
 #### Download Sample
@@ -293,6 +299,9 @@ The hotel content requires the following properties:
 - Longitude: the hotel location information to calculate distance
 - Language bound properties (the following properties are language specific and should be available for each desired language):
 	- Title: a language specific hotel title
+	- Image Url: PNG 620x258
+	- Site Url: Usually the hotel own site where they can provide more information
+	- Reservation Url: Usually the hotel own reservation site
 	- City: a language specific hotel city
 	- Country: a language specific hotel country
 
@@ -304,20 +313,23 @@ The hotel content requires the following properties:
     {
       "code": "MPJBR",
       "phone": "P971043901708",
-      "image": "https://images.url",
-      "siteUrl": "https://www.movenpick.com",
-      "resUrl": "https://www.movenpick.com",
       "countryCode": "UAE",
       "latitude": 54.34,
       "longitude": 34.1,
       "languages": {
         "en": {
           "title": "Movenpick Jumeira Beach Resort (en)",
+	      "image": "https://images.url",
+	      "siteUrl": "https://www.movenpick.com",
+	      "resUrl": "https://www.movenpick.com",
           "city": "Dubai",
           "country": "United Arab Emirates"
         },
         "es": {
           "title": "Movenpick Jumeira Beach Resort (es)",
+	      "image": "https://images.url",
+	      "siteUrl": "https://www.movenpick.com",
+	      "resUrl": "https://www.movenpick.com",
           "city": "Dubai",
           "country": "United Arab Emirates"
         }
@@ -330,8 +342,8 @@ The hotel content requires the following properties:
 #### CSV sample
 
 ```
-code,phone,image,siteurl,resurl,countrycode,latitude,longitude,title-en,city-en,country-en,title-es,city-es,country-es
-MPJBR,P971043901708,https://images.url,https://www.movenpick.com,https://www.movenpick.com,UAE,54.34,34.10,Movenpick Jumeira Beach Resort (en),Dubai,United Arab Emirates,Movenpick Jumeira Beach Resort (es),Dubai,United Arab Emirates
+code,hotelcode,phone,title-en,image-en,siteurl-en,city-en,country-en,cuisine-en,title-es,image-en,siteurl-en,city-es,country-es,cuisine-es
+outlet1,MPJBR,P971048889099,https://images.com,https://www.mvc.com,outlet1-en,Dubai-en,UAE-en,Lebanese-en,outlet1-es,https://images.com,https://www.mvc.com,outlet1-en,Dubai-es,UAE-es,Lebanese-es
 ```
 
 *We opted to show the hotel phone number preceeded with a `P` instead of `+`. The reason is to force Excel to consider the field as text. Otherwise, Excel would format the number as exponential which looks rather odd.*
@@ -347,10 +359,10 @@ The outlet content requires the following properties:
 - Code: The outlet name which serves as the main identifier. Must be unique within a program. This will not be displayed....the title in specific language will be displayed instead.
 - HotelCode: The associated hotel code where the outlet is located. In other words, this code is what links outlets to hotels.
 - Phone: The outlet phone number to call from the app
-- Image Url: PNG 620x258
-- Site Url: Usually the hotel own site where they can provide more information
 - Language bound properties (the following properties are language specific and should be available for each desired language):
 	- Title: a language specific hotel title
+	- Image Url: PNG 620x258
+	- Site Url: Usually the hotel own site where they can provide more information
 	- City: a language specific hotel city
 	- Country: a language specific hotel country
 	- Cuisine: a language specific cuisine
@@ -364,17 +376,19 @@ The outlet content requires the following properties:
       "code": "outlet1",
       "hotelCode": "Jumeira Beach Resort",
       "phone": "P971048889099",
-      "image": "https://images.com",
-      "siteUrl": "https://www.mvc.com",
       "languages": {
         "en": {
           "title": "outlet1-en",
+	      "image": "https://images.com",
+	      "siteUrl": "https://www.mvc.com",
           "city": "Dubai-en",
           "country": "UAE-en",
           "cuisine": "Lebanese-en"
         },
         "es": {
           "title": "outlet1-es",
+	      "image": "https://images.com",
+	      "siteUrl": "https://www.mvc.com",
           "city": "Dubai-es",
           "country": "UAE-es",
           "cuisine": "Lebanese-es"
@@ -388,8 +402,8 @@ The outlet content requires the following properties:
 #### CSV sample
 
 ```
-code,hotelcode,phone,image,siteurl,title-en,city-en,country-en,cuisine-en,title-es,city-es,country-es,cuisine-es
-outlet1,MPJBR,P971048889099,https://images.com,https://www.mvc.com,outlet1-en,Dubai-en,UAE-en,Lebanese-en,outlet1-es,Dubai-es,UAE-es,Lebanese-es
+code,hotelcode,phone,title-en,image-en,siteurl-en,city-en,country-en,cuisine-en,title-es,image-en,siteurl-en,city-es,country-es,cuisine-es
+outlet1,MPJBR,P971048889099,https://images.com,https://www.mvc.com,outlet1-en,Dubai-en,UAE-en,Lebanese-en,outlet1-es,https://images.com,https://www.mvc.com,outlet1-en,Dubai-es,UAE-es,Lebanese-es
 ```
 
 *We opted to show the outlet phone number preceeded with a `P` instead of `+`. The reason is to force Excel to consider the field as text. Otherwise, Excel would format the number as exponential which looks rather odd.*
@@ -438,7 +452,10 @@ The JSON content provides the full content as JSON. We expect that this be used 
 {
   "name": "Test",
   "supportEmailAddresses": "support@test.com",
+  "supportedLanguages": "en|es",
   "isVoucherRedeemable": false,
+  "isShowOfferNotification": false,
+  "hotelGroupIds": "1|1999",
   "languages": {
     "en": {
       "title": "Test-en",
@@ -461,20 +478,23 @@ The JSON content provides the full content as JSON. We expect that this be used 
     {
       "name": "Movenpick Jumeira Beach Resort",
       "phone": "P971043901708",
-      "image": "https://images.url",
-      "siteUrl": "https://www.movenpick.com",
-      "resUrl": "https://www.movenpick.com",
       "countryCode": "UAE",
       "latitude": 54.34,
       "longitude": 34.1,
       "languages": {
         "en": {
           "title": "Movenpick Jumeira Beach Resort (en)",
+	      "image": "https://images.url",
+	      "siteUrl": "https://www.movenpick.com",
+	      "resUrl": "https://www.movenpick.com",
           "city": "Dubai",
           "country": "United Arab Emirates"
         },
         "es": {
           "title": "Movenpick Jumeira Beach Resort (es)",
+	      "image": "https://images.url",
+	      "siteUrl": "https://www.movenpick.com",
+	      "resUrl": "https://www.movenpick.com",
           "city": "Dubai",
           "country": "United Arab Emirates"
         }
@@ -486,18 +506,19 @@ The JSON content provides the full content as JSON. We expect that this be used 
       "name": "outlet1",
       "hotel": "Jumeira Beach Resort",
       "phone": "P971048889099",
-      "image": "https://images.com",
-      "siteUrl": "https://www.mvc.com",
       "languages": {
         "en": {
           "title": "outlet1-en",
+	      "image": "https://images.com",
+	      "siteUrl": "https://www.mvc.com",
           "city": "Dubai-en",
           "country": "UAE-en",
           "cuisine": "Lebanese-en"
         },
         "es": {
           "title": "outlet1-es",
-          "city": "Dubai-es",
+	      "image": "https://images.com",
+	      "siteUrl": "https://www.mvc.com",
           "country": "UAE-es",
           "cuisine": "Lebanese-es"
         }
