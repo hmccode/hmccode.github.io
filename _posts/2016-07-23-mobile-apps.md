@@ -24,6 +24,7 @@ A list of all Mobile Apps in stores and currently under development. The apps li
     - [My Mazaya](#my-mazaya)
     - [Caravelle](#caravelle)
     - [One Farrer](#one-farrer)
+    - [Oro Verde](#oro-verde)
     - [Khaisilk](#khaisilk)
   - [New Ideas](#new-ideas)
     - [Member Centric App](#member-centric-app)
@@ -108,6 +109,17 @@ _Status: Available for testing_
 
 * Android: <https://www.dropbox.com/s/g9vaj8b5pabossf/pcasia-release-signed.apk?dl=0>
 * iOS: [Request Invite](mailto:ios@clubhotel.com?subject=Invitation for OneFarrer&body=Please send an invite @)
+* Test activation
+  - Mobile Number: 5551414
+  - Activation Code: KEGM9
+
+
+#### Oro Verde
+
+_Status: Available for testing_
+
+* Android: <https://www.dropbox.com/s/fhp2wuezs33l5ol/oroverde-debug.apk?dl=0>
+* iOS: _Not Available_
 * Test activation
   - Mobile Number: 5551414
   - Activation Code: KEGM9
