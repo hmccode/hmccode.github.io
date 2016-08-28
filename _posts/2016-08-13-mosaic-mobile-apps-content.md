@@ -359,6 +359,7 @@ The outlet content requires the following properties:
 - Code: The outlet name which serves as the main identifier. Must be unique within a program. This will not be displayed....the title in specific language will be displayed instead.
 - HotelCode: The associated hotel code where the outlet is located. In other words, this code is what links outlets to hotels.
 - Phone: The outlet phone number to call from the app
+- Country Code: the 3-digit ISO standard for where the outlet is located i.e. UAE
 - Language bound properties (the following properties are language specific and should be available for each desired language):
 	- Title: a language specific hotel title
 	- Image Url: PNG 620x258
@@ -376,6 +377,7 @@ The outlet content requires the following properties:
       "code": "outlet1",
       "hotelCode": "Jumeira Beach Resort",
       "phone": "P971048889099",
+	  "countryCode": "UAE",
       "languages": {
         "en": {
           "title": "outlet1-en",
@@ -402,8 +404,8 @@ The outlet content requires the following properties:
 #### CSV sample
 
 ```
-code,hotelcode,phone,title-en,image-en,siteurl-en,city-en,country-en,cuisine-en,title-es,image-en,siteurl-en,city-es,country-es,cuisine-es
-outlet1,MPJBR,P971048889099,https://images.com,https://www.mvc.com,outlet1-en,Dubai-en,UAE-en,Lebanese-en,outlet1-es,https://images.com,https://www.mvc.com,outlet1-en,Dubai-es,UAE-es,Lebanese-es
+code,hotelcode,phone,countryCode,title-en,image-en,siteurl-en,city-en,country-en,cuisine-en,title-es,image-en,siteurl-en,city-es,country-es,cuisine-es
+outlet1,MPJBR,P971048889099,UAE,https://images.com,https://www.mvc.com,outlet1-en,Dubai-en,UAE-en,Lebanese-en,outlet1-es,https://images.com,https://www.mvc.com,outlet1-en,Dubai-es,UAE-es,Lebanese-es
 ```
 
 *We opted to show the outlet phone number preceeded with a `P` instead of `+`. The reason is to force Excel to consider the field as text. Otherwise, Excel would format the number as exponential which looks rather odd.*
