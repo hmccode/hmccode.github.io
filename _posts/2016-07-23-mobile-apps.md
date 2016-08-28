@@ -31,11 +31,10 @@ A list of all Mobile Apps in stores and currently under development. The apps li
 
 * [VOILÀ](#voil)
   - [Released](#released-apps-1)
-    - [Voilà Hotel Rewards](#voil-hotel-rewards-old-platform)
-    - [Karam Club Card](#karam-club-card-old-platform)
-  - [Under Development](#under-development-1)
     - [Voilà Hotel Rewards](#voil-hotel-rewards)
     - [Karam Club Card](#karam-club-card)
+  - [Under Development](#under-development-1)
+    - [Voilà Hotel Rebranded](#voil-hotel-rebranded)
     - [Hoteis Othon](#hoteis-othon)
 
 ----
@@ -147,12 +146,12 @@ Demo apps showcasing new ideas and different presentation layouts
 
 ## Released Apps
 
-#### Voilà Hotel Rewards (old platform)
+#### Voilà Hotel Rewards (2.0.2)
 
 * iOS: <https://itunes.apple.com/us/app/voila-hotel-rewards/id1100134186?mt=8>
 * Android: <https://play.google.com/store/apps/details?id=com.hmc.voila.mobileapps.generic>
 
-#### Karam Club Card (old platform)
+#### Karam Club Card (2.0.2)
 
 * iOS: <https://itunes.apple.com/us/app/karam-club-card/id1105895188?mt=8>
 * Android: <https://play.google.com/store/apps/details?id=com.hmc.voila.mobileapps.karamclub>
@@ -162,24 +161,11 @@ Demo apps showcasing new ideas and different presentation layouts
 
 To test apps under development for iOS requires TestFlight to be installed on your iOS device, incase you haven't received your test-flight invitation send us a request email with your email address.
 
-#### Voilà Hotel Rewards
+#### Voilà Hotel Rebranded
 
-_Status: Pending app store review_
-
-* Android: <https://www.dropbox.com/s/m8q8uza6zd1s2nh/voila-release-signed.apk?dl=0>
-* iOS: [Request Invite](mailto:ios@clubhotel.com?subject=Invitation for Voila&body=Please send an invite @)
+* Android: <https://www.dropbox.com/s/04lbixgd4emwlcp/voila-rebrand-debug.apk?dl=0>
 * Test activation
   - User Name: test@test.com
-  - Password: test
-
-#### Karam Club Card
-
-_Status: Pending app store review_
-
-* Android: <https://www.dropbox.com/s/4iyzp9gy9a2lkwy/makarem-debug.apk?dl=0>
-* iOS: [Request Invite](mailto:ios@clubhotel.com?subject=Invitation for Makarem&body=Please send an invite @)
-* Test activation
-  - User Name: testmak@test.com
   - Password: test
 
 #### Hoteis Othon
