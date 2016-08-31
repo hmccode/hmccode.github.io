@@ -73,7 +73,7 @@ To test apps under development for iOS requires TestFlight to be installed on yo
 
 _Status: Pending Approval_
 
-* Android: <https://www.dropbox.com/s/g9vaj8b5pabossf/pcasia-release-signed.apk?dl=0>
+* Android: <https://www.dropbox.com/s/1lemiyy8e4zkzap/pcasia-release-signed.apk?dl=0>
 * iOS: [Request Invite](mailto:ios@clubhotel.com?subject=Invitation for PCAsia&body=Please send an invite @)
 * Test activation
   - Mobile Number: 5551414
@@ -84,7 +84,7 @@ _Status: Pending Approval_
 
 _Status: Pending Approval_
 
-* Android: <https://www.dropbox.com/s/n2i8rg7rflbamts/mymazaya-release-signed.apk?dl=0>
+* Android: <https://www.dropbox.com/s/1dtn8futjjy2t6r/mymazaya-release-signed.apk?dl=0>
 * iOS: [Request Invite](mailto:ios@clubhotel.com?subject=Invitation for MyMazaya&body=Please send an invite @)
 * Test activation
   - Mobile Number: 5551414
@@ -95,7 +95,7 @@ _Status: Pending Approval_
 
 _Status: Pending Approval_
 
-* Android: <https://www.dropbox.com/s/sxtaclyedql40ef/caravelle-debug.apk?dl=0>
+* Android: <https://www.dropbox.com/s/ko8xxw5avdrypzt/caravelle-debug.apk?dl=0>
 * iOS: [Request Invite](mailto:ios@clubhotel.com?subject=Invitation for Caravelle&body=Please send an invite @)
 * Test activation
   - Mobile Number: 5551414
@@ -106,7 +106,7 @@ _Status: Pending Approval_
 
 _Status: Available for testing_
 
-* Android: <https://www.dropbox.com/s/g9vaj8b5pabossf/pcasia-release-signed.apk?dl=0>
+* Android: <https://www.dropbox.com/s/7ymowabifwhh9kt/onefarrer-debug.apk?dl=0>
 * iOS: [Request Invite](mailto:ios@clubhotel.com?subject=Invitation for OneFarrer&body=Please send an invite @)
 * Test activation
   - Mobile Number: 5551414
