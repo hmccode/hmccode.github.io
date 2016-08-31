@@ -170,4 +170,7 @@ To test apps under development for iOS requires TestFlight to be installed on yo
 
 #### Hoteis Othon
 
-_In progress_
+* Android: <https://www.dropbox.com/s/58ziw8i6v7abxqy/othon-debug.apk?dl=0>
+* Test activation
+  - User Name: test@test.com
+  - Password: test
