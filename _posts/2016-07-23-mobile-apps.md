@@ -35,7 +35,7 @@ A list of all Mobile Apps in stores and currently under development. The apps li
     - [Karam Club Card](#karam-club-card)
   - [Under Development](#under-development-1)
     - [Voilà Hotel Rebranded](#voil-hotel-rebranded)
-		- [Hoteis Othon](#hoteis-othon)
+    - [Hoteis Othon](#hoteis-othon)
     - [Cobblestone Rewards](#cobblestone-rewards)
 
 ----
