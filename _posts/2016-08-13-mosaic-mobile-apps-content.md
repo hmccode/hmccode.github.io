@@ -9,8 +9,11 @@ tags: Mobile-Apps Content Management
 featured_image: /images/cover.jpg
 ---
 
-This article discusses the content management aspects of the Mosaic Mobile Apps. If you would like to get a PDF version of this article, it can be downloaded from [here](https://www.dropbox.com/s/h4pkz829x113xrj/mobile-apps-content-management.pdf?dl=0).   
+This article discusses the content management aspects of the Mosaic Mobile Apps:   
 
+- [Motivation](#motivation)
+- [Content Types](#content-types)
+- [Content Management](#content-management)
 
 ## Motivation
 
@@ -41,7 +44,7 @@ Hence the new content manager has three main objectives:
 
 Hence this document specifies the fields & formats necessary for each content type required by the app and provides two ways to manage this content.    
 
-## Content Types & Samples
+## Content Types
 
 The mobile apps content is described in [JSON](https://en.wikipedia.org/wiki/JSON). A complete content file sample can be downloaded from [here](https://www.dropbox.com/s/sxb9f9p3wpkvna9/oroverde-json.json?dl=0).
 
@@ -371,6 +374,7 @@ Every string in the app is tagged with a special key so it can be identified and
 	}
 }
 ```
+
 ### Art
 
 The art content requires the following properties:
