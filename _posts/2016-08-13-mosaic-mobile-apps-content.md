@@ -43,16 +43,16 @@ Hence this document specifies the fields & formats necessary for each content ty
 
 ## Content Types & Samples
 
-The mobile apps content is described in [JSON](https://en.wikipedia.org/wiki/JSON). A complete content file sample can be downloaded from [here](https://www.dropbox.com/s/sxb9f9p3wpkvna9/oroverde-json.json?dl=0)
+The mobile apps content is described in [JSON](https://en.wikipedia.org/wiki/JSON). A complete content file sample can be downloaded from [here](https://www.dropbox.com/s/sxb9f9p3wpkvna9/oroverde-json.json?dl=0).
 
 In this section, we will discuss the specification for each content type. The content is made up of the following sections or types:
 
-- Program
-- Hotels
-- Outlets
-- Strings
-- Art
-- Store 
+- [Program](#program)
+- [Hotels](#hotels)
+- [Outlets](#outlets)
+- [Strings](#strings)
+- [Art](#art)
+- [Store](#store)
 
 ### Program
 
