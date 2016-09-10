@@ -41,11 +41,18 @@ Hence the new content manager has three main objectives:
 
 Hence this document specifies the fields & formats necessary for each content type required by the app and provides two ways to manage this content.    
 
-## File Formats & Samples
+## Content Types & Samples
 
 The mobile apps content is described in [JSON](https://en.wikipedia.org/wiki/JSON). A complete content file sample can be downloaded from [here](https://www.dropbox.com/s/sxb9f9p3wpkvna9/oroverde-json.json?dl=0)
 
-In this section, we will discuss the file format for each content type.
+In this section, we will discuss the specification for each content type. The content is made up of the following sections or types:
+
+- Program
+- Hotels
+- Outlets
+- Strings
+- Art
+- Store 
 
 ### Program
 
@@ -111,87 +118,6 @@ The program content requires the following properties:
 	  "generic2": "",
 	  "generic3": "",
 	  "generic4": ""
-    }
-  }
-}
-```
-
-### Art
-
-The art content requires the following properties:
-
-- Text Color: The theme text color. Please see below for how it should be specified.
-- Background Color: The theme background color. Please see below for how it should be specified.
-- Links Color: The theme URL links color. Please see below for how it should be specified.
-- Accent Color: The theme accent color. Please see below for how it should be specified.
-- Icon Background Image Url: PNG 1024x1024
-- Logo Background Image Url: PNG 1024x1024
-- Card Image Url: PNG 560x355
-- Home Image1 Url: PNG 640x258
-- Home Image2 Url: PNG 640x258
-- Home Image3 Url: PNG 640x258
-- Home Image4 Url: PNG 640x258
-- Splash Image4 Url: PNG 1242x2208
-
-*Color must be specified using a hexadecimal value in the form: `#RRGGBB`, where `RR` (red), `GG` (green) and `BB` (blue) are hexadecimal values between `00` and `FF` (same as decimal 0-255)*
-
-#### JSON sample
-
-```json
-{
-  "art": {
-    "textColor": "#ee4433",
-    "backgroundColor": "#ee4466",
-    "linksColor": "#eeeeee",
-    "accentColor": "#222222",
-    "iconBackgroundImageUrl": "https://images.com/icon",
-    "logoBackgroundImageUrl": "https://images.com/logo",
-    "cardImageUrl": "https://images.com/card",
-    "homeImage1Url": "https://images.com/home1",
-    "homeImage2Url": "https://images.com/home2",
-    "homeImage3Url": "https://images.com/home3",
-    "homeImage4Url": "https://images.com/home4",
-    "splashImageUrl": "https://images.com/splash"
-  }
-}
-```
-
-### Store
-
-The store content requires the following properties:
-
-- Banner Image Url: PNG 1000x800
-- Language bound properties (the following properties are language specific and should be available for each desired language):
-	- Summary: a language specific summary
-	- Description: a language specific summary
-	- Privacy Policy URL: a URL to point to the language-specific privacy policy page usually on the eCommerce sites
-	- Support URL: a URL to point to the language-specific support page usually on the eCommerce sites
-	- Site URL: a URL to point to the language-specific site main page usually on the eCommerce sites
-	- Upgrade Text: a language-specific upgrade text used when we deploy new versions
-
-#### JSON sample
-
-```json
-{
-  "store": {
-    "bannerImageUrl": "http://images.com/banner",
-    "languages": {
-      "en": {
-        "summary": "some summary",
-        "description": "some description",
-        "privacyUrl": "http://site.com/privacy",
-        "supportUrl": "http://site.com/support",
-        "siteUrl": "http://site.com",
-        "upgradeText": "some upgrade en text"
-      },
-      "es": {
-        "summary": "some summary",
-        "description": "some description",
-        "privacyUrl": "http://site.com/privacy",
-        "supportUrl": "http://site.com/support",
-        "siteUrl": "http://site.com",
-        "upgradeText": "some upgrade es text"
-      }
     }
   }
 }
@@ -443,6 +369,86 @@ Every string in the app is tagged with a special key so it can be identified and
 	  "button_call_us": "Llámenos",
 	  "button_email_send": "Enviar Correo Electrónico"
 	}
+}
+```
+### Art
+
+The art content requires the following properties:
+
+- Text Color: The theme text color. Please see below for how it should be specified.
+- Background Color: The theme background color. Please see below for how it should be specified.
+- Links Color: The theme URL links color. Please see below for how it should be specified.
+- Accent Color: The theme accent color. Please see below for how it should be specified.
+- Icon Background Image Url: PNG 1024x1024
+- Logo Background Image Url: PNG 1024x1024
+- Card Image Url: PNG 560x355
+- Home Image1 Url: PNG 640x258
+- Home Image2 Url: PNG 640x258
+- Home Image3 Url: PNG 640x258
+- Home Image4 Url: PNG 640x258
+- Splash Image4 Url: PNG 1242x2208
+
+*Color must be specified using a hexadecimal value in the form: `#RRGGBB`, where `RR` (red), `GG` (green) and `BB` (blue) are hexadecimal values between `00` and `FF` (same as decimal 0-255)*
+
+#### JSON sample
+
+```json
+{
+  "art": {
+    "textColor": "#ee4433",
+    "backgroundColor": "#ee4466",
+    "linksColor": "#eeeeee",
+    "accentColor": "#222222",
+    "iconBackgroundImageUrl": "https://images.com/icon",
+    "logoBackgroundImageUrl": "https://images.com/logo",
+    "cardImageUrl": "https://images.com/card",
+    "homeImage1Url": "https://images.com/home1",
+    "homeImage2Url": "https://images.com/home2",
+    "homeImage3Url": "https://images.com/home3",
+    "homeImage4Url": "https://images.com/home4",
+    "splashImageUrl": "https://images.com/splash"
+  }
+}
+```
+
+### Store
+
+The store content requires the following properties:
+
+- Banner Image Url: PNG 1000x800
+- Language bound properties (the following properties are language specific and should be available for each desired language):
+	- Summary: a language specific summary
+	- Description: a language specific summary
+	- Privacy Policy URL: a URL to point to the language-specific privacy policy page usually on the eCommerce sites
+	- Support URL: a URL to point to the language-specific support page usually on the eCommerce sites
+	- Site URL: a URL to point to the language-specific site main page usually on the eCommerce sites
+	- Upgrade Text: a language-specific upgrade text used when we deploy new versions
+
+#### JSON sample
+
+```json
+{
+  "store": {
+    "bannerImageUrl": "http://images.com/banner",
+    "languages": {
+      "en": {
+        "summary": "some summary",
+        "description": "some description",
+        "privacyUrl": "http://site.com/privacy",
+        "supportUrl": "http://site.com/support",
+        "siteUrl": "http://site.com",
+        "upgradeText": "some upgrade en text"
+      },
+      "es": {
+        "summary": "some summary",
+        "description": "some description",
+        "privacyUrl": "http://site.com/privacy",
+        "supportUrl": "http://site.com/support",
+        "siteUrl": "http://site.com",
+        "upgradeText": "some upgrade es text"
+      }
+    }
+  }
 }
 ```
 
