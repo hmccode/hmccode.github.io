@@ -229,10 +229,11 @@ The hotel content requires the following properties:
 	- Generic4: A generic field that can be used in case it is needed for some apps. By default this should be empty.
 
 Please note that hotel images (whether listing or gallery) must comply with the following:
-* 200 KB max
-* 72 DPI. DPI stands for Dots Per Inch which technically means printer dots per inch. Today it is a term often misused, usually to mean PPI, which stands for Pixels Per Inch. So when someone says they want a photo that is 300 dpi they really mean that they want 300 ppi. 
-* Landscape ....not portrait 
-* Size - the bigger the better. 
+
+* Size - 200 KB max
+* Resolution - 72 DPI. DPI stands for Dots Per Inch which technically means printer dots per inch. Today it is a term often misused, usually to mean PPI, which stands for Pixels Per Inch. So when someone says they want a photo that is 300 dpi they really mean that they want 300 ppi. 
+* Orientation - Landscape ....not portrait 
+* Dimensions - the bigger the better. 
 
 #### JSON sample
 
@@ -330,10 +331,11 @@ The outlet content requires the following properties:
 	- Generic4: A generic field that can be used in case it is needed for some apps. By default this should be empty.
 
 Please note that outlet images (whether listing or gallery) must comply with the following:
-* 200 KB max
-* 72 DPI. DPI stands for Dots Per Inch which technically means printer dots per inch. Today it is a term often misused, usually to mean PPI, which stands for Pixels Per Inch. So when someone says they want a photo that is 300 dpi they really mean that they want 300 ppi. 
-* Landscape ....not portrait 
-* Size - the bigger the better. 
+
+* Size - 200 KB max
+* Resolution - 72 DPI. DPI stands for Dots Per Inch which technically means printer dots per inch. Today it is a term often misused, usually to mean PPI, which stands for Pixels Per Inch. So when someone says they want a photo that is 300 dpi they really mean that they want 300 ppi. 
+* Orientation - Landscape ....not portrait 
+* Dimensions - the bigger the better. 
 
 #### JSON sample
 
