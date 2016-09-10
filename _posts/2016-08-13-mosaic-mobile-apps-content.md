@@ -43,7 +43,9 @@ Hence this document specifies the fields & formats necessary for each content ty
 
 ## File Formats & Samples
 
-In this section, we will discuss the file format for each content type and provide samples to download. 
+The mobile apps content is described in [JSON](https://en.wikipedia.org/wiki/JSON). A complete content file sample can be downloaded from [here](https://www.dropbox.com/s/sxb9f9p3wpkvna9/oroverde-json.json?dl=0)
+
+In this section, we will discuss the file format for each content type.
 
 ### Program
 
@@ -444,17 +446,9 @@ Every string in the app is tagged with a special key so it can be identified and
 }
 ```
 
-### Json
-
-The JSON content provides the full content as JSON. We expect that this be used by IT only although it is not restricted. This allows you to conveniently send all content in one shot to be updated.
-
-#### JSON sample
-
-You can **download** the JSON sample from [here](https://www.dropbox.com/s/sxb9f9p3wpkvna9/oroverde-json.json?dl=0)
-
 ## Content Management
 
-There are two ways to retrieve and update the content:
+There are two ways to retrieve, update and manage the content:
 
 ### Using an Email Bot:
 
@@ -515,7 +509,7 @@ The following are general aspects (not in any specific order) about the process:
 
 ### Using a content editor:
 
-This is still work in progress. The idea is to provide a content editor that should be available in the Mosaic Back office:
+This is still work in progress! The idea is to provide a content editor that should be available in the Mosaic Back office:
 
 ![Content Editor](http://i.imgur.com/uFEeHgo.png)
 
