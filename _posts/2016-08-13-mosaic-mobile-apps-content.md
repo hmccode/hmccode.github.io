@@ -43,7 +43,7 @@ Hence this document specifies the fields & formats necessary for each content ty
 
 ## File Formats & Samples
 
-In this section, we will discuss the file format for each content type and provide samples to download.
+In this section, we will discuss the file format for each content type and provide samples to download. 
 
 ### Program
 
@@ -228,6 +228,12 @@ The hotel content requires the following properties:
 	- Generic3: A generic field that can be used in case it is needed for some apps. By default this should be empty.
 	- Generic4: A generic field that can be used in case it is needed for some apps. By default this should be empty.
 
+Please note that hotel images (whether listing or gallery) must comply with the following:
+* 200 KB max
+* 72 DPI. DPI stands for Dots Per Inch which technically means printer dots per inch. Today it is a term often misused, usually to mean PPI, which stands for Pixels Per Inch. So when someone says they want a photo that is 300 dpi they really mean that they want 300 ppi. 
+* Landscape ....not portrait 
+* Size - the bigger the better. 
+
 #### JSON sample
 
 ```json
@@ -322,6 +328,12 @@ The outlet content requires the following properties:
 	- Generic2: A generic field that can be used in case it is needed for some apps. By default this should be empty.
 	- Generic3: A generic field that can be used in case it is needed for some apps. By default this should be empty.
 	- Generic4: A generic field that can be used in case it is needed for some apps. By default this should be empty.
+
+Please note that outlet images (whether listing or gallery) must comply with the following:
+* 200 KB max
+* 72 DPI. DPI stands for Dots Per Inch which technically means printer dots per inch. Today it is a term often misused, usually to mean PPI, which stands for Pixels Per Inch. So when someone says they want a photo that is 300 dpi they really mean that they want 300 ppi. 
+* Landscape ....not portrait 
+* Size - the bigger the better. 
 
 #### JSON sample
 
