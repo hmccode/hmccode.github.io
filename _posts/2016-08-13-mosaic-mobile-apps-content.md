@@ -65,6 +65,7 @@ The program content requires the following properties:
 - Support Email Addresses: The support email addresses where inbound requests arrive i.e support@test.com
 - Supported Languages: The languages that must be supported by this app (separated by a comma) i.e EN,ES
 - Is Voucher Redeemable: if true, this makes the app support the in-app redemption as required by the `My Mazaya` app for example
+- Is Sms From Activation: if true, this allows members to request an activation code from the login screen to be sent to them via SMS.
 - Is Show Offer Notification: if true, this makes the app pop up a dialog to prompt the user when an offer notification arrives when a push notification arrives while the app is active
 - Hotel Group Ids: The hotel group ids (separated by a comma) i.e 1,1999
 - Generic1: A generic field that can be used in case it is needed for some apps. By default this should be empty.
@@ -92,6 +93,7 @@ The program content requires the following properties:
   "supportedLanguages": "en,es",
   "isVoucherRedeemable": false,
   "isShowOfferNotification": false,
+  "isSmsFromActivation": true,
   "hotelGroupIds": "1,1999",
   "generic1": "",
   "generic2": "",
