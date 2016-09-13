@@ -180,5 +180,5 @@ To test apps under development for iOS requires TestFlight to be installed on yo
 
 * Android: <https://www.dropbox.com/s/9ibl6lrz3fhs0dr/cobblestone-debug.apk?dl=0>
 * Test activation
-  - User Name: test@test.com
-  - Password: test
+  - User Name: cstone@tester.com
+  - Password: tester
