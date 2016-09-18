@@ -164,7 +164,7 @@ To test apps under development for iOS requires TestFlight to be installed on yo
 
 #### Voilà Hotel Rebranded
 
-* Android: <https://www.dropbox.com/s/04lbixgd4emwlcp/voila-rebrand-debug.apk?dl=0>
+* Android: <https://www.dropbox.com/s/6sdnlliweghe9di/voila-release-signed.apk?dl=0>
 * Test activation
   - User Name: test@test.com
   - Password: test
