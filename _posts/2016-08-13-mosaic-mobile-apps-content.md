@@ -377,7 +377,7 @@ Every string in the app is tagged with a special key so it can be identified and
 }
 ```
 
-**Please note ** that some strings act as commands to the application!! In other words, these are content-driven commands that can be controlled from the content strings. For example, the following app strings have special meaning:
+**Please note** that some strings act as commands to the application!! In other words, these are content-driven commands that can be controlled from the content strings. For example, the following app strings have special meaning:
 
 - `speed_dial_show` - if true, the speed dial widget shows in the app.
 - `speed_dial_color` - decides the RGB color of the speed dial widget.
