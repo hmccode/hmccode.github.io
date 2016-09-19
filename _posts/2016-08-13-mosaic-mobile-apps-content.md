@@ -377,6 +377,24 @@ Every string in the app is tagged with a special key so it can be identified and
 }
 ```
 
+**Please note ** that some strings act as commands to the application!! In other words, these are content-driven commands that can be controlled from the content strings. For example, the following app strings have special meaning:
+
+- `speed_dial_show` - if true, the speed dial widget shows in the app.
+- `speed_dial_color` - decides the RGB color of the speed dial widget.
+- `speed_dial_show_membership` - if true, the dial widget's membership item shows up. Otherwise it is hidden.
+- `speed_dial_show_transactions` - if true, the dial widget's transactions item shows up. Otherwise it is hidden.
+- `speed_dial_show_home` - if true, the dial widget's home item shows up. Otherwise it is hidden.
+- `speed_dial_show_hotel_list` - if true, the dial widget's hotel list item shows up. Otherwise it is hidden.
+- `speed_dial_show_hotel_detail` - if true, the dial widget's hotel detail item shows up. Otherwise it is hidden.,
+- `speed_dial_show_outlet_list` - if true, the dial widget's outlet list item shows up. Otherwise it is hidden.
+- `speed_dial_show_outlet_detail` - if true, the dial widget's outlet detail item shows up. Otherwise it is hidden.
+- `speed_dial_show_offer_list` - if true, the dial widget's offer list item shows up. Otherwise it is hidden.
+- `speed_dial_show_offer_detail` - if true, the dial widget's hotel detail item shows up. Otherwise it is hidden.
+- `speed_dial_show_voucher_list` - if true, the dial widget's voucher list item shows up. Otherwise it is hidden.
+- `sms_enabled` - if true, the `Get Activation code by SMS` functionality will be added to the activation screen.
+
+*Since app strings are language-bound, the above would also mean that these feature can be turned on and off based on app language!!*
+
 ### Art
 
 The art content requires the following properties:
@@ -472,7 +490,7 @@ Here is a block diagram:
 
 Simply, you create a new email to `mosaic-app-content@clubhotel.com` with a subject that commands the bot to do things on your behalf. Currently the bot responds to the following form of commands:
 
-`VERB-PROGRAM-TYPE-SLOT`
+`VERB-PROGRAM-SLOT`
 
 Where **VERB** is:
 
@@ -480,10 +498,6 @@ Where **VERB** is:
 - `save`- to store
 
 **PROGRAM** is the name of the program i.e. `circlem`
-
-**TYPE** is the content type that you wish to either retrieve or store. For now, JSON is the only one supported:
-
-- `json` - refers to the JSON representation of the entire content. *This is mainly used by IT*.
 
 **SLOT** is the slot that you wish this content to apply to. This is an optional parameter. If omitted, the engine defaults to `staging`:
 
@@ -494,7 +508,7 @@ Where **VERB** is:
 
 Here are some **Retrieve Examples**:
 
-- `get-circlem-json` => Retrieve CircleM JSON
+- `get-circlem` => Retrieve CircleM JSON
 
 When you issue a `get` request, the content Email bot responds with an Email with an attachment. The attachment is a JSON file that has the desired content. 
  
@@ -502,9 +516,9 @@ When you issue a `get` request, the content Email bot responds with an Email wit
 
 Here are some **Store Examples**:
 
-- `save-circlem-json` => Store CircleM JSON
+- `save-circlem` => Store CircleM JSON
 
-When you issue a `save` request, the content Email bot responds with a confirmation Email whether the operation succeeds or not. All `save` commands require that an attachment be added to the email. For example, if you want to update the JSON for a specific program, you will send n email with subject `save-circlem-json` and attached `cirvlem-json.json`, for example. 
+When you issue a `save` request, the content Email bot responds with a confirmation Email whether the operation succeeds or not. All `save` commands require that an attachment be added to the email. For example, if you want to update the JSON for a specific program, you will send n email with subject `save-circlem` and attached `circlem.json`, for example. 
 
 #### Notes
 
