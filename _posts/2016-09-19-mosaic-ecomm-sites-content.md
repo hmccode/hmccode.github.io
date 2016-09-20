@@ -2,7 +2,7 @@
 layout: post
 author: "Khaled A"
 title:  "Mosaic Ecommerce Sites Content Management"
-date:   2016-08-13 10:12:45
+date:   2016-09-19 10:12:45
 summary: "A description of the new content management aspects of Ecommerce Sites"
 categories: mosaic Ecommerce Sites
 tags: Sites Content Management
@@ -17,7 +17,7 @@ This article discusses the content management aspects of the Mosaic Ecommerce Si
 
 ## Motivation
 
-Please refer to the [Mosaic Mobile App Content Management](http://hmccode.github.io/2016-08-13/mosaic-mobile-apps-content).
+Please refer to the [Mosaic Mobile App Content Management](http://hmccode.github.io/2016-08-13/mosaic-mobile-apps-content#motivation).
 
 ## Content Types
 
