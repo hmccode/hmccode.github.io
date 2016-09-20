@@ -807,6 +807,7 @@ Instead of being hard coded, each page is tagged with a special key so it can be
   }
 }
 ```
+
 ## Content Management
 
 There are two ways to retrieve, update and manage the content:
