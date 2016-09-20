@@ -378,16 +378,16 @@ Every string in the app is tagged with a special key so it can be identified and
 
 - `speed_dial_show` - if true, the speed dial widget shows in the app.
 - `speed_dial_color` - decides the RGB color of the speed dial widget.
-- `speed_dial_show_membership` - if true, the dial widget's membership item shows up. Otherwise it is hidden.
-- `speed_dial_show_transactions` - if true, the dial widget's transactions item shows up. Otherwise it is hidden.
-- `speed_dial_show_home` - if true, the dial widget's home item shows up. Otherwise it is hidden.
-- `speed_dial_show_hotel_list` - if true, the dial widget's hotel list item shows up. Otherwise it is hidden.
-- `speed_dial_show_hotel_detail` - if true, the dial widget's hotel detail item shows up. Otherwise it is hidden.,
-- `speed_dial_show_outlet_list` - if true, the dial widget's outlet list item shows up. Otherwise it is hidden.
-- `speed_dial_show_outlet_detail` - if true, the dial widget's outlet detail item shows up. Otherwise it is hidden.
-- `speed_dial_show_offer_list` - if true, the dial widget's offer list item shows up. Otherwise it is hidden.
-- `speed_dial_show_offer_detail` - if true, the dial widget's hotel detail item shows up. Otherwise it is hidden.
-- `speed_dial_show_voucher_list` - if true, the dial widget's voucher list item shows up. Otherwise it is hidden.
+- `speed_dial_show_membership` - if true, the dial widget is shown in the membership page. Otherwise it is hidden.
+- `speed_dial_show_transactions` - if true, the dial widget is shown in the transactions page. Otherwise it is hidden.
+- `speed_dial_show_home` - if true, the dial widget is shown in the home page. Otherwise it is hidden.
+- `speed_dial_show_hotel_list` - if true, the dial widget is shown in the hotel list page. Otherwise it is hidden.
+- `speed_dial_show_hotel_detail` - if true, the dial widget is shown in the hotel detail page. Otherwise it is hidden.,
+- `speed_dial_show_outlet_list` - if true, the dial widget is shown in the outlet list page. Otherwise it is hidden.
+- `speed_dial_show_outlet_detail` - if true, the dial widget is shown in the outlet detail page. Otherwise it is hidden.
+- `speed_dial_show_offer_list` - if true, the dial widget is shown in the offer list page. Otherwise it is hidden.
+- `speed_dial_show_offer_detail` - if true, the dial widget is shown in the hotel detail page. Otherwise it is hidden.
+- `speed_dial_show_voucher_list` - if true, the dial widget is shown in the voucher list page. Otherwise it is hidden.
 - `sms_enabled` - if true, the `Get Activation code by SMS` functionality will be added to the activation screen.
 
 *Since app strings are language-bound, the above would also mean that these feature can be turned on and off based on app language!!*
@@ -407,7 +407,7 @@ The art content requires the following properties:
 - Home Image2 Url: PNG 640x258
 - Home Image3 Url: PNG 640x258
 - Home Image4 Url: PNG 640x258
-- Splash Image4 Url: PNG 1242x2208
+- Splash Image4 Url: PNG 1440x2395
 
 *Color must be specified using a hexadecimal value in the form: `#RRGGBB`, where `RR` (red), `GG` (green) and `BB` (blue) are hexadecimal values between `00` and `FF` (same as decimal 0-255)*
 
@@ -436,7 +436,7 @@ The art content requires the following properties:
 
 The store content requires the following properties:
 
-- Banner Image Url: PNG 1000x800
+- Banner Image Url: PNG 1024x500
 - Language bound properties (the following properties are language specific and should be available for each desired language):
 	- Summary: a language specific summary
 	- Description: a language specific summary
