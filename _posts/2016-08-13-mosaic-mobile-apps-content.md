@@ -46,7 +46,7 @@ Hence this document specifies the fields & formats necessary for each content ty
 
 ## Content Types
 
-The mobile apps content is described in [JSON](https://en.wikipedia.org/wiki/JSON). A complete content file sample can be downloaded from [here](https://www.dropbox.com/s/sxb9f9p3wpkvna9/oroverde-json.json?dl=0).
+The mobile apps content is described in [JSON](https://en.wikipedia.org/wiki/JSON). A complete content file sample can be downloaded from [here](https://www.dropbox.com/s/g74f6216imgt3ty/oroverde.json?dl=0).
 
 In this section, we will discuss the specification for each content type. The content is made up of the following sections or types:
 
@@ -134,9 +134,6 @@ The hotel content requires the following properties:
 
 - Code: The hotel code which serves as the main identifier. Must be unique within a program. This will not be displayed...the title in specific language will be displayed instead.
 - Phone: The hotel phone number to call from the app
-- Image Url: PNG 620x258
-- Site Url: Usually the hotel own site where they can provide more information
-- Reservation Url: Usually the hotel own reservation site
 - Country Code: the 3-digit ISO standard for where the hotel is located i.e. UAE
 - Latitude: the hotel location information to calculate distance
 - Longitude: the hotel location information to calculate distance
@@ -251,12 +248,12 @@ The outlet content requires the following properties:
 	- Title: a language specific hotel title
 	- Image Url: PNG 620x258
 	- Site Url: Usually the hotel own site where they can provide more information
-	- City: a language specific hotel city
-	- Country: a language specific hotel country
+	- City: a language specific outlet city
+	- Country: a language specific outlet country
 	- Cuisine: a language specific cuisine
 	- Attire: a language specific attire
 	- Image Galleries: a collection of images to be displayed in the outlet detail. Each gallery image has a url, a tag line and an order. The tag line is used to identify the gallery images. The app will display the tag lines if available in the order specified. 
-	- Description: a [Markdown](https://en.wikipedia.org/wiki/Markdown) snippet that describes the hotel. If the description is not available, the app will not display a hotel detail.
+	- Description: a [Markdown](https://en.wikipedia.org/wiki/Markdown) snippet that describes the outlet. If the description is not available, the app will not display a outlet detail.
 	- Operating Hours: a [Markdown](https://en.wikipedia.org/wiki/Markdown) snippet that shows the outlet operating hours. Make it as brief as possible.
 	- Generic1: A generic field that can be used in case it is needed for some apps. By default this should be empty.
 	- Generic2: A generic field that can be used in case it is needed for some apps. By default this should be empty.
