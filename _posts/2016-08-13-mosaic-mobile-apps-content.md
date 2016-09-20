@@ -483,7 +483,7 @@ In order to make things easy for folks to retrieve and update mobile apps conten
 
 Here is a block diagram:
 
-![Block Diagram](http://i.imgur.com/gPoGjmr.png)
+![Block Diagram](http://i.imgur.com/U2mVfHx.png)
 
 Simply, you create a new email to `mosaic-app-content@clubhotel.com` with a subject that commands the bot to do things on your behalf. Currently the bot responds to the following form of commands:
 
