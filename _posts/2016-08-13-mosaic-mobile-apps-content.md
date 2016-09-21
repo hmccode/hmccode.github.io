@@ -517,6 +517,8 @@ Here are some **Store Examples**:
 
 When you issue a `save` request, the content Email bot responds with a confirmation Email whether the operation succeeds or not. All `save` commands require that an attachment be added to the email. For example, if you want to update the JSON for a specific program, you will send n email with subject `save-circlem` and attached `circlem.json`, for example. 
 
+**Please note** that when you send a `save` command to the bot, make sure the email body is empty (i.e. no signature). If there is a signature, the email client might attach it which will confuse the parser.
+
 #### Notes
 
 The following are general aspects (not in any specific order) about the process:
