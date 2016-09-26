@@ -33,10 +33,9 @@ A list of all Mobile Apps in stores and currently under development. The apps li
   - [Released](#released-apps-1)
     - [Voilà Hotel Rewards](#voil-hotel-rewards)
     - [Karam Club Card](#karam-club-card)
-  - [Under Development](#under-development-1)
-    - [Voilà Hotel Rebranded](#voil-hotel-rebranded)
-    - [Hoteis Othon](#hoteis-othon)
     - [Cobblestone Rewards](#cobblestone-rewards)
+  - [Under Development](#under-development-1)
+    - [Hoteis Othon](#hoteis-othon)
 
 ----
 
@@ -119,7 +118,7 @@ _Status: Available for testing_
 _Status: Available for testing_
 
 * Android: <https://www.dropbox.com/s/fhp2wuezs33l5ol/oroverde-debug.apk?dl=0>
-* iOS: _Not Available_
+* iOS: [Request Invite](mailto:ios@clubhotel.com?subject=Invitation for Oro Verde&body=Please send an invite @)
 * Test activation
   - Mobile Number: 5551414
   - Activation Code: KEGM9
@@ -147,27 +146,26 @@ Demo apps showcasing new ideas and different presentation layouts
 
 ## Released Apps
 
-#### Voilà Hotel Rewards (2.0.2)
+#### Voilà Hotel Rewards (2.1.0)
 
 * iOS: <https://itunes.apple.com/us/app/voila-hotel-rewards/id1100134186?mt=8>
 * Android: <https://play.google.com/store/apps/details?id=com.hmc.voila.mobileapps.generic>
 
-#### Karam Club Card (2.0.2)
+#### Karam Club Card (2.1.0)
 
 * iOS: <https://itunes.apple.com/us/app/karam-club-card/id1105895188?mt=8>
 * Android: <https://play.google.com/store/apps/details?id=com.hmc.voila.mobileapps.karamclub>
+
+#### Cobblestone Rewards (1.0.0)
+
+* iOS: <https://itunes.apple.com/us/app/cobblestone-rewards/id1154375242?mt=8>
+* Android: <https://play.google.com/store/apps/details?id=com.hmc.voila.mobileapps.cobblestone>
 
 
 ## Under Development
 
 To test apps under development for iOS requires TestFlight to be installed on your iOS device, incase you haven't received your test-flight invitation send us a request email with your email address.
 
-#### Voilà Hotel Rebranded
-
-* Android: <https://www.dropbox.com/s/6sdnlliweghe9di/voila-release-signed.apk?dl=0>
-* Test activation
-  - User Name: test@test.com
-  - Password: test
 	
 #### Hoteis Othon
 
@@ -175,10 +173,3 @@ To test apps under development for iOS requires TestFlight to be installed on yo
 * Test activation
   - User Name: othontest@test.com
   - Password: test
-	
-#### Cobblestone Rewards
-
-* Android: <https://www.dropbox.com/s/9ibl6lrz3fhs0dr/cobblestone-debug.apk?dl=0>
-* Test activation
-  - User Name: cstone@tester.com
-  - Password: tester
