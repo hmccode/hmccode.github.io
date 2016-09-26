@@ -53,6 +53,7 @@ In this section, we will discuss the specification for each content type. The co
 - [Program](#program)
 - [Hotels](#hotels)
 - [Outlets](#outlets)
+- [Services](#services)
 - [Strings](#strings)
 - [Art](#art)
 - [Store](#store)
@@ -320,6 +321,112 @@ Please note that outlet images (whether listing or gallery) must comply with the
           ],
           "description": "Ven y disfruta en Bar Murcielago de los mejores coctels y piqueos de Manta, en el sector de la piscina de nuestro hotel, con una increible vista al mar.",
           "operatingHours": "some es hours",
+          "generic1": "",
+          "generic2": "",
+          "generic3": "",
+          "generic4": ""
+        }
+      }
+    }
+  ]
+}
+```
+
+### Services
+
+The service content requires the following properties:
+
+- Code: The service name which serves as the main identifier. Must be unique within a program. This will not be displayed....the title in specific language will be displayed instead.
+- Phone: The outlet phone number to call from the app
+- Country Code: the 3-digit ISO standard for where the outlet is located i.e. UAE
+- Generic1: A generic field that can be used in case it is needed for some apps. By default this should be empty.
+- Generic2: A generic field that can be used in case it is needed for some apps. By default this should be empty.
+- Generic3: A generic field that can be used in case it is needed for some apps. By default this should be empty.
+- Generic4: A generic field that can be used in case it is needed for some apps. By default this should be empty.
+- Language bound properties (the following properties are language specific and should be available for each desired language):
+	- Title: a language specific service title
+	- Image Url: PNG 620x258
+	- Description: a [Markdown](https://en.wikipedia.org/wiki/Markdown) snippet that describes the outlet. If the description is not available, the app will not display a outlet detail.
+	- Discount: i.e. 50% or whatever is required to descrive discount
+	- Site Url: Usually the hotel own site where they can provide more information
+	- City: a language specific outlet city
+	- Country: a language specific outlet country
+	- Location: a language specific location
+	- Image Galleries: a collection of images to be displayed in the outlet detail. Each gallery image has a url, a tag line and an order. The tag line is used to identify the gallery images. The app will display the tag lines if available in the order specified. 
+	- Generic1: A generic field that can be used in case it is needed for some apps. By default this should be empty.
+	- Generic2: A generic field that can be used in case it is needed for some apps. By default this should be empty.
+	- Generic3: A generic field that can be used in case it is needed for some apps. By default this should be empty.
+	- Generic4: A generic field that can be used in case it is needed for some apps. By default this should be empty.
+
+Please note that outlet images (whether listing or gallery) must comply with the following:
+
+* Size - 200 KB max
+* Resolution - 72 DPI. DPI stands for Dots Per Inch which technically means printer dots per inch. Today it is a term often misused, usually to mean PPI, which stands for Pixels Per Inch. So when someone says they want a photo that is 300 dpi they really mean that they want 300 ppi. 
+* Orientation - Landscape ....not portrait 
+* Dimensions - the bigger the better. 
+
+#### JSON sample
+
+```json
+{
+  "services": [
+    {
+      "code": "SERV0001",
+      "phone": "+97142327999",
+      "countryCode": "UAE",
+      "generic1": "",
+      "generic2": "",
+      "generic3": "",
+      "generic4": "",
+      "languages": {
+        "en": {
+          "title": "Service1",
+          "image": "https://mosaicapi.blob.core.windows.net/images/e298d2a4-48b5-42bc-99d3-b1b3b9edf9d0.png",
+          "description": "Service1 Blah Blah Blah",
+	      "discount": "50%",
+          "siteUrl": "https://www.cnn.com",
+          "city": "Dubai",
+          "country": "United Arab Emirates",
+          "location": "Location",
+          "galleryImages": [
+            {
+              "url": "https://mosaicapi.blob.core.windows.net/images/e298d2a4-48b5-42bc-99d3-b1b3b9edf9d0.png",
+              "tagLine": "tagline1",
+              "order": 0
+            }
+          ],
+          "generic1": "",
+          "generic2": "",
+          "generic3": "",
+          "generic4": ""
+        }
+      }
+    },
+    {
+      "code": "SERV0002",
+      "phone": "+97142327000",
+      "countryCode": "UAE",
+      "generic1": "",
+      "generic2": "",
+      "generic3": "",
+      "generic4": "",
+      "languages": {
+        "en": {
+          "title": "Service2",
+          "image": "https://mosaicapi.blob.core.windows.net/images/e298d2a4-48b5-42bc-99d3-b1b3b9edf9d0.png",
+          "description": "Service 2 Blah Blah Blah",
+	      "discount": "60%",
+          "siteUrl": "http://hmcloyalty.com",
+          "city": "Sharjah",
+          "country": "United Arab Emirates",
+          "location": "Location",
+          "galleryImages": [
+            {
+              "url": "https://mosaicapi.blob.core.windows.net/images/e298d2a4-48b5-42bc-99d3-b1b3b9edf9d0.png",
+              "tagLine": "tagline1",
+              "order": 0
+            }
+          ],
           "generic1": "",
           "generic2": "",
           "generic3": "",
