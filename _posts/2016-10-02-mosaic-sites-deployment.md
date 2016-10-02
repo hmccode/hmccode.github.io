@@ -27,7 +27,7 @@ After the confirmation, this will request a new build. The build might be queued
 
 This might take a minute or so! Once it is done, you need to make sure that the build is successful. Please observe that the build process steps are all green and that the build ends with something like this:
 
-![Successful Build](http://i.imgur.com/ZRZLIgt.png)
+![Successful Build](http://i.imgur.com/mohssxk.png)
 
 If the build ends with a failure message, then you must re-queue the build. This is how a failure might look like:
 
