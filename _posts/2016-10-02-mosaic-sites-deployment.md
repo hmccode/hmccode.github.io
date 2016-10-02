@@ -19,6 +19,8 @@ Usually for each site, there are two builds: `Staging` and `Production`. Select 
 
 ![Queue New Build](http://i.imgur.com/WfTyx4x.png)
 
+*If you do not see the site that you need to deploy, please let us know and we will add it for you.*
+
 After the confirmation, this will request a new build. The build might be queued waiting for a host to start it or might be started right away. In either case, you will see a blue screen which shows compiling and deploying to the site:
 
 ![Build Process Running](http://i.imgur.com/rqHcY8f.png)
