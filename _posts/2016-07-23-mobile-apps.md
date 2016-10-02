@@ -117,7 +117,7 @@ _Status: Available for testing_
 
 _Status: Available for testing_
 
-* Android: <https://www.dropbox.com/s/fhp2wuezs33l5ol/oroverde-debug.apk?dl=0>
+* Android: <https://www.dropbox.com/s/nczjlaf1w0mcfvs/oroverde-release-signed.apk?dl=0>
 * iOS: [Request Invite](mailto:ios@clubhotel.com?subject=Invitation for Oro Verde&body=Please send an invite @)
 * Test activation
   - Mobile Number: 5551414
