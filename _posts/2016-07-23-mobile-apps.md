@@ -34,8 +34,9 @@ A list of all Mobile Apps in stores and currently under development. The apps li
     - [Voilà Hotel Rewards](#voil-hotel-rewards)
     - [Karam Club Card](#karam-club-card)
     - [Cobblestone Rewards](#cobblestone-rewards)
-  - [Under Development](#under-development-1)
     - [Hoteis Othon](#hoteis-othon)
+  - [Under Development](#under-development-1)
+    - [LE Hotels](#le-hotels)
 
 ----
 
@@ -146,30 +147,35 @@ Demo apps showcasing new ideas and different presentation layouts
 
 ## Released Apps
 
-#### Voilà Hotel Rewards (2.1.0)
+#### Voilà Hotel Rewards
 
 * iOS: <https://itunes.apple.com/us/app/voila-hotel-rewards/id1100134186?mt=8>
 * Android: <https://play.google.com/store/apps/details?id=com.hmc.voila.mobileapps.generic>
+* Latest version: 2.1.0
 
-#### Karam Club Card (2.1.0)
+#### Karam Club Card
 
 * iOS: <https://itunes.apple.com/us/app/karam-club-card/id1105895188?mt=8>
 * Android: <https://play.google.com/store/apps/details?id=com.hmc.voila.mobileapps.karamclub>
+* Latest version: 2.1.0
 
-#### Cobblestone Rewards (1.0.0)
+#### Cobblestone Rewards
 
 * iOS: <https://itunes.apple.com/us/app/cobblestone-rewards/id1154375242?mt=8>
 * Android: <https://play.google.com/store/apps/details?id=com.hmc.voila.mobileapps.cobblestone>
+* Latest version: 1.0.0
 
+#### Hoteis Othon
+
+* iOS: <UNDER REVIEW>
+* Android: <https://play.google.com/store/apps/details?id=com.hmc.voila.mobileapps.othon>
+* Latest version: 1.0.0
 
 ## Under Development
 
 To test apps under development for iOS requires TestFlight to be installed on your iOS device, incase you haven't received your test-flight invitation send us a request email with your email address.
 
 	
-#### Hoteis Othon
+#### LE Hotels
 
-* Android: <https://www.dropbox.com/s/58ziw8i6v7abxqy/othon-debug.apk?dl=0>
-* Test activation
-  - User Name: othontest@test.com
-  - Password: test
+* Android: TBA
