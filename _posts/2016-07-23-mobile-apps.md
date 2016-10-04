@@ -167,7 +167,7 @@ Demo apps showcasing new ideas and different presentation layouts
 
 #### Hoteis Othon
 
-* iOS: <UNDER REVIEW>
+* iOS: UNDER REVIEW
 * Android: <https://play.google.com/store/apps/details?id=com.hmc.voila.mobileapps.othon>
 * Latest version: 1.0.0
 
