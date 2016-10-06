@@ -11,7 +11,7 @@ featured_image: /images/cover.jpg
 
 A list of all Mosaic Sites in production and staging. 
 
-### Sites
+## Sites
 
 - [Production](#production-sites)
 	- [Circle M](#circle-m)
