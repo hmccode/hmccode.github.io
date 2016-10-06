@@ -17,7 +17,7 @@ A list of all Mosaic Sites in production and staging.
 	- [Circle M](#circle-m)
 	- [My Mazaya](#my-mazaya)
 	- [Marco Polo Elite](#marco-polo-elite)
-	- [Premium Club ME](#premium-club-me)
+	- [Premium Club ME](#premium-club-middle-east)
 	- [Premium Club Asia](#premium-club-asia)
 	- [Gourmet Club](#gourmet-club)
 - [Staging](#staging-sites)
@@ -42,7 +42,7 @@ A list of all Mosaic Sites in production and staging.
 
 * [https://premiumclubasia.com/](https://premiumclubasia.com/)
 
-#### Macro Polo Elite
+#### Marco Polo Elite
 
 * [https://ecommerce-sdda-mpelite.azurewebsites.net/](https://ecommerce-sdda-mpelite.azurewebsites.net/)
 
