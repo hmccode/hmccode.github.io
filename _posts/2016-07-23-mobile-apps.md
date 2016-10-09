@@ -19,12 +19,13 @@ A list of all Mobile Apps in stores and currently under development. The apps li
     - [Marco Polo Elite](#marco-polo-elite)
     - [Premium Club ME](#premium-club-me)
     - [Gourmet Club](#gourmet-club)
+    - [Oro Verde](#oro-verde)
   - [Under Development](#under-development)
     - [Premium Club Asia](#premium-club-asia)
     - [My Mazaya](#my-mazaya)
     - [Caravelle](#caravelle)
     - [One Farrer](#one-farrer)
-    - [Oro Verde](#oro-verde)
+    - [Oro Verde No Login](#oro-verde-no-login)
     - [Khaisilk](#khaisilk)
   - [New Ideas](#new-ideas)
     - [Member Centric App](#member-centric-app)
@@ -65,6 +66,11 @@ A list of all Mobile Apps in stores and currently under development. The apps li
 * iOS: <https://itunes.apple.com/us/app/gourmet-club-by-swissotel/id1108385232?ls=1&mt=8>
 * Android: <https://play.google.com/store/apps/details?id=com.hmc.mobileapps.mosaic.gourmetclub>
 
+
+#### Oro Verde
+
+* iOS: <https://itunes.apple.com/us/app/pasaporte-gourmet-oro-verde/id1156897427?ls=1&mt=8>
+* Android: <https://play.google.com/store/apps/details?id=com.hmc.mobileapps.mosaic.oroverde>
 
 ## Under Development
 
@@ -114,11 +120,11 @@ _Status: Available for testing_
   - Activation Code: KEGM9
 
 
-#### Oro Verde
+#### Oro Verde No Login
 
 _Status: Available for testing_
 
-* Android: <https://www.dropbox.com/s/nczjlaf1w0mcfvs/oroverde-release-signed.apk?dl=0>
+* Android: <https://www.dropbox.com/s/dkvm55ysc2axxkg/oroverde-release-nologin.apk?dl=0>
 * iOS: [Request Invite](mailto:ios@clubhotel.com?subject=Invitation for Oro Verde&body=Please send an invite @)
 * Test activation
   - Mobile Number: 5551414
