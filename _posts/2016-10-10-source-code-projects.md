@@ -75,7 +75,7 @@ A list of all HMC Source code projects and repositories. Everything is stored in
 
 This project contains Bots-related repositories
 
-#### Web
+##### Web
 
 This repository contains Bots Web Apps.
 
@@ -83,11 +83,11 @@ This repository contains Bots Web Apps.
 
 This project contains BusinessIntelligence-related common repositories. The specific Mosaic and Voila Business Intelligence is included in Mosaic and Voila projects.
 
-#### Analysis
+#####Analysis
 
 This repository contains SQL Server Analysis common modules.
 
-#### Invoker
+##### Invoker
 
 This repository contains the Reports Invoker web app.
 
@@ -95,11 +95,11 @@ This repository contains the Reports Invoker web app.
 
 This project contains Fabric-related repositories
 
-#### Functions
+##### Functions
 
 This repository contains Fabric Azure Functions.
 
-#### Event Processors
+##### Event Processors
 
 This repository contains event processors pilot solution. The idea here is to respond to events emitted by the legacy system that we can calculate measures on the fly which could be useful to report company sales figures without relying in ETL processes.
 
@@ -107,11 +107,11 @@ This repository contains event processors pilot solution. The idea here is to re
 
 This project contains Insights-related repositories
 
-#### Web
+##### Web
 
 This repository contains the reports container web app.
 
-#### Reports
+##### Reports
 
 This repository contains all PowerBI and other reports that are part of the Insights product.
 
@@ -119,11 +119,11 @@ This repository contains all PowerBI and other reports that are part of the Insi
 
 This project contains Management-related repositories
 
-#### Documentation
+##### Documentation
 
 This repository contains product documentation and know how.
 
-#### Credentials
+##### Credentials
 
 This repository contains product and access credentials.
 
@@ -131,15 +131,15 @@ This repository contains product and access credentials.
 
 This project contains Misc-related repositories
 
-#### WebJobs
+##### WebJobs
 
 This repository contains misc schedulers in the form of Web Jobs.
 
-#### Functions
+##### Functions
 
 This repository contains misc Azure Functions.
 
-#### DotNetShared Libraries
+##### DotNetShared Libraries
 
 This repository contains shared .NET libraries.
 
@@ -147,43 +147,43 @@ This repository contains shared .NET libraries.
 
 This project contains Mosaic-related repositories
 
-#### Legacy
+##### Legacy
 
 This repository contains the Mosaic legacy rules engine (Adarsh).
 
-#### Functions
+##### Functions
 
 This repository contains Mosaic Azure Functions.
 
-#### Api
+##### Api
 
 This repository contains the Mosaic API.
 
-#### Proxy
+##### Proxy
 
-This repository contains the Mosaic Proxy API (to work with PCASIA Mobile App).
+This repository contains the Mosaic Proxy API. This works as a reverse proxy for the PCASIA Mobile App API interactions.
 
-#### Spa
+##### Spa
 
 This repository contains the Mosaic back office (Adarsh).
 
-#### In House
+##### In House
 
 This repository contains the Mosaic In House portal (Adarsh).
 
-#### Mobile Apps
+##### Mobile Apps
 
-Although it is part of Mosaic, we opted to make this a project on its own. It contains Mosaic Mobile Apps (Adarsh).
+Although it is part of Mosaic, we opted to make this a project on its own i.e. MosaicMobileApps. It contains Mosaic Mobile Apps (Adarsh).
 
-#### Sites
+##### Sites
 
-Although it is part of Mosaic, we opted to make this a project on its own. It contains Ecommerce Sites.
+Although it is part of Mosaic, we opted to make this a project on its own i.e. EcommercSites. It contains Ecommerce Sites.
 
-#### CRM
+##### CRM
 
 This repository contains the Mosaic CRM (Aziz).
 
-#### Business Intelligence
+##### Business Intelligence
 
 This repository contains Mosaic-specific Business Intelligence.
 
@@ -191,11 +191,11 @@ This repository contains Mosaic-specific Business Intelligence.
 
 This project contains Offers-related repositories
 
-#### Api
+##### Api
 
 This repository contains the Offers API.
 
-#### Spa
+##### Spa
 
 This repository contains the Offers back office (Adarsh).
 
@@ -203,15 +203,15 @@ This repository contains the Offers back office (Adarsh).
 
 This project contains Sapphire-related repositories
 
-#### Api
+##### Api
 
 This repository contains the Sapphire Web Service. 
 
-#### Web
+##### Web
 
 This repository contains the Sapphire Web (running in GlassFish).
 
-#### Scheduler
+##### Scheduler
 
 This repository contains the Sapphire Scheduler. But it is included in the Sapphire Api repository. 
 
@@ -219,11 +219,11 @@ This repository contains the Sapphire Scheduler. But it is included in the Sapph
 
 This project contains Script-related repositories
 
-#### PowerShell
+##### PowerShell
 
 This repository contains the PowerShell commands and utilities. 
 
-#### Pos
+##### Pos
 
 This repository contains the POS Script (Bibars).
 
@@ -231,19 +231,19 @@ This repository contains the POS Script (Bibars).
 
 This project contains Utils-related repositories
 
-#### PMS Dtu
+##### PMS Dtu
 
 This repository contains the PMS Data Transfer Utility (Adarsh). 
 
-#### Food  Beverage Dtu
+##### Food  Beverage Dtu
 
 This repository contains the Food & Beverage Data Transfer Utility (Adarsh).
 
-#### POS
+##### POS
 
 This repository contains the POS Agents and Terminal Utility. 
 
-#### PowerBI
+##### PowerBI
 
 This repository contains the PowerBI Utility. 
 
@@ -251,11 +251,11 @@ This repository contains the PowerBI Utility.
 
 This project contains Vault-related repositories
 
-#### Api
+##### Api
 
 This repository contains the Vault API.
 
-#### Web
+##### Web
 
 This repository contains the Vault Validator. It is actually included in the API repository.
 
@@ -263,27 +263,27 @@ This repository contains the Vault Validator. It is actually included in the API
 
 This project contains Voila-related repositories
 
-#### Legacy
+##### Legacy
 
 This repository contains the Voila legacy rules engine (Adarsh).
 
-#### Api
+##### Api
 
 This repository contains the Voila API.
 
-#### Mobile Apps
+##### Mobile Apps
 
-Although it is part of Voila, we opted to make this a project on its own. It contains Voila Mobile Apps (Adarsh).
+Although it is part of Voila, we opted to make this a project on its own i.e. VoilaMobileApps. It contains Voila Mobile Apps (Adarsh).
 
-#### Sites
+##### Sites
 
 This repository contains the Voila Member Sites (Aziz).
 
-#### CRM
+##### CRM
 
 This repository contains the Voila CRM (Aziz).
 
-#### Business Intelligence
+##### Business Intelligence
 
 This repository contains Voila-specific Business Intelligence.
 
