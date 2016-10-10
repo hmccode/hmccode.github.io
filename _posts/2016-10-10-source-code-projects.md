@@ -231,7 +231,7 @@ This repository contains the POS Script (Bibars).
 
 This project contains Sites-related repositories
 
-##### HMCCode
+##### HMC Code
 
 This repository contains the HMCCODE Github Site. 
 
