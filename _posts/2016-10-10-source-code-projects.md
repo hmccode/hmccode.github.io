@@ -227,6 +227,14 @@ This repository contains the PowerShell commands and utilities.
 
 This repository contains the POS Script (Bibars).
 
+### Sites
+
+This project contains Sites-related repositories
+
+##### HMCCode
+
+This repository contains the HMCCODE Github Site. 
+
 ### Utils
 
 This project contains Utils-related repositories

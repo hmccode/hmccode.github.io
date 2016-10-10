@@ -21,6 +21,8 @@ A list of all Mosaic Sites in production and staging.
 	- [Premium Club Asia](#premium-club-asia)
 	- [Gourmet Club](#gourmet-club)
 - [Staging](#staging-sites)
+	- [Dining Plus](#dining-plus)
+	- [Club Mataam](#club-mataam)
 	- [One Farrer](#one-farrer)
 	- [Oro Verde](#oro-verde)
 
@@ -55,6 +57,14 @@ A list of all Mosaic Sites in production and staging.
 * [https://www.swissotelgourmetclub.com/](https://www.swissotelgourmetclub.com/)
 
 ## Staging Sites
+
+#### Dining Plus
+
+* [https://app-companion-me-diningplus-staging.azurewebsites.net/](https://app-companion-me-diningplus-staging.azurewebsites.net/)
+
+#### Club Mataam
+
+* [https://app-companion-me-clubmataam-staging.azurewebsites.net/](https://app-companion-me-clubmataam-staging.azurewebsites.net/)
 
 #### One Farrer
 
