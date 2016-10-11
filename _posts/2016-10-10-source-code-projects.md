@@ -173,7 +173,7 @@ This project contains Mosaic-related repositories
 
 ##### Legacy
 
-This repository contains the Mosaic legacy rules engine (Adarsh).
+This repository contains the Mosaic legacy rules engine.
 
 ##### Functions
 
@@ -189,15 +189,15 @@ This repository contains the Mosaic Proxy API. This works as a reverse proxy for
 
 ##### Spa
 
-This repository contains the Mosaic back office (Adarsh).
+This repository contains the Mosaic back office.
 
 ##### In House
 
-This repository contains the Mosaic In House portal (Adarsh).
+This repository contains the Mosaic In House portal.
 
 ##### Mobile Apps
 
-Although it is part of Mosaic, we opted to make this a project on its own i.e. MosaicMobileApps. It contains Mosaic Mobile Apps (Adarsh).
+Although it is part of Mosaic, we opted to make this a project on its own i.e. MosaicMobileApps. It contains Mosaic Mobile Apps.
 
 ##### Sites
 
@@ -261,7 +261,7 @@ This repository contains the Offers API.
 
 ##### Spa
 
-This repository contains the Offers back office (Adarsh).
+This repository contains the Offers back office.
 
 ### Sapphire
 
@@ -305,11 +305,11 @@ This project contains Utils-related repositories
 
 ##### PMS Dtu
 
-This repository contains the PMS Data Transfer Utility (Adarsh). 
+This repository contains the PMS Data Transfer Utility. 
 
 ##### Food  Beverage Dtu
 
-This repository contains the Food & Beverage Data Transfer Utility (Adarsh).
+This repository contains the Food & Beverage Data Transfer Utility
 
 ##### POS
 
@@ -337,7 +337,7 @@ This project contains Voila-related repositories
 
 ##### Legacy
 
-This repository contains the Voila legacy rules engine (Adarsh).
+This repository contains the Voila legacy rules engine.
 
 ##### Api
 
@@ -345,7 +345,7 @@ This repository contains the Voila API.
 
 ##### Mobile Apps
 
-Although it is part of Voila, we opted to make this a project on its own i.e. VoilaMobileApps. It contains Voila Mobile Apps (Adarsh).
+Although it is part of Voila, we opted to make this a project on its own i.e. VoilaMobileApps. It contains Voila Mobile Apps.
 
 ##### Sites
 
