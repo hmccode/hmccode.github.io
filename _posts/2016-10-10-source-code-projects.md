@@ -18,6 +18,8 @@ A list of all HMC Source code projects and repositories. Everything is stored in
 - [Business Intelligence](#business-intelligence)
 	- [Analysis](#analysis)
 	- [Invoker](#invoker)
+- [Ecommerce Sites](#ecommerce-sites)
+	- [Ecommerce Sites](#ecommerce-sites)
 - [Fabric](#fabric)
 	- [Functions](#functions)
 	- [EventProcessors](#event-processors)
@@ -42,6 +44,15 @@ A list of all HMC Source code projects and repositories. Everything is stored in
 	- [Sites](#sites)
 	- [CRM](#crm)
 	- [Business Intelligence](#business-intelligence)
+- [Mosaic Mobile Apps](#mosaic-mobile-apps)
+	- [Caravelle](#caravelle)
+	- [CircleM](#circlem)
+	- [GourmetClub](#gourmetclub)
+	- [MarcoPolo](#marcopolo)
+	- [MosaicMobileApps](#mosaicMobileApps)
+	- [MyMazaya](#mymzaya)
+	- [Onefarrer](#OneFarrer)
+	- [PCASIA](#pcasia)
 - [Offers](#offers)
 	- [Api](#api)
 	- [Spa](#spa)
@@ -70,6 +81,11 @@ A list of all HMC Source code projects and repositories. Everything is stored in
 	- [CRM](#crm)
 	- [Business Intelligence](#business-intelligence)
 	- [Kiosk](#kiosk)
+- [Voila Mobile Apps](#voila-mobile-apps)
+	- [generic](#generic)
+	- [Karam](#karam)
+	- [Cobblestone](#cobblestone)
+	- [Othon](#othon)
 
 ### Bots
 
@@ -90,6 +106,14 @@ This repository contains SQL Server Analysis common modules.
 ##### Invoker
 
 This repository contains the Reports Invoker web app.
+
+### Ecommerce Sites
+
+This project contains Sites-related repositories. It should have been part of the Mosaic project but we opted to single it out on its own since we already have people using it and the build definitions are attached to it.
+
+##### Ecommerce Sites
+
+This repository contains the ecommerce sites.
 
 ### Fabric
 
@@ -186,6 +210,46 @@ This repository contains the Mosaic CRM (Aziz).
 ##### Business Intelligence
 
 This repository contains Mosaic-specific Business Intelligence.
+
+### Mosaic Mobile Apps
+
+This project contains Mosaic MobileApps-related repositories. It should have been part of the Mosaic project but we opted to single it out on its own since we need multiple repositories: one for each app.
+
+##### Mosaic Mobile Apps
+
+This repository contains the Mosaic Mobile apps
+
+##### Caravelle
+
+This repository contains the Caravelle mobile apps.
+
+##### CircleM
+
+This repository contains the CircleM mobile apps.
+
+##### GourmetClub
+
+This repository contains the GourmetClub mobile apps.
+
+##### MarcoPolo
+
+This repository contains the MarcoPolo mobile apps.
+
+##### MosaicMobileApps
+
+This repository contains the shared mobile apps.
+
+##### MyMazaya
+
+This repository contains the MyMazaya mobile apps.
+
+##### OneFarrer
+
+This repository contains the One Farrer mobile apps.
+
+##### PCASIA
+
+This repository contains the PCASIA mobile apps.
 
 ### Offers
 
@@ -295,3 +359,26 @@ This repository contains the Voila CRM (Aziz).
 
 This repository contains Voila-specific Business Intelligence.
 
+### Voila Mobile Apps
+
+This project contains Voila MobileApps-related repositories. It should have been part of the Voila project but we opted to single it out on its own since we need multiple repositories: one for each app.
+
+##### Generic
+
+This repository contains the Generic mobile apps.
+
+##### Karam
+
+This repository contains the Karam mobile apps.
+
+##### Cobblestone
+
+This repository contains the Cobblestone mobile apps.
+
+##### Othon
+
+This repository contains the Othon mobile apps.
+
+##### Voila Mobile Apps
+
+This repository contains the shared mobile apps.
