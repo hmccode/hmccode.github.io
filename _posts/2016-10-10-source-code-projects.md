@@ -99,7 +99,7 @@ This repository contains Bots Web Apps.
 
 This project contains BusinessIntelligence-related common repositories. The specific Mosaic and Voila Business Intelligence is included in Mosaic and Voila projects.
 
-#####Analysis
+##### Analysis
 
 This repository contains SQL Server Analysis common modules.
 
