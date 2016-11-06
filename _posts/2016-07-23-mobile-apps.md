@@ -133,6 +133,15 @@ _Status: Available for testing_
 
 #### Khaisilk
 
+_Status: Available for testing_
+
+* Android: <https://www.dropbox.com/s/wxc0cxz31uhxub1/khaisilk-debug.apk?dl=0>
+* iOS: [Request Invite](mailto:ios@clubhotel.com?subject=Invitation for KhaiSilk&body=Please send an invite @)
+* Test activation
+  - Mobile Number: 5551414
+  - Activation Code: KEGM9
+  
+
 _In progress_
 
 ## New Ideas
