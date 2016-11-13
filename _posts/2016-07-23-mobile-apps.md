@@ -27,6 +27,9 @@ A list of all Mobile Apps in stores and currently under development. The apps li
     - [One Farrer](#one-farrer)
     - [Oro Verde No Login](#oro-verde-no-login)
     - [Khaisilk](#khaisilk)
+    - [Golden Palm Tree Premium Club](#golden-palm-tree-premium-club)
+    - [Be Sortis](#be-sortis)
+    - [Edge Lifestyle](#edge-lifestyle)
   - [New Ideas](#new-ideas)
     - [Member Centric App](#member-centric-app)
 
@@ -137,6 +140,39 @@ _Status: Available for testing_
 
 * Android: <https://www.dropbox.com/s/wxc0cxz31uhxub1/khaisilk-debug.apk?dl=0>
 * iOS: [Request Invite](mailto:ios@clubhotel.com?subject=Invitation for KhaiSilk&body=Please send an invite @)
+* Test activation
+  - Mobile Number: 5551414
+  - Activation Code: KEGM9
+  
+
+#### Golden Palm Tree Premium Club
+
+_Status: Available for testing_
+
+* Android: <https://www.dropbox.com/s/9hu6syjmoj9uoo0/avani-debug.apk?dl=0>
+* iOS: [Request Invite](mailto:ios@clubhotel.com?subject=Invitation for Avani&body=Please send an invite @)
+* Test activation
+  - Mobile Number: 5551414
+  - Activation Code: KEGM9
+  
+
+#### Be Sortis
+
+_Status: Available for testing_
+
+* Android: <https://www.dropbox.com/s/me2dzlf768e83tg/besortis-debug.apk?dl=0>
+* iOS: [Request Invite](mailto:ios@clubhotel.com?subject=Invitation for Be Sortis&body=Please send an invite @)
+* Test activation
+  - Mobile Number: 5551414
+  - Activation Code: KEGM9
+  
+
+#### Edge Lifestyle
+
+_Status: Available for testing_
+
+* Android: <https://www.dropbox.com/s/xu6qzxbdua7uhaf/edgelife-debug.apk?dl=0>
+* iOS: [Request Invite](mailto:ios@clubhotel.com?subject=Invitation for Edge Lifestyle&body=Please send an invite @)
 * Test activation
   - Mobile Number: 5551414
   - Activation Code: KEGM9
