@@ -27,7 +27,7 @@ A list of all Mobile Apps in stores and currently under development. The apps li
     - [One Farrer](#one-farrer)
     - [Oro Verde No Login](#oro-verde-no-login)
     - [Khaisilk](#khaisilk)
-    - [Golden Palm Tree Premium Club](#golden-palm-tree-premium-club)
+    - [Avani](#Avani)
     - [Be Sortis](#be-sortis)
     - [Edge Lifestyle](#edge-lifestyle)
   - [New Ideas](#new-ideas)
@@ -145,7 +145,7 @@ _Status: Available for testing_
   - Activation Code: KEGM9
   
 
-#### Golden Palm Tree Premium Club
+#### Avani
 
 _Status: Available for testing_
 
