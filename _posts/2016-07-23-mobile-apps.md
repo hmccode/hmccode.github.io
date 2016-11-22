@@ -30,6 +30,7 @@ A list of all Mobile Apps in stores and currently under development. The apps li
     - [Avani](#Avani)
     - [Be Sortis](#be-sortis)
     - [Edge Lifestyle](#edge-lifestyle)
+    - [MP Elite Manila](#mp-elite-manila)
   - [New Ideas](#new-ideas)
     - [Member Centric App](#member-centric-app)
 
@@ -177,8 +178,15 @@ _Status: Available for testing_
   - Mobile Number: 5551414
   - Activation Code: KEGM9
   
+#### MP ELite Manila
 
-_In progress_
+_Status: Available for testing_
+
+* Android: <https://www.dropbox.com/s/gcx9ys8l8rhf4s3/mpemanila-debug.apk?dl=0>
+* iOS: [Request Invite](mailto:ios@clubhotel.com?subject=Invitation for MP Elite Manila&body=Please send an invite @)
+* Test activation
+  - Mobile Number: 5551414
+  - Activation Code: KEGM9
 
 ## New Ideas
 
