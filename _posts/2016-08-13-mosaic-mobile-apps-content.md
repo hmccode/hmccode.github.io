@@ -332,6 +332,106 @@ Please note that outlet images (whether listing or gallery) must comply with the
 }
 ```
 
+*NOTE*:
+To create orphaned outlets, please follow the example below. Please note the highlighted things:
+- The hotel code must not be present…it does not have to match the outlet code as in this example
+- The latitude and longitude have to exist in the orphaned outlet…..otherwise the app will attempt to look up the associated hotel for this data  (and fail)
+- The outlet language must have a Hotel property with two spaces! Otherwise the app will attempt to look up the associated hotel (and fail)
+
+*Example:*
+```
+    {
+      "code": "BK9999",
+      "hotelCode": "BK9999",
+      "phone": "+973 1 746 0017",
+      "countryCode": "BHR",
+      "latitude": 25.14,
+      "longitude": 90.14,
+      "generic1": "",
+      "generic2": "",
+      "generic3": "",
+      "generic4": "",
+      "languages": {
+        "en": {
+          "title": "The Gallery Lobby Lounge",
+          "image": "https://mosaicapi.blob.core.windows.net/images/c4dfd688-5d93-42ef-9db3-920718c91b74.jpg",
+          "siteUrl": "",
+          "city": "Muharraq",
+          "country": "Bahrain",
+          "cuisine": "Contemporary lobby serving light snacks",
+          "attire": "",
+          "hotel": "  ",
+          "galleryImages": [
+            {
+              "url": "https://mosaicapi.blob.core.windows.net/images/3d41f202-00a0-4a27-9fec-b70265752501.jpg",
+              "tagLine": "New Image",
+              "order": 0
+            },
+            {
+              "url": "https://mosaicapi.blob.core.windows.net/images/70f57851-8dcf-42b1-889a-57bea05f31a5.jpg",
+              "tagLine": "New Image",
+              "order": 0
+            },
+            {
+              "url": "https://mosaicapi.blob.core.windows.net/images/f91793c5-650e-4762-ade6-68fcbcd0842b.jpg",
+              "tagLine": "New Image",
+              "order": 0
+            },
+            {
+              "url": "https://mosaicapi.blob.core.windows.net/images/c4dfd688-5d93-42ef-9db3-920718c91b74.jpg",
+              "tagLine": "New Image",
+              "order": 0
+            }
+          ],
+          "description": "Get ready to relax with your favourite cup of coffee. Sit comfortably and let the inviting atmosphere of The Gallery Lobby Lounge sink in. With sunlight softly shining through the closed glass atrium, you can escape the noise of the city and be transformed to a serene dining paradise.",
+          "operatingHours": "",
+          "generic1": "",
+          "generic2": "",
+          "generic3": "",
+          "generic4": ""
+        },
+        "ar": {
+          "title": "ذي غاليري لوبي لاونج (ردهة البهو ذي غاليري)\r\n",
+          "image": "https://mosaicapi.blob.core.windows.net/images/c4dfd688-5d93-42ef-9db3-920718c91b74.jpg",
+          "siteUrl": "",
+          "city": "المحرق",
+          "country": "البحرين",
+          "cuisine": "Contemporary lobby serving light snacks",
+          "attire": "",
+          "hotel": "  ",
+          "galleryImages": [
+            {
+              "url": "https://mosaicapi.blob.core.windows.net/images/3d41f202-00a0-4a27-9fec-b70265752501.jpg",
+              "tagLine": "New Image",
+              "order": 0
+            },
+            {
+              "url": "https://mosaicapi.blob.core.windows.net/images/70f57851-8dcf-42b1-889a-57bea05f31a5.jpg",
+              "tagLine": "New Image",
+              "order": 0
+            },
+            {
+              "url": "https://mosaicapi.blob.core.windows.net/images/f91793c5-650e-4762-ade6-68fcbcd0842b.jpg",
+              "tagLine": "New Image",
+              "order": 0
+            },
+            {
+              "url": "https://mosaicapi.blob.core.windows.net/images/c4dfd688-5d93-42ef-9db3-920718c91b74.jpg",
+              "tagLine": "New Image",
+              "order": 0
+            }
+          ],
+          "description": "إستعدوا للاسترخاء حول كوب القهوة المفضّل لديكم. إنعموا براحة الجلسة ودعوا أجواء ردهة البهو ذي غاليري تغمركم بدفئها. وعندما تنساب أشعة الشمس بنورها عبر القبة الزجاجية المقفلة، تكونون بمنأى عن ضجيج المدينة وتتحوّل جلسة الطعام الى جنة هانئة.\r\n",
+          "operatingHours": "",
+          "generic1": "",
+          "generic2": "",
+          "generic3": "",
+          "generic4": ""
+        }
+      }
+    }
+```
+
 ### Services
 
 The service content requires the following properties:
