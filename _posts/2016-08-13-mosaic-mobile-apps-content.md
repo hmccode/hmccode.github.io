@@ -334,7 +334,7 @@ Please note that outlet images (whether listing or gallery) must comply with the
 
 *NOTE*:
 
-To create orphaned outlets, please follow the example below. Please note the highlighted things:
+To create orphaned outlets, please follow the example below and note the following:
 
 - The hotel code must not be present…it does not have to match the outlet code as in this example
 - The latitude and longitude have to exist in the orphaned outlet…..otherwise the app will attempt to look up the associated hotel for this data  (and fail)
