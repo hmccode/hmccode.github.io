@@ -333,13 +333,16 @@ Please note that outlet images (whether listing or gallery) must comply with the
 ```
 
 *NOTE*:
+
 To create orphaned outlets, please follow the example below. Please note the highlighted things:
+
 - The hotel code must not be present…it does not have to match the outlet code as in this example
 - The latitude and longitude have to exist in the orphaned outlet…..otherwise the app will attempt to look up the associated hotel for this data  (and fail)
 - The outlet language must have a Hotel property with two spaces! Otherwise the app will attempt to look up the associated hotel (and fail)
 
 *Example:*
-```
+
+```json
     {
       "code": "BK9999",
       "hotelCode": "BK9999",
