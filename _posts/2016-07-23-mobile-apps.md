@@ -31,6 +31,7 @@ A list of all Mobile Apps in stores and currently under development. The apps li
     - [Be Sortis](#be-sortis)
     - [Edge Lifestyle](#edge-lifestyle)
     - [MP Elite Manila](#mp-elite-manila)
+    - [Dusit Privilege](#dusit-privilege)
   - [New Ideas](#new-ideas)
     - [Member Centric App](#member-centric-app)
 
@@ -184,6 +185,16 @@ _Status: Available for testing_
 
 * Android: <https://www.dropbox.com/s/gcx9ys8l8rhf4s3/mpemanila-debug.apk?dl=0>
 * iOS: [Request Invite](mailto:ios@clubhotel.com?subject=Invitation for MP Elite Manila&body=Please send an invite @)
+* Test activation
+  - Mobile Number: 5551414
+  - Activation Code: KEGM9
+
+#### Dusit Privilege
+
+_Status: Available for testing_
+
+* Android: <https://www.dropbox.com/s/0j00ucnt5nrxj4p/dusitthani-debug.apk?dl=0>
+* iOS: [Request Invite](mailto:ios@clubhotel.com?subject=Invitation for Dusit&body=Please send an invite @)
 * Test activation
   - Mobile Number: 5551414
   - Activation Code: KEGM9
