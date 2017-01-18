@@ -139,6 +139,9 @@ The hotel content requires the following properties:
 - Latitude: the hotel location information to calculate distance
 - Longitude: the hotel location information to calculate distance
 - Star Rating: the hotel rating in number i.e. 5
+- Hotel Code: the hotel code of the brand. Currently applicable to PCASIA only.
+- Hotel Ratings: A dictionary of hotel ratings per country. Currently applicable to PCASIA only.
+- Amenities - a comma-delimited list of applicable amenities for this hotel. Please note that each included amenity must have a corresponding app string to translate to local language. Please refer to the Amenities section to see a [list of available hotel amenities](#hotel-amenities).
 - Generic1: A generic field that can be used in case it is needed for some apps. By default this should be empty.
 - Generic2: A generic field that can be used in case it is needed for some apps. By default this should be empty.
 - Generic3: A generic field that can be used in case it is needed for some apps. By default this should be empty.
@@ -177,7 +180,10 @@ Please note that hotel images (whether listing or gallery) must comply with the 
       "countryCode": "UAE",
       "latitude": 54.34,
       "longitude": 34.1,
-	  "starRating": "5",
+      "starRating": "5",
+      "hotelCode": "",
+      "hotelRates": {},
+	  "amenities": "WIFI,DRY",
 	  "generic1": "",
 	  "generic2": "",
 	  "generic3": "",
@@ -241,6 +247,8 @@ The outlet content requires the following properties:
 - HotelCode: The associated hotel code where the outlet is located. In other words, this code is what links outlets to hotels.
 - Phone: The outlet phone number to call from the app
 - Country Code: the 3-digit ISO standard for where the outlet is located i.e. UAE
+- CuisineCode: a code that identifies the main cuisine of the outlet. Please see a [list of possible cuisine codes](#cuisine-codes).
+- Amenities - a comma-delimited list of applicable amenities for this hotel. Please note that each included amenity must have a corresponding app string to translate to local language. Please refer to the Amenities section to see a [list of available outlet amenities](#outlet-amenities). 
 - Generic1: A generic field that can be used in case it is needed for some apps. By default this should be empty.
 - Generic2: A generic field that can be used in case it is needed for some apps. By default this should be empty.
 - Generic3: A generic field that can be used in case it is needed for some apps. By default this should be empty.
@@ -277,6 +285,10 @@ Please note that outlet images (whether listing or gallery) must comply with the
       "hotelCode": "OVMTA",
       "phone": "+59352629200",
       "countryCode": "ECU",
+      "latitude": 0.0,
+      "longitude": 0.0,
+	  "amenities": "POOL,DRY",
+	  "cuisineCode": "INT",
       "generic1": "",
       "generic2": "",
       "generic3": "",
@@ -434,6 +446,26 @@ To create orphaned outlets, please follow the example below and note the followi
       }
     }
 ```
+
+### Hotel Amenities
+
+The following are available hotel amenities (more will be added soon):
+- WIFI - Wifi is available for free
+
+
+### Outlet Amenities
+
+The following are available outlet amenities (more will be added soon):
+- POOL - Pool side
+- DRY - No alocohol is served
+
+### Cusine Codes
+
+We have 10 possible cuisine codes (more will be added soon):
+- IND - Indian
+- CHN - Chinese
+- LEB - Lebanese
+- INT - International
 
 ### Services
 
