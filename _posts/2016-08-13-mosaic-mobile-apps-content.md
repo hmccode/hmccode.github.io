@@ -450,18 +450,21 @@ To create orphaned outlets, please follow the example below and note the followi
 ### Hotel Amenities
 
 The following are available hotel amenities (more will be added soon):
+
 - WIFI - Wifi is available for free
 
 
 ### Outlet Amenities
 
 The following are available outlet amenities (more will be added soon):
+
 - POOL - Pool side
 - DRY - No alocohol is served
 
 ### Cusine Codes
 
 We have 10 possible cuisine codes (more will be added soon):
+
 - IND - Indian
 - CHN - Chinese
 - LEB - Lebanese
