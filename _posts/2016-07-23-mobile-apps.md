@@ -20,6 +20,7 @@ A list of all Mobile Apps in stores and currently under development. The apps li
     - [Premium Club ME](#premium-club-me)
     - [Gourmet Club](#gourmet-club)
     - [Oro Verde](#oro-verde)
+    - [Dusit Privilege](#dusit-privilege)
   - [Under Development](#under-development)
     - [Premium Club Asia](#premium-club-asia)
     - [My Mazaya](#my-mazaya)
@@ -31,7 +32,6 @@ A list of all Mobile Apps in stores and currently under development. The apps li
     - [Be Sortis](#be-sortis)
     - [Edge Lifestyle](#edge-lifestyle)
     - [MP Elite Manila](#mp-elite-manila)
-    - [Dusit Privilege](#dusit-privilege)
   - [New Ideas](#new-ideas)
     - [Member Centric App](#member-centric-app)
 
@@ -77,6 +77,13 @@ A list of all Mobile Apps in stores and currently under development. The apps li
 * iOS: <https://itunes.apple.com/us/app/pasaporte-gourmet-oro-verde/id1156897427?ls=1&mt=8>
 * Android: <https://play.google.com/store/apps/details?id=com.hmc.mobileapps.mosaic.oroverde>
 
+#### Dusit Privilege
+
+_Status: Available for testing_
+
+* iOS: <https://itunes.apple.com/us/app/dusit-privilege/id1182913675?ls=1&mt=8>
+* Android: <https://play.google.com/store/apps/details?id=com.hmc.mobileapps.mosaic.dusitthani>
+
 ## Under Development
 
 To test apps under development for iOS requires TestFlight to be installed on your iOS device, incase you haven't received your test-flight invitation send us a request email with your email address.
@@ -111,7 +118,7 @@ _Status: Pending Approval_
 * iOS: [Request Invite](mailto:ios@clubhotel.com?subject=Invitation for Caravelle&body=Please send an invite @)
 * Test activation
   - Mobile Number: 5551414
-  - Activation Code: KEGM9
+  - Activation Code: Q2YCC
 
 
 #### One Farrer
@@ -122,7 +129,7 @@ _Status: Available for testing_
 * iOS: [Request Invite](mailto:ios@clubhotel.com?subject=Invitation for OneFarrer&body=Please send an invite @)
 * Test activation
   - Mobile Number: 5551414
-  - Activation Code: KEGM9
+  - Activation Code: 6316H
 
 
 #### Oro Verde No Login
@@ -144,7 +151,7 @@ _Status: Available for testing_
 * iOS: [Request Invite](mailto:ios@clubhotel.com?subject=Invitation for KhaiSilk&body=Please send an invite @)
 * Test activation
   - Mobile Number: 5551414
-  - Activation Code: KEGM9
+  - Activation Code: ZN7GE
   
 
 #### Avani
@@ -155,7 +162,7 @@ _Status: Available for testing_
 * iOS: [Request Invite](mailto:ios@clubhotel.com?subject=Invitation for Avani&body=Please send an invite @)
 * Test activation
   - Mobile Number: 5551414
-  - Activation Code: KEGM9
+  - Activation Code: 8DU3F
   
 
 #### Be Sortis
@@ -177,7 +184,7 @@ _Status: Available for testing_
 * iOS: [Request Invite](mailto:ios@clubhotel.com?subject=Invitation for Edge Lifestyle&body=Please send an invite @)
 * Test activation
   - Mobile Number: 5551414
-  - Activation Code: KEGM9
+  - Activation Code: UOJO8
   
 #### MP ELite Manila
 
@@ -187,17 +194,7 @@ _Status: Available for testing_
 * iOS: [Request Invite](mailto:ios@clubhotel.com?subject=Invitation for MP Elite Manila&body=Please send an invite @)
 * Test activation
   - Mobile Number: 5551414
-  - Activation Code: KEGM9
-
-#### Dusit Privilege
-
-_Status: Available for testing_
-
-* Android: <https://www.dropbox.com/s/0j00ucnt5nrxj4p/dusitthani-debug.apk?dl=0>
-* iOS: [Request Invite](mailto:ios@clubhotel.com?subject=Invitation for Dusit&body=Please send an invite @)
-* Test activation
-  - Mobile Number: 5551414
-  - Activation Code: KEGM9
+  - Activation Code: H47GS
 
 ## New Ideas
 
