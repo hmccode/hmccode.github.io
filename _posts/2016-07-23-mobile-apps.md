@@ -21,6 +21,7 @@ A list of all Mobile Apps in stores and currently under development. The apps li
     - [Gourmet Club](#gourmet-club)
     - [Oro Verde](#oro-verde)
     - [Dusit Privilege](#dusit-privilege)
+    - [Avani](#avani)
   - [Under Development](#under-development)
     - [Premium Club Asia](#premium-club-asia)
     - [My Mazaya](#my-mazaya)
@@ -28,7 +29,6 @@ A list of all Mobile Apps in stores and currently under development. The apps li
     - [One Farrer](#one-farrer)
     - [Oro Verde No Login](#oro-verde-no-login)
     - [Khaisilk](#khaisilk)
-    - [Avani](#Avani)
     - [Be Sortis](#be-sortis)
     - [Edge Lifestyle](#edge-lifestyle)
     - [MP Elite Manila](#mp-elite-manila)
@@ -83,6 +83,14 @@ _Status: Available for testing_
 
 * iOS: <https://itunes.apple.com/us/app/dusit-privilege/id1182913675?ls=1&mt=8>
 * Android: <https://play.google.com/store/apps/details?id=com.hmc.mobileapps.mosaic.dusitthani>
+
+#### Avani
+
+_Status: Available for testing_
+
+* iOS: <https://itunes.apple.com/us/app/golden-palm-tree-premium-club/id1180334459?ls=1&mt=8>
+* Android: <https://play.google.com/store/apps/details?id=com.hmc.mobileapps.mosaic.avani>
+
 
 ## Under Development
 
@@ -152,18 +160,7 @@ _Status: Available for testing_
 * Test activation
   - Mobile Number: 5551414
   - Activation Code: ZN7GE
-  
-
-#### Avani
-
-_Status: Available for testing_
-
-* Android: <https://www.dropbox.com/s/9hu6syjmoj9uoo0/avani-debug.apk?dl=0>
-* iOS: [Request Invite](mailto:ios@clubhotel.com?subject=Invitation for Avani&body=Please send an invite @)
-* Test activation
-  - Mobile Number: 5551414
-  - Activation Code: 8DU3F
-  
+    
 
 #### Be Sortis
 
