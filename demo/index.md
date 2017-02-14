@@ -3,4 +3,6 @@ layout: single
 title: HMC Mobile Demo
 ---
 
-# HMC Mobile App Demonstration
+## Marriott Southbeach Awesome
+
+Please note that following features in the app
