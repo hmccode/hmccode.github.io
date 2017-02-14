@@ -2,4 +2,5 @@
 layout: single
 title: HMC Mobile Demo
 ---
-<h1>HMC Mobile App Demonstration</h1>
+
+# HMC Mobile App Demonstration
