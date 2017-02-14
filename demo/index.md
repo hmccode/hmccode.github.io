@@ -15,4 +15,5 @@ title: HMC Mobile Demo
 - Everything else matches the current apps.
 - There is an important feature demoed here which is to allow members to invite other members. Currently that form is available inside the `My Account` page. But it can be surfaced up if need be. Also...if running in a real device, the app will show the contacts available in the app which allows members to select friends to send invitations to.
 - Unfortunately we cannot yet demo an invitee signing in to the app! But the app will have some sort of watermark to indicate an `invitee` mode, allow only 2-3 discount codes be revealed and an expiration date of a week. 
-
+- The `Program Performance Report` shown on this site is also work in progress. We are working to make this much better. But the main idea is that we are bringing all the data related to program performance in this report.
+- While not obvious, please note that `Program Performance Report` actually has 6 pages! So make sure you navigate through them all by clicking the page indicator at the bottom of the report. 
