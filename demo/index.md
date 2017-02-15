@@ -3,9 +3,9 @@ layout: single
 title: HMC Mobile Demo
 ---
 
-## Marriott Southbeach Awesome
+## Marriott South Beach Elite
 
-- The app name can be changed! We are using `Southbeach Awesome` for demo purposes. 
+- The app name can be changed! We are using `South Beach Elite` for demo purposes. 
 - This is work in progress! Not all pages are working....in fact, hotel detail, outlet detail, voucher detail, settings and contact US are all not working right now.
 - This app works in three modes:
 	- Brochure-ware mode: allows potential members to browse through the hotels, outlets, offers and benefits. They may request to join by filling out a form. Eventually we can make it go directly to the companion site to purchase online.
