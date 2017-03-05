@@ -3,11 +3,17 @@
 var reports = {
 	"mymazaya":"",
 	"pcasia":"",
+  "caravelle":"",
+  "mpemanila":"",
+  "besortis":"",
+  "khaisilk":"",
+  "onefarrer":"",
+  "edgelife":"",
 	"marriott":"https://app.powerbi.com/view?r=eyJrIjoiNzUyZjdjZTktNmIxYS00MWYyLTllNTItNmM0MDdmZmMzZjc3IiwidCI6IjkxYmU4MWE0LWY5MGUtNGIxMy1hYTBlLWU3MWQyYmYzMDBiZSIsImMiOjZ9";
 	
-	if(localtion.href.indexOf('mymazaya')>0) location.href = reports.mymazaya;
-	if(localtion.href.indexOf('pcasia')>0) location.href = reports.pcasia;
-	if(localtion.href.indexOf('marriott')>0) location.href = reports.marriott;
+  var p = location.search.replace('?','');
+  
+	location.href = reports[p];
 }
 
 </script>
