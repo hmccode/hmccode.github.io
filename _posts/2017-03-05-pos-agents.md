@@ -24,11 +24,11 @@ The new POS agents implement an offline manager that auto-switches the POS agent
 
 HTTP errors happen when there is a problem with Internet connections from the POS agents to the back-end server. Pulse is a new signal we are sending from the POS agents to the back-end system to report status and to determine the back-end health, specifically whether Oracle is down or up.
 
-If a POS Agent is switched to offline mode, all transactions are honored! However, the tracking transactions are stored locally so they can auto-uploaded at certain interval (see below). The POS agent will switch back to Online mode when a new Pulse signal determines that the back-end system is healthy.
+If a POS Agent is switched to offline mode, all transactions are honored! However, the tracking transactions are stored locally so they can be auto-uploaded at certain interval (see below). The POS agent will switch back to Online mode when a new Pulse signal determines that the back-end system is healthy again.
 
 ## Auto-upload offline transaction records
 
-As mentioned, in offline mode, all transactions are honored! However, the tracking transactions are stored locally in the POS agents. The POS agents employ a new scheduler that auto-uploads all locally-stored tracking transactions to the server. This relieves IT managers from having to do this step manually. The POS Agents user interface still allows a manual invocation of the upload process if desired. 
+As mentioned, in offline mode, all transactions are honored! However, the tracking transactions are stored locally in the POS agents. The POS agents employ a new scheduler that auto-uploads all locally-stored tracking transactions to the server. This relieves IT managers from having to do this step manually. Please note, however, that the POS Agents user interface still allows a manual invocation of the upload process if desired. 
 
 ## User Interface changes to reflect online and offline modes
 
@@ -38,7 +38,7 @@ When POS Agents switch to offline mode, the user interface reflects this new sta
 
 New settings were added to better control the above new features:
 
-- Program - pre-populated upon activation from the server. But it can be overridden if need be. This refers to the Mosaic program (i.e. CircleM) in which this installation is part of.
+- Program - pre-populated upon activation from the server. But it can be overridden if need be. This refers to the Mosaic program (i.e. CircleM) in which the POS agent is part of.
 - Pulse Timer In Minutes - the number of minutes between successive pule signals. 
 - Offline Process In Minutes - the number of minutes between successive offline process which will upload locally-stored tracking transactions to the server in a background thread. 
 
@@ -46,7 +46,7 @@ Here is a settings file sample:
 
 ```
 {
-  "PosActivationCode": "kWtBD77g9v4NaVZjDMDdA0Mf7xLVIGAK52TvfNMqjcFvjCws5PWYI3nn1FufbosnxnW+ol1Mlg148BecuEKDRL506rU2LGgrvYamXdlIyL8YI6YamC2c17Ky1JRiT9Wk",
+  "PosActivationCode": "your-own",
   "PosType": 1,
   "Program": "TEST",
   "Hotel": "Default Hotel",
@@ -77,5 +77,5 @@ Here is a settings file sample:
 }
 ```
 
-To try out the new features, please use this bits here and make sure you are pointing our test agent to [https://mosaic-web-api-dev.azurewebsites.net](https://mosaic-web-api-dev.azurewebsites.net). Let us know if any problem.
+To try out the new features, please use this bits [here](https://www.dropbox.com/s/mqtdpxzo8rsiknp/POSAgentsV3.zip?dl=0) and make sure you are pointing our test agent to [https://mosaic-web-api-dev.azurewebsites.net](https://mosaic-web-api-dev.azurewebsites.net). Let us know if any problem.
 
