@@ -103,13 +103,13 @@ The digital memberships collection stores all the details about a specific membe
 
 The digital programs collection stores the program content for apps and sites and the dynamic voucher redemption policies. The redemption policies state, per voucher type i.e. Food, Room, spa, etc, how the redemption processor is supposed to behave. For example, it is possible to define a redemption policy that applies to room vouchers only and restricts out-of-network vouchers to one per hotel.   
 
-## Control Schedulers
+## Scheduled or manual control APIs
 
-There are several control schedulers that must be invoked to keep the system healthy:
+There are several control APIs that can be invoked to keep the system healthy:
 
-- Refresh Digital Membership - invoked to force refresh a digital membership identified by program and activation code.
-- Update Digital Memberships - in addition to the refresh process. This scheduler monitors the digital memberships that changed at the server and forces a refresh.
-- Import Digital Memberships - Invoked to import digital memberships per month/year or for the past n months
-- Process queued-up Oracle Requests - in order to make the system less reliant on Oracle, we now enqueue Oracle requests an play them against Oracle when this scheduler runs. 
-- Update Oracle Health System - invoked to determine Oracle health status. The status is maintained in the database so that the POS agents pulse signals can determine whether Oracle is up or down. If down, the POS agents will switch to offline mode.
+- Refresh Digital Membership - invoked to force refresh a digital membership identified by program and activation code. Planned Interval: Manual.
+- Update Digital Memberships - in addition to the refresh process, this scheduler monitors the digital memberships that changed at the server and forces a refresh. Planned Interval: 1 hour.
+- Import Digital Memberships - Invoked to import digital memberships per month/year or for the past n months. Planned Interval: Manual.
+- Process queued-up Oracle Requests - in order to make the system less reliant on Oracle, we now enqueue Oracle requests an play them against Oracle when this scheduler runs. Planned Interval: 15 minutes.
+- Update Oracle Health System - invoked to determine Oracle health status. The status is maintained in the database so that the POS agents pulse signals can determine whether Oracle is up or down. If down, the POS agents will switch to offline mode. Planned Interval: 5 minutes.
 
