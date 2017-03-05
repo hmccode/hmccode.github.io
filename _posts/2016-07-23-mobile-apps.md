@@ -9,7 +9,9 @@ tags: Mobile-Apps Links
 featured_image: /images/cover.jpg
 ---
 
-A list of all Mobile Apps in stores and currently under development. The apps listed here are for those being developed on the new framework.
+A list of all Mobile Apps in stores and currently under development. The apps listed here are for those being developed on the new framework. 
+
+*All apps that are in preview can be exercised here: [https://mosaic-web-spa-demo.azurewebsites.net/](https://mosaic-web-spa-demo.azurewebsites.net/)*
 
 ### Products
 
