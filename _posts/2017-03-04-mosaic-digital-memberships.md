@@ -9,7 +9,7 @@ tags: Mosaic Digital Membership
 featured_image: /images/cover.jpg
 ---
 
-Digital Memberships refer to the memberships that are delivered to the members via the app. Right now, there is a small percentage of our active memberships are considered digital, this is expected to change soon with the advent of many mobile apps in so many programs. 
+Digital Memberships refer to the memberships that are delivered to the members via the app. Right now, there is a small percentage of our active memberships considered digital, this is expected to change soon with the advent of many mobile apps in so many programs. 
 
 Digital Memberships support 3 modes of operation for the mobile app:
 
@@ -38,7 +38,7 @@ As depicted, the refresh processor:
 - runs in the background as a separate process. 
 - is triggered when a mobile device is either logged in or registered. 
 - can also be triggered manually to force a refresh.
-- can also be triggered by an import of existing mobile devices so they can registered and refreshed. 
+- can also be triggered by an import of existing mobile devices so they can be registered and refreshed. 
 - pulls data from Oracle and the Engage server and updates the DocumentDB and the Search Service.
 
 Having the digital membership readily available in a JSON format in the Document DB allows for much greater scalability and faster response time. The JSON-based digital membership contains the following salient information:
@@ -50,6 +50,8 @@ Having the digital membership readily available in a JSON format in the Document
 - Reservation Transactions - lists the membership reservation transactions in the last 12 months.
 - Membership transactions lists all membership-bound transactions such as purchase, renewal, fulfillment, etc.
 - Dynamic Vouchers - lists the membership eligible dynamic vouchers (and their expiration).
+- Static Vouchers - lists the membership eligible static vouchers (and their expiration).
+- Offers - lists the membership eligible offers.
 - Discount Codes - lists all the discount codes that are availed for this membership and their consumption date.
 - Invitees - lists all the persons that the member has invited to join the program. Usually there is an associated voucher (i.e. referral type) associated with each program that will be added to the member if any invitee actually joined the program. 
 - Notifications - lists all the notification messages (whether push, SMS or Email) that were communicated to the member. Mainly this is used for renewal reminders.
@@ -68,6 +70,8 @@ There are 3 clients that indirectly use the Digital Service functionality:
 	- Invite Friends
 	- Generate Discount Code
 	- Retrieve Dynamic Vouchers
+	- Retrieve Static Vouchers
+	- Retrieve Offers
 	- Generate Pin to allow customer support reps to impersonate members
 - POS Agents
 	- Validate Memberships
@@ -99,7 +103,7 @@ It is a NO-SQL database that has two main collections:
 - Digital Memberships
 - Digital Programs
 
-The digital memberships collection stores all the details about a specific membership and is partitioned by program. 
+The digital memberships collection stores all the details about memberships and the collection is partitioned by program for faster access. 
 
 The digital programs collection stores the program content for apps and sites and the dynamic voucher redemption policies. The redemption policies state, per voucher type i.e. Food, Room, spa, etc, how the redemption processor is supposed to behave. For example, it is possible to define a redemption policy that applies to room vouchers only and restricts out-of-network vouchers to one per hotel.   
 
