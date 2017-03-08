@@ -77,5 +77,5 @@ Here is a settings file sample:
 }
 ```
 
-To try out the new features, please use this bits [here](https://www.dropbox.com/s/mqtdpxzo8rsiknp/POSAgentsV3.zip?dl=0) and make sure you are pointing our test agent to [https://mosaic-web-api-dev.azurewebsites.net](https://mosaic-web-api-dev.azurewebsites.net). Let us know if any problem.
+To try out the new features, please use this bits [here](https://www.dropbox.com/s/x3z434i06d8m1c8/POSAgentsV3.zip?dl=0) and make sure you are pointing our test agent to [https://mosaic-web-api-dev.azurewebsites.net](https://mosaic-web-api-dev.azurewebsites.net). Let us know if any problem.
 
