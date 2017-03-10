@@ -41,6 +41,8 @@ New settings were added to better control the above new features:
 - Program - pre-populated upon activation from the server. But it can be overridden if need be. This refers to the Mosaic program (i.e. CircleM) in which the POS agent is part of.
 - Pulse Timer In Minutes - the number of minutes between successive pule signals. 
 - Offline Process In Minutes - the number of minutes between successive offline process which will upload locally-stored tracking transactions to the server in a background thread. 
+- Is Test button visible - whether we show the test stuff is controlled by this setting.
+- Is Upload button visible - whether we show the upload offline stuff is controlled by this setting.
 
 Here is a settings file sample:
 
@@ -65,6 +67,8 @@ Here is a settings file sample:
   "ServiceChargePercentage": 0.0,
   "Outlets": [],
   "MaxCovers": 12,
+  "IsTestButtonVisible": false,
+  "IsOfflineUploadButtonVisible": false,
   "ApiUrl": "https://mosaic-web-api-dev.azurewebsites.net",
   "ApiVersionHeader": "X-API-VERSION",
   "ApiVersion": "2",
@@ -77,5 +81,5 @@ Here is a settings file sample:
 }
 ```
 
-To try out the new features, please use this bits [here](https://www.dropbox.com/s/x3z434i06d8m1c8/POSAgentsV3.zip?dl=0) and make sure you are pointing our test agent to [https://mosaic-web-api-dev.azurewebsites.net](https://mosaic-web-api-dev.azurewebsites.net). Let us know if any problem.
+To try out the new features, please use this bits [here](https://www.dropbox.com/s/2cezmlpkcsvcjh3/POSAgent.zip?dl=0) and make sure you are pointing our test agent to [https://mosaic-web-api-dev.azurewebsites.net](https://mosaic-web-api-dev.azurewebsites.net). Let us know if any problem.
 
