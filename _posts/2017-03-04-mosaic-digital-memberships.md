@@ -60,6 +60,8 @@ Having the digital membership readily available in a JSON format in the Document
 - Pins - lists all the pins that were issued by the member to unlock his/her membership to a customer service agent so they can impersonate the member. 
 - Counters - such as tracking transactions counter, reservation counter, food and beverage spend and room spend. 
 
+*All digital membership refresh requests are persisted to the database in `Core.DigitalMembershipRefresh` so we can tack the program and membership codes that are being refreshed and the refresh duration.
+*
 Similarly digital programs are pre-calculated entities that are constantly kept up-to-date by a refresh processor that knows where to pull data from. The digital memberships themselves are stored in a scalable Document DB database that can span multiple regions. Having the digital program readily available in a JSON format in the Document DB allows for much greater scalability and faster response time. The JSON-based digital program contains the following salient information:
 
 - Meta data such as ids, last update and last refresh.
@@ -75,6 +77,9 @@ Similarly digital programs are pre-calculated entities that are constantly kept 
 - SMS Campaigns, their targets and their status
 - Devices
 - Sales per the different packages
+
+*All digital programs refresh requests are persisted to the database in `Core.DigitalProgramRefresh` so we can tack the programs that are being refreshed and the refresh duration.
+*
 
 ## Digital Service
 
