@@ -39,7 +39,7 @@ When POS Agents switch to offline mode, the user interface reflects this new sta
 New settings were added to better control the above new features:
 
 - Program - pre-populated upon activation from the server. But it can be overridden if need be. This refers to the Mosaic program (i.e. CircleM) in which the POS agent is part of.
-- Pulse Timer In Minutes - the number of minutes between successive pule signals. 
+- Pulse Timer In Minutes - the number of minutes between successive pule signals. The default is 5 minutes! This means that the agent will pulse the server every 5 minutes to determine if the connection is restored. 
 - Offline Process In Minutes - the number of minutes between successive offline process which will upload locally-stored tracking transactions to the server in a background thread. 
 - Is Test button visible - whether we show the test stuff is controlled by this setting.
 - Is Upload button visible - whether we show the upload offline stuff is controlled by this setting.
@@ -50,8 +50,8 @@ Here is a settings file sample:
 {
   "PosActivationCode": "your-own",
   "PosType": 1,
-  "Program": "TEST",
-  "Hotel": "Default Hotel",
+  "Program": "CircleM",
+  "Hotel": "Some CircleM Hotel",
   "HotelId": 1,
   "NativeCurrency": "",
   "EmailAddress": "",
@@ -75,11 +75,11 @@ Here is a settings file sample:
   "NetworkRetryCounter": 3,
   "NetworkRetryIntervalInSeconds": 1,
   "LoggerRollOverSize": 50000,
-  "MaxLocalTransactions": 100,
+  "MaxLocalTransactions": 500,
   "PulseTimerInMinutes": 5,
   "OfflineProcessorInMinutes": 60
 }
 ```
 
-To try out the new features, please use this bits [here](https://www.dropbox.com/s/2cezmlpkcsvcjh3/POSAgent.zip?dl=0) and make sure you are pointing our test agent to [https://mosaic-web-api-dev.azurewebsites.net](https://mosaic-web-api-dev.azurewebsites.net). Let us know if any problem.
+To try out the new features, please use this bits [here](https://www.dropbox.com/s/vmfr97sm7xcc9qr/POSAgent.zip?dl=0) and make sure you are pointing our test agent to [https://mosaic-web-api-dev.azurewebsites.net](https://mosaic-web-api-dev.azurewebsites.net). Let us know if any problem.
 
