@@ -62,7 +62,7 @@ Having the digital membership readily available in a JSON format in the Document
 
 *All digital membership refresh requests are persisted to the database in `Core.DigitalMembershipRefresh` so we can tack the program and membership codes that are being refreshed and the refresh duration.
 *
-Similarly digital programs are pre-calculated entities that are constantly kept up-to-date by a refresh processor that knows where to pull data from. The digital memberships themselves are stored in a scalable Document DB database that can span multiple regions. Having the digital program readily available in a JSON format in the Document DB allows for much greater scalability and faster response time. The JSON-based digital program contains the following salient information:
+Similarly digital programs are pre-calculated entities that are constantly kept up-to-date by a refresh processor that knows where to pull data from. The digital programs themselves are stored in a scalable Document DB database that can span multiple regions. Having the digital program readily available in a JSON format in the Document DB allows for much greater scalability and faster response time. The JSON-based digital program contains the following salient information:
 
 - Meta data such as ids, last update and last refresh.
 - Content per content type i.e. app or site
@@ -110,7 +110,7 @@ There are 3 clients that indirectly use the Digital Service functionality:
 
 The digital service attempts to minimize dependency on Oracle as much as possible:
 
-- The Mobile Apps controller processes the `login`', `register device`, `invite friends`, `generate discount codes`, `generate pin code`, `retrieve static vouchers`, `retrieve dynamic vouchers` and `retrieve offers` directly against the digital membership. This will the API to scale much better and keep the digital membership refreshed. 
+- The Mobile Apps controller processes the `login`', `register device`, `invite friends`, `generate discount codes`, `generate pin code`, `retrieve static vouchers`, `retrieve dynamic vouchers` and `retrieve offers` directly against the digital membership. This will make the API to scale much better and keep the digital membership refreshed. 
 - The POS Agents and the back office controllers look up the digital membership. If found, they process the requests (validation, redemption, un-redemption and tracking) against the digital membership directly. If not found, they will run the requests against Oracle directly as it used to do. 
 
 ### Oracle Requests
