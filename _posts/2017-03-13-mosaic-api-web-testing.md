@@ -33,4 +33,4 @@ The different methods reported different average duration:
 
 ![PowerBI different methods](http://i.imgur.com/b1MZSqC.png)
 
-The ability to dynamically deploy web tests in different regions and collect results in real-time is a great way to test whether the system is up for production run or not. 
+The ability to dynamically deploy web tests in different regions, collect results in real-time and tear them down using PowerShell script is a great way to conduct regression tests before the system is deployed to production. 
