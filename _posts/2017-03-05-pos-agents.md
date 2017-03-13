@@ -81,5 +81,40 @@ Here is a settings file sample:
 }
 ```
 
+## Easier testing
+
+To test from within the POS Agents, all you have to do is copy 3 files over to the settings directory (where the settings.json file exists):
+
+- memberships.txt - contains the membership numbers to be included in the test
+- vouchers.txt - contains the voucher codes to be included in the test
+- scenarios.txt - contains the scenarios procesor to run the test
+
+Here is a sample of each:
+
+#### memberships.txt:
+
+This sample includes a single activation code, card number or discount code:
+
+```
+Cgycx
+```
+
+#### vouchers.txt:
+
+This sample includes a single voucher code:
+
+```
+TXOFJ
+```
+
+#### scenarios.txt:
+
+This sample includes two iterations: the first line runs 20 tracking transactions test and the second one runs a single membership validation
+
+```
+T20
+M1
+```
+
 To try out the new features, please use this bits [here](https://www.dropbox.com/s/vmfr97sm7xcc9qr/POSAgent.zip?dl=0) and make sure you are pointing our test agent to [https://mosaic-web-api-dev.azurewebsites.net](https://mosaic-web-api-dev.azurewebsites.net). Let us know if any problem.
 
