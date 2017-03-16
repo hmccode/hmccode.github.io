@@ -116,5 +116,5 @@ T20
 M1
 ```
 
-To try out the new features, please use this bits [here](https://www.dropbox.com/s/vmfr97sm7xcc9qr/POSAgent.zip?dl=0) and make sure you are pointing the test agent to [https://mosaic-web-api-dev.azurewebsites.net](https://mosaic-web-api-dev.azurewebsites.net). Let us know if any problem.
+To try out the new features, please use this bits [here](https://www.dropbox.com/s/ojniryjr1n6giki/POSAgent.zip?dl=0) and make sure you are pointing the test agent to [https://mosaic-web-api-dev.azurewebsites.net](https://mosaic-web-api-dev.azurewebsites.net). Let us know if any problem.
 
