@@ -177,7 +177,7 @@ A collection of SMS stat charts to convey the effectiveness of our SMS notificat
 
 ### Canned Reports
 
-A collection of program-bound pre-built reports for different purposes. Reports are available in PDF, CSV and Excel. You can read more about canned reports [here](http://hmccode.github.io/2017-03-31/canned-reports-processing);
+A collection of program-bound pre-built reports for different purposes. Reports are available in PDF, CSV and Excel. You can read more about canned reports [here](http://hmccode.github.io/2017-03-31/canned-reports-processing).
 
 <TBA - canned reports>
 

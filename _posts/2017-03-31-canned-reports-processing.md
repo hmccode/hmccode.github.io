@@ -13,19 +13,7 @@ In an effort to reduce customer-facing reports from being subjected to Oracle av
 
 The canned reports will appear in our new customer-facing product `HMC Engage` which will have customized theming based on the different programs that we make available in `Engage`. 
 
-Similar to how `Engage` approaches things, canned reports are `program` based! This means that the canned reports content is based on the program hotel group ids and therefore it encompasses the different hotels, outlets, call centers, app companion ecommerce site, in-house portal and mobile app that are within this program. We truly think this is the most logical way of structuring our `value` delivery to our clients. The following are some examples of programs:
-
-- CircleM - the entire CircleM program
-- CH - the entire Clubhotel program
-- CHME - the Clubhotel program for the Middle East
-- CHME-UAE - the Clubhotel program for the UAE
-- OROVERDE - the entire OroVerde 
-- PCASIA - the entire PCASIA program
-- PCASIA-CH - the PCASIA program for China program
-
-With this extreme flexibility on how we can create programs, every scenario should be supported. Our customers can choose to monitor programs from a very high level, monitor an individual country or even individual hotels (discouraged). The HMC Engage program will auto-adjust and self-refresh to accommodate the different programs.
-
-Canned reports is a section within each program. Each canned report has some meta data associated with it such as ID, name, description, etc. But more importantly, it has the different runs that are associated with report. Report runs have the following information:
+Similar to how `Engage` [approaches things](http://hmccode.github.io/2017-03-31/introducing-hmc-engage), canned reports are also `program` based! Canned reports is a section within each program. Each canned report has some meta data associated with it such as ID, name, description, etc. But more importantly, it has the different runs that are associated with report. Report runs have the following information:
 
 - Run Date
 - Report ID
