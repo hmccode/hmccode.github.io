@@ -177,11 +177,11 @@ A collection of SMS stat charts to convey the effectiveness of our SMS notificat
 
 ### Canned Reports
 
-A collection of program-bound pre-built reports for different purposes. Reports are available in PDF, CSV and Excel.
+A collection of program-bound pre-built reports for different purposes. Reports are available in PDF, CSV and Excel. You can read more about canned reports [here](http://hmccode.github.io/2017-03-31/canned-reports-processing);
 
 <TBA - canned reports>
 
 ## Transactional Requests
 
-Since most of the data points in `HMC Engage` are aggregated per a period, the platform allows users to request the actual transactions that make up these aggregations. The transactions reports will be delivered via Email to the requestor's email address. 
+Since most of the data points in `HMC Engage` are aggregated per a period, the platform allows users to request the actual transactions that make up these aggregations. The transactions reports will be delivered via Email to the requestor's email address. Users will be able to make requests from `Engage` and they will be able to monitor them as well. Due to the sensitive nature of the transactional listing, all requests are subject to approval. 
   

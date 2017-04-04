@@ -41,4 +41,4 @@ The main idea behind canned reports is that each has a peer processor associated
 
 ![Canned Report Processor](http://i.imgur.com/Gql8FOP.png)
   
-The peer processor is aware of the refresh rate, the reports server from which to retrieve the report, the supported periods, etc. Peer processors are pieces of code that need to be written by developers. 
+The peer processor is aware of the refresh rate, the reports server from which to retrieve the report, the supported periods, etc. Peer processors are pieces of code that need to be written by developers while the actual reports will continue to be written by data analysts.  
