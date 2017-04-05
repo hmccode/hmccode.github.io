@@ -23,7 +23,7 @@ featured_image: /images/cover.jpg
 
 With this extreme flexibility on how we can conjure up programs, every scenario should be supported. Our customers can choose to monitor programs from a very high level i.e CH, monitor an individual country i.e. CHME-UAE or even individual hotel (discouraged). The HMC Engage platform will auto-adjust and self-refresh to accommodate the different programs and cater to theor specific requirement.
 
-<TBA - perhaps something to show programs are made up>
+![Program Structure](https://mosaicapi.blob.core.windows.net/images/a4ddb9ab-0bfc-4b26-a6d4-ba092b94136c.png)
 
 ## Tabs
 
@@ -43,11 +43,11 @@ Each user session has a home tab that cannot be dismissed. This home tab acts as
 
 Since `HMC Engage` is targeted for our hotel clients and internal employees, it provides dynamic themeing based on the URL. So if the user has access to https://www.hmcengage.com, then the user sees the default product theme:
 
-<TBA - default theme>
+![Default Theming](https://mosaicapi.blob.core.windows.net/images/0a6b5214-1add-401e-b280-e5b02475684c.png)
 
 If a client hotel has access to their program customized URL i.e. https://circlem.hmcmosaic.com, then the user sees a customized product theme:
 
-<TBA - circle theme>
+![CircleM Theming](https://mosaicapi.blob.core.windows.net/images/85c913e5-e436-4021-8ac0-18907033ae6a.png)
 
 ## Data Points
 
