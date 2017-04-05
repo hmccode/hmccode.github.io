@@ -683,8 +683,8 @@ The store content requires the following properties:
 
 - Banner Image Url: PNG 1024x500
 - Language bound properties (the following properties are language specific and should be available for each desired language):
-	- Summary: a language specific summary
-	- Description: a language specific summary
+	- Summary: a language specific summary. This cannot exceed 80 characters.
+	- Description: a language specific description. This cannot exceed 4000 characters.
 	- Privacy Policy URL: a URL to point to the language-specific privacy policy page usually on the eCommerce sites
 	- Support URL: a URL to point to the language-specific support page usually on the eCommerce sites
 	- Site URL: a URL to point to the language-specific site main page usually on the eCommerce sites
