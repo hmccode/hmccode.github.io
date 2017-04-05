@@ -19,9 +19,9 @@ featured_image: /images/cover.jpg
 - CHME-UAE - the Clubhotel program for the UAE
 - OROVERDE - the entire OroVerde program
 - PCASIA - the entire PCASIA program
-- PCASIA-CH - the PCASIA program for China program
+- PCASIA-CHN - the PCASIA program for China program
 
-With this extreme flexibility on how we can conjure up programs, every scenario should be supported. Our customers can choose to monitor programs from a very high level i.e CH, monitor an individual country i.e. CHME-UAE or even individual hotel (discouraged). The HMC Engage platform will auto-adjust and self-refresh to accommodate the different programs and cater to theor specific requirement.
+With this extreme flexibility on how we can conjure up programs, every scenario should be supported. Our customers can choose to monitor programs from a very high level i.e CH, monitor an individual country i.e. CHME-UAE or even individual hotel (discouraged). The HMC Engage platform will auto-adjust and self-refresh to accommodate the different programs and cater to their specific requirement. This is an example of Clubhotel parent and child programs: 
 
 ![Program Structure](https://mosaicapi.blob.core.windows.net/images/a4ddb9ab-0bfc-4b26-a6d4-ba092b94136c.png)
 
