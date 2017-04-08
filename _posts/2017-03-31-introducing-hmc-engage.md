@@ -43,11 +43,11 @@ Each user session has a home tab that cannot be dismissed. This home tab acts as
 
 Since `HMC Engage` is targeted for our hotel clients and internal employees, it provides dynamic themeing based on the URL. So if the user has access to https://www.hmcengage.com, then the user sees the default product theme:
 
-![Default Theming](https://mosaicapi.blob.core.windows.net/images/0a6b5214-1add-401e-b280-e5b02475684c.png)
+![Default Theme]({{ site.url }}/images/login.png)
 
 If a client hotel has access to their program customized URL i.e. https://circlem.hmcmosaic.com, then the user sees a customized product theme:
 
-![CircleM Theming](https://mosaicapi.blob.core.windows.net/images/85c913e5-e436-4021-8ac0-18907033ae6a.png)
+![Program Theme]({{ site.url }}/images/login2.png)
 
 ## Data Points
 
@@ -120,7 +120,7 @@ A drillable list that shows all program-bound tracking transactions aggregated p
 
 A drillable list that shows all program-bound reservation transactions aggregated per month. The list can be further grouped by country and hotel.
 
-<TBA - reservation history>
+![ResRep]({{ site.url }}/images/resrep.png)
 
 ### Static Voucher Redemptions History
 
@@ -144,13 +144,13 @@ A drillable list that shows all program-bound sales transactions aggregated per 
 
 A drillable list that shows all program-bound ecommerce sales transactions aggregated per month. The list can be further grouped by country and package item.
 
-<TBA - ecommerce sales history>
+![EcomRep]({{ site.url }}/images/ecomrep.png)
 
 ### In-House Sales History
 
 A drillable list that shows all program-bound in-house sales transactions aggregated per month. The list can be further grouped by country, hotel and user.
 
-<TBA - in-house sales history>
+![InhouseRep]({{ site.url }}/images/inhouserep.png)
 
 ### Renewal Ratios
 
