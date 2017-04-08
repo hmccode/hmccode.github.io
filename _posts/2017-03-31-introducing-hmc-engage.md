@@ -9,7 +9,7 @@ tags: Mosaic Engage CRM
 featured_image: /images/cover.jpg
 ---
 
-## The Platform 
+## The Platform
 
 `HMC Engage` is `program` based! This means that the Engage content is based on the program hotel group ids and therefore it encompasses the different hotels, outlets, call centers, sales, app companion ecommerce site, in-house portal and mobile app that are within this program. We truly think this is the most logical way of structuring our `value` delivery to our clients. The following are some examples of programs:
 
@@ -21,21 +21,21 @@ featured_image: /images/cover.jpg
 - PCASIA - the entire PCASIA program
 - PCASIA-CHN - the PCASIA program for China program
 
-With this extreme flexibility on how we can conjure up programs, every scenario should be supported. Our customers can choose to monitor programs from a very high level i.e CH, monitor an individual country i.e. CHME-UAE or even individual hotel (discouraged). The HMC Engage platform will auto-adjust and self-refresh to accommodate the different programs and cater to their specific requirement. This is an example of Clubhotel parent and child programs: 
+With this extreme flexibility on how we can conjure up programs, every scenario should be supported. Our customers can choose to monitor programs from a very high level i.e CH, monitor an individual country i.e. CHME-UAE or even individual hotel (discouraged). The HMC Engage platform will auto-adjust and self-refresh to accommodate the different programs and cater to their specific requirement. This is an example of Clubhotel parent and child programs:
 
 ![Program Structure](https://mosaicapi.blob.core.windows.net/images/a4ddb9ab-0bfc-4b26-a6d4-ba092b94136c.png)
 
 ## Tabs
 
-In order to maximize the usefulness of `HMC Engage`, the product is built on tabs. Just like a browser, `HMC Engage` allows users to open up different tabs with different content so one can view different things at the same time. Users can open up different instances of the same type...for example, the user can have different memberships search tabs each displaying different results. 
+In order to maximize the usefulness of `HMC Engage`, the product is built on tabs. Just like a browser, `HMC Engage` allows users to open up different tabs with different content so one can view different things at the same time. Users can open up different instances of the same type...for example, the user can have different memberships search tabs each displaying different results.
 
 Each user session has a home tab that cannot be dismissed. This home tab acts as a reference point and a dashboard for the selected program.
 
-<TBA - shows an example of tabs>
+![Tabs]({{ site.url }}/images/tabs.png)
 
 ## Permission Matrix
 
-`HMC Engage` provides a configurable permission matrix to control how `programs` are conveyed to the user. For example, we may be able to turn off the email campaign features on some programs or turn off the ability to export members to CSV. The matrix is extensive and covers all aspects of the platform. Th efollowing is a sample permissions definitions:
+`HMC Engage` provides a configurable permission matrix to control how `programs` are conveyed to the user. For example, we may be able to turn off the email campaign features on some programs or turn off the ability to export members to CSV. The matrix is extensive and covers all aspects of the platform. The following is a sample permissions definitions:
 
 <TBA - permission matrix>
 
@@ -63,33 +63,40 @@ We envision `HMC Engage` to be a go-to product for our hotel clients to monitor 
 - Search based on location
 - Export to CSV
 - Load and save membership queries
-- Create Email, SMS and Push campaigns from within the memberships search tab. 
+- Create Email, SMS and Push campaigns from within the memberships search tab.
 
-<TBA - memberships>
+![Query]({{ site.url }}/images/search.png)
+
+
+![Query Save]({{ site.url }}/images/search2.png)
+
+
+![Query Open]({{ site.url }}/images/openquery.png)
+
 
 ### Offers
 
 A complete Offers management platform which handles creation, targeting and distribution.
 
-<TBA - offers>
+![Offers]({{ site.url }}/images/offers.png)
 
 ### Push Messages
 
 A complete Push Messages management platform which handles creation, targeting and distribution.
-   
-<TBA - push messages>
+
+![Push]({{ site.url }}/images/push.png)
 
 ### Dynamic Vouchers
 
 A complete Dynamic Vouchers management platform which handles creation, targeting and distribution.
-   
+
 <TBA - dynamic vouchers>
 
 ### Email Campaigns
 
 A list that shows all user-created email campaigns with stats about usage: bounces, opens, clicks, etc
 
-<TBA - email campaigns>
+![EmailCamp]({{ site.url }}/images/emailcamp.png)
 
 ### SMS Campaigns
 
@@ -105,49 +112,49 @@ A list that shows all user-created Push campaigns with stats about usage: delive
 
 ### Tracking History
 
-A drillable list that shows all program-bound tracking transactions aggergated per month. The list can be further grouped by country, hotel and outlets.
+A drillable list that shows all program-bound tracking transactions aggregated per month. The list can be further grouped by country, hotel and outlets.
 
-<TBA - tracking history>
+![TrakRep]({{ site.url }}/images/trakrep.png)
 
 ### Reservation History
 
-A drillable list that shows all program-bound reservation transactions aggergated per month. The list can be further grouped by country and hotel.
+A drillable list that shows all program-bound reservation transactions aggregated per month. The list can be further grouped by country and hotel.
 
 <TBA - reservation history>
 
 ### Static Voucher Redemptions History
 
-A drillable list that shows all program-bound redemptions generated from static vocuhers aggergated per month. The list can be further grouped by country, hotel and outlet.
+A drillable list that shows all program-bound redemptions generated from static vouchers aggregated per month. The list can be further grouped by country, hotel and outlet.
 
 <TBA - static voucher redemptions>
 
 ### Dynamic Voucher Redemptions History
 
-A drillable list that shows all program-bound redemptions generated from dynamic vocuhers aggergated per month. The list can be further grouped by country, hotel and outlet.
+A drillable list that shows all program-bound redemptions generated from dynamic vouchers aggregated per month. The list can be further grouped by country, hotel and outlet.
 
 <TBA - dynamic voucher redemptions>
 
 ### Sales History
 
-A drillable list that shows all program-bound sales transactions aggergated per month. The list can be further grouped by country and package item.
+A drillable list that shows all program-bound sales transactions aggregated per month. The list can be further grouped by country and package item.
 
-<TBA - sales history>
+![SalesRep]({{ site.url }}/images/salerep.png)
 
 ### Ecommerce Sales History
 
-A drillable list that shows all program-bound ecommerce sales transactions aggergated per month. The list can be further grouped by country and package item.
+A drillable list that shows all program-bound ecommerce sales transactions aggregated per month. The list can be further grouped by country and package item.
 
 <TBA - ecommerce sales history>
 
 ### In-House Sales History
 
-A drillable list that shows all program-bound in-house sales transactions aggergated per month. The list can be further grouped by country, hotel and user.
+A drillable list that shows all program-bound in-house sales transactions aggregated per month. The list can be further grouped by country, hotel and user.
 
 <TBA - in-house sales history>
 
 ### Renewal Ratios
 
-A drillable list that shows all program-bound renewal rations aggergated per month. The list can be further grouped by country and package items.
+A drillable list that shows all program-bound renewal rations aggregated per month. The list can be further grouped by country and package items.
 
 <TBA - renewal ratios>
 
@@ -179,9 +186,8 @@ A collection of SMS stat charts to convey the effectiveness of our SMS notificat
 
 A collection of program-bound pre-built reports for different purposes. Reports are available in PDF, CSV and Excel. You can read more about canned reports [here](http://hmccode.github.io/2017-03-31/canned-reports-processing).
 
-<TBA - canned reports>
+![Canned Rep]({{ site.url }}/images/canrep.png)
 
 ## Transactional Requests
 
-Since most of the data points in `HMC Engage` are aggregated per a period, the platform allows users to request the actual transactions that make up these aggregations. The transactions reports will be delivered via Email to the requestor's email address. Users will be able to make requests from `Engage` and they will be able to monitor them as well. Due to the sensitive nature of the transactional listing, all requests are subject to approval. 
-  
+Since most of the data points in `HMC Engage` are aggregated per a period, the platform allows users to request the actual transactions that make up these aggregations. The transactions reports will be delivered via Email to the requestor's email address. Users will be able to make requests from `Engage` and they will be able to monitor them as well. Due to the sensitive nature of the transactional listing, all requests are subject to approval.
