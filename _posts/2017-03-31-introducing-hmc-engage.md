@@ -31,7 +31,7 @@ Although `HMC eNgage` was designed with Mosaic in mind, it has been architecture
 
 Internally, `HMC eNgage` routes requests to the different products and only offer a container to host the tabs and the user interaction. This extensible architecture will have a very positive impact and allows us to re-use our investment for VOILA and Sapphire, for example.
 
-What is with the `eNgage` name? Well...it is up to your imagination....but when we invented the name, we thought of `explore` and `gauge`.... but then we also wanted this to an engagement platform. So we called it conveniently `eNgage` and omitted the `u` to avoid spelling-mistake syndrome. Once you realize its full potential, I hope you will be as excited about it as we are!! :-)
+What is with the `eNgage` name? Well...it is up to your imagination....but when we invented the name, we thought of `explore` and `gauge`.... but then we also wanted this to be an engagement and engaging platform. So we called it conveniently `eNgage` and omitted the `u` to avoid spelling-mistake syndrome. Once you realize its full potential, I hope you will be as excited about it as we are!! :-)
 
 ## Tabs
 
@@ -55,7 +55,7 @@ In addition, tabs can be dismissed in one single button as shown in the above il
 
 Here is a sample of en Email approval request:
 
-![Approval Email](https://mosaicapi.blob.core.windows.net/images/86b7f380-48fd-4e2f-ba03-a6f232ed1c23.png)
+![Approval Email](https://mosaicapi.blob.core.windows.net/images/26e1ae59-33dd-41f1-a2f5-e06ecd7429f7.png)
 
 1. The email contains information about the campaign name and description
 2. The email actual email body is provided as a URL with sample data
@@ -74,6 +74,8 @@ If a client hotel has access to their program customized URL i.e. `https://circl
 ## Transactional Requests
 
 Since most of the data points in `HMC eNgage` are aggregated per a period, the platform allows users to request the actual transactions that make up these aggregations. The transactions reports will be delivered via Email to the requestor's email address. Users will be able to make requests from `eNgage` and they will be able to monitor them as well. Due to the sensitive nature of the transactional listing, all requests are subject to approval. 
+
+<User Interface to be added>
 
 ## Data Points
 
@@ -97,7 +99,7 @@ The `memberships` data access point provides an extreme flexibility in managing 
 
 Asking for more details about a specific memberships opens up a dialog that details everything about the membership including F&B tracking records, reservation records, purchase transactions, member comments, etc.
 
-![Membership Detail](https://mosaicapi.blob.core.windows.net/images/a207fed5-0922-4dc0-bbed-7416c32b6fe4.png)
+![Membership Detail](https://mosaicapi.blob.core.windows.net/images/d13a5dca-8c40-4be8-b7c4-42cee89dc471.png)
 
 To add more convenience, several membership detail dialogs can be invoked to allow viewing details for several memberships at the same time.  
 
@@ -179,7 +181,7 @@ The top spenders dialog is pretty powerful!
 
 ![Top Spenders List](https://mosaicapi.blob.core.windows.net/images/89635d26-0106-44d4-8d35-8cb8316a44b1.png)
 
-- It allows users to send SMS and push campaigns directly from the dialog targeting the actual currently visible top spenders:
+- It allows users to send SMS or push campaigns directly from the dialog targeting the actual currently visible top spenders:
 
 ![Top Spenders Campaigns](https://mosaicapi.blob.core.windows.net/images/829f6bb6-54c4-47ba-8951-638f2f6995bb.png)
 
@@ -226,6 +228,8 @@ The left summary strip shows the top 3 popular packages and the top 3 performing
 A drillable list that shows all program-bound in-house sales transactions aggregated per month. The list can be further grouped by country, hotel and user.
 
 ![In-House Sales History](https://mosaicapi.blob.core.windows.net/images/68309d3f-127c-4688-ac2e-bdd39c5da54d.png)
+
+The left summary strip shows the top 3 popular packages and the top 3 performing countries.
 
 ### Mobile Apps Stats
 
