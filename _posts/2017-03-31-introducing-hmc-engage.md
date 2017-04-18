@@ -11,7 +11,9 @@ featured_image: /images/cover.jpg
 
 ## The Platform
 
-`HMC eNgage` is `program` based! This means that the eNgage content is based on the program hotel group ids and therefore it encompasses the different hotels, outlets, call centers, sales, app companion ecommerce site, in-house portal and mobile app that are within this program. We truly think this is the most logical way of structuring our `value` delivery to our clients. The following are some examples of programs:
+`HMC eNgage` is `program` based! This means that the eNgage content is based on the program hotel group ids and therefore it encompasses the different hotels, outlets, call centers, sales, app companion ecommerce site, in-house portal and mobile app that are within this program. We truly think this is the most logical way of structuring our `value` delivery to our clients. 
+
+The following are some examples of programs:
 
 - CircleM - the entire CircleM program
 - CH - the entire Clubhotel program
@@ -29,9 +31,9 @@ Although `HMC eNgage` was designed with Mosaic in mind, it has been architecture
 
 ![Extensible Architecture](https://mosaicapi.blob.core.windows.net/images/6bc41816-68ed-4511-852c-4d1508a8f064.png)
 
-Internally, `HMC eNgage` routes requests to the different products and only offer a container to host the tabs and the user interaction. This extensible architecture will have a very positive impact and allows us to re-use our investment for VOILA and Sapphire, for example.
+Internally, `HMC eNgage` routes requests to the different products and only offer a container to host the tabs and the user interaction. This extensible architecture will have a very positive impact and allows us to re-use our investment for public-facing products such as VOILA and internal-facing products such as Sapphire!!
 
-What is with the `eNgage` name? Well...it is up to your imagination....but when we invented the name, we thought of `explore` and `gauge`.... but then we also wanted this to be an engagement and engaging platform. So we called it conveniently `eNgage` and omitted the `u` to avoid spelling-mistake syndrome. Once you realize its full potential, I hope you will be as excited about it as we are!! :-)
+What is with the `eNgage` name though? Well...it is up to your imagination....but when we invented the name, we thought of `explore` and `gauge`.... but then we also wanted this to be an engagement and engaging platform. So we called it conveniently `eNgage` and omitted the `u` to avoid spelling-mistake syndrome. Once you realize its full potential, I hope you will be as excited about it as we are!! :-)
 
 ## Tabs
 
@@ -53,9 +55,9 @@ In addition, tabs can be dismissed in one single button as shown in the above il
 - Can export - export buttons are available in most tabs. This permission allows or denies users the ability to export
 - Can view tab type - normally users will be able to select from several tab types such as sales, F&B, reservations, app insights, etc. This set of permissions allows or denies users the ability to view these tabs
 
-Here is a sample of en Email approval request:
+Here is a sample of an Email approval request:
 
-![Approval Email](https://mosaicapi.blob.core.windows.net/images/26e1ae59-33dd-41f1-a2f5-e06ecd7429f7.png)
+![Approval Email](https://mosaicapi.blob.core.windows.net/images/30e89e08-c746-48f1-a218-bb4657050e5e.png)
 
 1. The email contains information about the campaign name and description
 2. The email actual email body is provided as a URL with sample data
@@ -75,7 +77,7 @@ If a client hotel has access to their program customized URL i.e. `https://circl
 
 Since most of the data points in `HMC eNgage` are aggregated per a period, the platform allows users to request the actual transactions that make up these aggregations. The transactions reports will be delivered via Email to the requestor's email address. Users will be able to make requests from `eNgage` and they will be able to monitor them as well. Due to the sensitive nature of the transactional listing, all requests are subject to approval. 
 
-<User Interface to be added>
+`<User Interface to be added>`
 
 ## Data Points
 
