@@ -109,15 +109,14 @@ The dialog offers several nice features:
 4. The dialog offers preview option to allow users to preview the campaign before it is actually sent to real members
 5. The dialog offers two modes for delivery: immediate or scheduled
 
-![Query]({{ site.url }}/images/search.png)
+The user can create and load saved queries so they don't have to re-filter the search list every time. In other words, members tabs do not have to start from scratch, `HMC eNgage` allows users to load saved queries:
 
+![Query Open](https://mosaicapi.blob.core.windows.net/images/23f8c324-bf26-4c04-89fb-9d9f9fc00595.png)
 
-![Query Save]({{ site.url }}/images/search2.png)
+Finally, `HMC eNgage` allows the members list to be switched to grid mode is this is more convenient to users:
 
-
-![Query Open]({{ site.url }}/images/openquery.png)
-
-
+![Grid Mode](https://mosaicapi.blob.core.windows.net/images/469d8c31-0e59-435a-a16d-801993b1691c.png)
+ 
 ### Offers
 
 A complete Offers management platform which handles creation, targeting and distribution.
@@ -172,15 +171,15 @@ It provides several features such as:
 
 The top spenders dialog is pretty powerful! 
 
-1. It shows the top spenders list ranked from high to low and the the engagement for each i.e. covers, food, beverage, discount and total:
+- It shows the top spenders list ranked from high to low and the the engagement for each i.e. covers, food, beverage, discount and total:
 
 ![Top Spenders List](https://mosaicapi.blob.core.windows.net/images/89635d26-0106-44d4-8d35-8cb8316a44b1.png)
 
-2. It allows users to send SMS and push campaigns directly from the dialog targeting the actual currently visible top spenders:
+- It allows users to send SMS and push campaigns directly from the dialog targeting the actual currently visible top spenders:
 
 ![Top Spenders Campaigns](https://mosaicapi.blob.core.windows.net/images/829f6bb6-54c4-47ba-8951-638f2f6995bb.png)
 
-3. To add more convenience, the dialog also allows users to award dynamic vouchers i.e. eCerts directly from th dialog making it extremely efficient to target and award members:
+- To add more convenience, the dialog also allows users to award dynamic vouchers i.e. eCerts directly from th dialog making it extremely efficient to target and award members:
 
 ![Top Spenders eCerts](https://mosaicapi.blob.core.windows.net/images/ffc40605-c37e-4201-8903-d1a3e0ba1a8f.png)
 
@@ -190,8 +189,7 @@ A drillable list that shows all program-bound reservation transactions aggregate
 
 ![Reservation History](https://mosaicapi.blob.core.windows.net/images/faf6e530-096e-46dc-8afe-5e406449eb32.png)
 
-**The reservation history list provides similar features as the tracking history. The difference is that this list shows top bookers as opposed to spenders
-**
+**The reservation history list provides similar features as the tracking history. The difference is that this list shows top bookers as opposed to spenders**
 
 ### Static & Dynamic Voucher Redemption History
 
@@ -199,11 +197,9 @@ A drillable list that shows all program-bound redemptions generated from static 
 
 ![Redemption History](https://mosaicapi.blob.core.windows.net/images/d67614b3-b991-40f9-847c-7d41cee77834.png)
 
-**The redemption history list provides similar features as the tracking history. The difference is that this list shows top redeemers and top sources as opposed to spenders
-**
+**The redemption history list provides similar features as the tracking history. The difference is that this list shows top redeemers and top sources as opposed to spenders**
 
-**Since we wanted to provide both static and dynamic voucher redemptions in the same tab, we provided a switch to allow users to switch between the two voucher types.
-**
+**Since we wanted to provide both static and dynamic voucher redemptions in the same tab, we provided a switch to allow users to switch between the two voucher types.**
 
 ### Sales History
 
@@ -237,7 +233,7 @@ A collection of mobile apps stat charts to convey the effectiveness of the mobil
 
 A collection of ecommerce site (the app companion site) stat charts to convey the effectiveness of the site.
 
-![Ecommerce Stats](https://mosaicapi.blob.core.windows.net/images/3f86e0e7-d584-40d3-ac9f-d68390000718.png)
+![Ecommerce Stats](https://mosaicapi.blob.core.windows.net/images/90a73399-b700-4800-86ca-736b20e2cd59.png)
 
 ### Email Stats
 
@@ -266,7 +262,3 @@ A collection of program-bound pre-built reports for different purposes. Reports 
 ## Transactional Requests
 
 Since most of the data points in `HMC eNgage` are aggregated per a period, the platform allows users to request the actual transactions that make up these aggregations. The transactions reports will be delivered via Email to the requestor's email address. Users will be able to make requests from `Engage` and they will be able to monitor them as well. Due to the sensitive nature of the transactional listing, all requests are subject to approval. 
-  
-## Transactional Requests
-
-Since most of the data points in `HMC Engage` are aggregated per a period, the platform allows users to request the actual transactions that make up these aggregations. The transactions reports will be delivered via Email to the requestor's email address. Users will be able to make requests from `Engage` and they will be able to monitor them as well. Due to the sensitive nature of the transactional listing, all requests are subject to approval.
