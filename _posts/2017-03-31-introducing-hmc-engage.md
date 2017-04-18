@@ -39,10 +39,13 @@ What is with the `eNgage` name though? Well...it is up to your imagination....bu
 
 In order to maximize the usefulness of `HMC eNgage`, the product user interface is built on tabs. Just like a browser, `HMC eNgage` allows users to open up different tabs with different content so one can view different things at the same time. Users can open up different instances of the same type...for example, the user can have different memberships search tabs each displaying different results. 
 
-Each user session has a home tab that cannot be dismissed. This home tab acts as a reference point and a dashboard for the selected program. The following illustration shows 7 different tabs opened at once:
+Each user session has a home tab (that cannot be dismissed) and a choice from several tab types:
+
+![Tab Choices](https://mosaicapi.blob.core.windows.net/images/16cbc01f-3088-4b3d-91eb-79aa9ea1b66a.png)
+
+This home tab acts as a reference point and a dashboard for the selected program. The following illustration shows 7 different tabs opened at once:
 
 ![Example of Tabs](https://mosaicapi.blob.core.windows.net/images/d4eb4b26-a8ca-4a5d-ab8e-d20f8f59fff7.png)
-
 
 In addition, tabs can be dismissed in one single button as shown in the above illustration reference 8. This provides an added convenience to users.
 
@@ -145,7 +148,7 @@ A complete Push Messages management platform which handles creation, targeting a
 
 A complete Dynamic Vouchers management platform which handles creation, targeting and distribution.
 
-<TBA - dynamic vouchers>
+`<To be added>`
 
 ### Email Campaigns
 
