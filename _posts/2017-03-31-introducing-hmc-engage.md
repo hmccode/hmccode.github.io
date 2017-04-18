@@ -9,7 +9,7 @@ tags: Mosaic Engage CRM
 featured_image: /images/cover.jpg
 ---
 
-## The Platform 
+## The Platform
 
 `HMC eNgage` is `program` based! This means that the eNgage content is based on the program hotel group ids and therefore it encompasses the different hotels, outlets, call centers, sales, app companion ecommerce site, in-house portal and mobile app that are within this program. We truly think this is the most logical way of structuring our `value` delivery to our clients. The following are some examples of programs:
 
@@ -48,8 +48,6 @@ In addition, tabs can be dismissed in one single button as shown in the above il
 Here is a sample of en Email approval request:
 
 ![Approval Email](https://mosaicapi.blob.core.windows.net/images/86b7f380-48fd-4e2f-ba03-a6f232ed1c23.png)
-
-Notice:
 
 1. The email contains information about the campaign name and description
 2. The email actual email body is provided as a URL with sample data
@@ -111,22 +109,31 @@ The dialog offers several nice features:
 4. The dialog offers preview option to allow users to preview the campaign before it is actually sent to real members
 5. The dialog offers two modes for delivery: immediate or scheduled
 
+![Query]({{ site.url }}/images/search.png)
+
+
+![Query Save]({{ site.url }}/images/search2.png)
+
+
+![Query Open]({{ site.url }}/images/openquery.png)
+
+
 ### Offers
 
 A complete Offers management platform which handles creation, targeting and distribution.
 
-<TBA - offers>
+![Offers]({{ site.url }}/images/offers.png)
 
 ### Push Messages
 
 A complete Push Messages management platform which handles creation, targeting and distribution.
-   
-<TBA - push messages>
+
+![Push]({{ site.url }}/images/push.png)
 
 ### Dynamic Vouchers
 
 A complete Dynamic Vouchers management platform which handles creation, targeting and distribution.
-   
+
 <TBA - dynamic vouchers>
 
 ### Email Campaigns
@@ -179,7 +186,7 @@ The top spenders dialog is pretty powerful!
 
 ### Reservation History
 
-A drillable list that shows all program-bound reservation transactions aggergated per month. The list can be further grouped by country and hotel.
+A drillable list that shows all program-bound reservation transactions aggregated per month. The list can be further grouped by country and hotel.
 
 ![Reservation History](https://mosaicapi.blob.core.windows.net/images/faf6e530-096e-46dc-8afe-5e406449eb32.png)
 
@@ -200,7 +207,7 @@ A drillable list that shows all program-bound redemptions generated from static 
 
 ### Sales History
 
-A drillable list that shows all program-bound sales transactions aggergated per month. The list can be further grouped by country and package item.
+A drillable list that shows all program-bound sales transactions aggregated per month. The list can be further grouped by country and package item.
 
 ![Sales History](https://mosaicapi.blob.core.windows.net/images/6af62614-eb37-49c9-84f5-a15c2fd55f93.png)
 
@@ -208,7 +215,7 @@ The left summary strip shows the top 3 popular packages and the top 3 performing
 
 ### Ecommerce Sales History
 
-A drillable list that shows all program-bound ecommerce sales transactions aggergated per month. The list can be further grouped by country and package item.
+A drillable list that shows all program-bound ecommerce sales transactions aggregated per month. The list can be further grouped by country and package item.
 
 ![Ecommerce Sales History](https://mosaicapi.blob.core.windows.net/images/7a568129-cef3-4e0e-864b-9f1611d3b3b2.png)
 
@@ -216,11 +223,9 @@ The left summary strip shows the top 3 popular packages and the top 3 performing
 
 ### In-House Sales History
 
-A drillable list that shows all program-bound in-house sales transactions aggergated per month. The list can be further grouped by country, hotel and user.
+A drillable list that shows all program-bound in-house sales transactions aggregated per month. The list can be further grouped by country, hotel and user.
 
 ![In-House Sales History](https://mosaicapi.blob.core.windows.net/images/68309d3f-127c-4688-ac2e-bdd39c5da54d.png)
-
-The left summary strip shows the top 3 popular packages and the top 3 performing countries.
 
 ### Mobile Apps Stats
 
@@ -262,3 +267,6 @@ A collection of program-bound pre-built reports for different purposes. Reports 
 
 Since most of the data points in `HMC eNgage` are aggregated per a period, the platform allows users to request the actual transactions that make up these aggregations. The transactions reports will be delivered via Email to the requestor's email address. Users will be able to make requests from `Engage` and they will be able to monitor them as well. Due to the sensitive nature of the transactional listing, all requests are subject to approval. 
   
+## Transactional Requests
+
+Since most of the data points in `HMC Engage` are aggregated per a period, the platform allows users to request the actual transactions that make up these aggregations. The transactions reports will be delivered via Email to the requestor's email address. Users will be able to make requests from `Engage` and they will be able to monitor them as well. Due to the sensitive nature of the transactional listing, all requests are subject to approval.
