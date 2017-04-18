@@ -31,7 +31,7 @@ Although `HMC eNgage` was designed with Mosaic in mind, it has been architecture
 
 Internally, `HMC eNgage` routes requests to the different products and only offer a container to host the tabs and the user interaction. This extensible architecture will have a very positive impact and allows us to re-use our investment for VOILA and Sapphire, for example.
 
-What is with the `eNgage` name? Well...it is up to your imagination....but when we invented the name, we thought of `explore` and `gauge`.... but then we also wanted this to an engagement platform. So we called it conveniently `eNgage`. Once you realize its full potential, I hope you will be as excited about it as we are!! :-)
+What is with the `eNgage` name? Well...it is up to your imagination....but when we invented the name, we thought of `explore` and `gauge`.... but then we also wanted this to an engagement platform. So we called it conveniently `eNgage` and omitted the `u` to avoid spelling-mistake syndrome. Once you realize its full potential, I hope you will be as excited about it as we are!! :-)
 
 ## Tabs
 
