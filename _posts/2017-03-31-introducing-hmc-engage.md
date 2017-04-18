@@ -27,9 +27,11 @@ With this extreme flexibility on how we can conjure up programs, every scenario 
 
 Although `HMC eNgage` was designed with Mosaic in mind, it has been architectured in such a way to allow other products to be plugged into the same `HMC eNgage` container host. This can be quite useful if we decide to offer a similar `eNgage` functionality for the VOILA product, `HMC eNgage` platform will be able to fit this requirement in quite nicely. 
 
-![Extensible Architecture](https://mosaicapi.blob.core.windows.net/images/777dd727-d7ec-4b94-a18c-ea9c441d1230.png)
+![Extensible Architecture](https://mosaicapi.blob.core.windows.net/images/6bc41816-68ed-4511-852c-4d1508a8f064.png)
 
 Internally, `HMC eNgage` routes requests to the different products and only offer a container to host the tabs and the user interaction. This extensible architecture will have a very positive impact and allows us to re-use our investment for VOILA and Sapphire, for example.
+
+What is with the `eNgage` name? Well...it is up to your imagination....but when we invented the name, we thought of `explore` and `gauge`.... but then we also wanted this to an engagement platform. So we called it conveniently `eNgage`. Once you realize its full potential, I hope you will be as excited about it as we are!! :-)
 
 ## Tabs
 
@@ -68,6 +70,10 @@ Since `HMC eNgage` is targeted for our hotel clients and internal employees, it 
 If a client hotel has access to their program customized URL i.e. `https://circlem.hmcengage.com`, then the user sees a customized product theme:
 
 ![CircleM Theming](https://mosaicapi.blob.core.windows.net/images/a1c598b2-47e0-41ff-8a60-15b83a3086f1.png)
+
+## Transactional Requests
+
+Since most of the data points in `HMC eNgage` are aggregated per a period, the platform allows users to request the actual transactions that make up these aggregations. The transactions reports will be delivered via Email to the requestor's email address. Users will be able to make requests from `eNgage` and they will be able to monitor them as well. Due to the sensitive nature of the transactional listing, all requests are subject to approval. 
 
 ## Data Points
 
@@ -256,7 +262,3 @@ A drillable list that shows all program-bound renewal rations aggergated per mon
 A collection of program-bound pre-built reports for different purposes. Reports are available in PDF, CSV and Excel. You can read more about canned reports [here](http://hmccode.github.io/2017-03-31/canned-reports-processing).
 
 ![Canned Reports](https://mosaicapi.blob.core.windows.net/images/fcf3f770-b252-485d-8d96-96287ed55b10.png)
-
-## Transactional Requests
-
-Since most of the data points in `HMC eNgage` are aggregated per a period, the platform allows users to request the actual transactions that make up these aggregations. The transactions reports will be delivered via Email to the requestor's email address. Users will be able to make requests from `Engage` and they will be able to monitor them as well. Due to the sensitive nature of the transactional listing, all requests are subject to approval. 
