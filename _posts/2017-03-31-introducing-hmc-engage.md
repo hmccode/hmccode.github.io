@@ -92,7 +92,9 @@ We envision `HMC eNgage` to be a go-to product for our hotel clients to, well as
 
 #### Dashboard
 
-`<To be added>`
+It is the home for `HMC eNgage`! It contains different visualizations from different parts of the system. I suspect this will change quite a bit before we settle on something. For now, this is what we have:
+
+![Dashboard](https://mosaicapi.blob.core.windows.net/images/dddb26c3-9d46-4302-873f-46a6a3fd0b7c.png)
 
 #### Memberships
 
