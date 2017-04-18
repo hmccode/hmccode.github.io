@@ -81,6 +81,10 @@ Since most of the data points in `HMC eNgage` are aggregated per a period, the p
 
 We envision `HMC eNgage` to be a go-to product for our hotel clients to monitor program performance in a holistic way. `HMC eNgage` provides many data points that make it easy and convenient for our client hotels to gain insights. Each one of these data points is exportable.
 
+### Dashboard
+
+<TBA>
+
 ### Memberships
 
 The `memberships` data access point provides an extreme flexibility in managing the program memberships., It provides advanced features such as:
@@ -263,6 +267,6 @@ A drillable list that shows all program-bound renewal rations aggergated per mon
 
 ### Canned Reports
 
-A collection of program-bound pre-built reports for different purposes. Reports are available in PDF, CSV and Excel. You can read more about canned reports [here](http://hmccode.github.io/2017-03-31/canned-reports-processing).
+A collection of program-bound pre-built reports for different purposes. Reports are available in PDF, CSV or Excel. You can read more about canned reports [here](http://hmccode.github.io/2017-03-31/canned-reports-processing). The main idea is to make additional reports catered for each program in a convenient way and minimal download time. Each canned report can have its own set of parameters, run period and refresh interval.
 
 ![Canned Reports](https://mosaicapi.blob.core.windows.net/images/fcf3f770-b252-485d-8d96-96287ed55b10.png)
