@@ -85,7 +85,7 @@ We envision `HMC eNgage` to be a go-to product for our hotel clients to monitor 
 
 ### Dashboard
 
-<TBA>
+`<To be added>`
 
 ### Memberships
 
