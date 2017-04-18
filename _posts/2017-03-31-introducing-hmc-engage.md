@@ -5,7 +5,7 @@ title:  "Introducing HMC eNgage"
 date:   2017-03-31 10:12:45
 summary: "HMC eNgage is the new CRM!"
 categories: HMC eNgage
-tags: Mosaic Engage CRM
+tags: Mosaic eNgage CRM
 featured_image: /images/cover.jpg
 ---
 
@@ -88,7 +88,7 @@ Since most of the data points in `HMC eNgage` are aggregated per a period, the p
 
 ### Data Points
 
-We envision `HMC eNgage` to be a go-to product for our hotel clients to monitor program performance in a holistic way. `HMC eNgage` provides many data points that make it easy and convenient for our client hotels to gain insights. Each one of these data points is exportable.
+We envision `HMC eNgage` to be a go-to product for our hotel clients to, well as the name implies, explore and gauge in a holistic way. `HMC eNgage` provides many data points that make it easy and convenient for our client hotels to gain insights. Each one of these data points is actionable.
 
 #### Dashboard
 
@@ -96,7 +96,7 @@ We envision `HMC eNgage` to be a go-to product for our hotel clients to monitor 
 
 #### Memberships
 
-The `memberships` data access point provides an extreme flexibility in managing the program memberships., It provides advanced features such as:
+The `memberships` data access point provides an extreme flexibility in managing the program memberships. It provides advanced features such as:
 
 1. Search using flexible facets
 2. Filter, sort and view the memberships
@@ -176,7 +176,7 @@ Similar to the Email campaigns list, it shows all user-created Push campaigns wi
 
 #### Tracking History
 
-A drillable list that shows all program-bound tracking transactions aggergated per period. The list can be further grouped by country, hotel and outlets:
+A drillable list that shows all program-bound tracking transactions aggregated per period. The list can be further grouped by country, hotel and outlets:
 
 ![Tracking List](https://mosaicapi.blob.core.windows.net/images/0fd7ae5c-3957-4b57-814a-914b84e3cac3.png)
 
@@ -212,7 +212,7 @@ A drillable list that shows all program-bound reservation transactions aggregate
 
 #### Static & Dynamic Voucher Redemption History
 
-A drillable list that shows all program-bound redemptions generated from static or dynamic vocuhers aggergated per period. The list can be further grouped by country, hotel and outlet.
+A drillable list that shows all program-bound redemptions generated from static or dynamic vouchers aggregated per period. The list can be further grouped by country, hotel and outlet.
 
 ![Redemption History](https://mosaicapi.blob.core.windows.net/images/d67614b3-b991-40f9-847c-7d41cee77834.png)
 
@@ -270,7 +270,7 @@ A collection of SMS stat charts to convey the effectiveness of our SMS notificat
 
 #### Renewal Ratios
 
-A drillable list that shows all program-bound renewal rations aggergated per month. The list can be further grouped by country and package items.
+A drillable list that shows all program-bound renewal rations aggregated per month. The list can be further grouped by country and package items.
 
 ![Renewal Ratios](https://mosaicapi.blob.core.windows.net/images/3f86e0e7-d584-40d3-ac9f-d68390000718.png)
 
