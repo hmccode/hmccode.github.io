@@ -25,6 +25,12 @@ With this extreme flexibility on how we can conjure up programs, every scenario 
 
 ![Program Structure](https://mosaicapi.blob.core.windows.net/images/a4ddb9ab-0bfc-4b26-a6d4-ba092b94136c.png)
 
+Although `HMC eNgage` was designed with Mosaic in mind, it has been architectured in such a way to allow other products to be plugged into the same `HMC eNgage` container host. This can be quite useful if we decide to offer a similar `eNgage` functionality for the VOILA product, `HMC eNgage` platform will be able to fit this requirement in quite nicely. 
+
+![Extensible Architecture](https://mosaicapi.blob.core.windows.net/images/777dd727-d7ec-4b94-a18c-ea9c441d1230.png)
+
+Internally, `HMC eNgage` routes requests to the different products and only offer a container to host the tabs and the user interaction. This extensible architecture will have a very positive impact and allows us to re-use our investment for VOILA and Sapphire, for example.
+
 ## Tabs
 
 In order to maximize the usefulness of `HMC eNgage`, the product user interface is built on tabs. Just like a browser, `HMC eNgage` allows users to open up different tabs with different content so one can view different things at the same time. Users can open up different instances of the same type...for example, the user can have different memberships search tabs each displaying different results. 
@@ -62,14 +68,6 @@ Since `HMC eNgage` is targeted for our hotel clients and internal employees, it 
 If a client hotel has access to their program customized URL i.e. `https://circlem.hmcengage.com`, then the user sees a customized product theme:
 
 ![CircleM Theming](https://mosaicapi.blob.core.windows.net/images/a1c598b2-47e0-41ff-8a60-15b83a3086f1.png)
-
-## Container for other products
-
-Although `HMC eNgage` was designed with Mosaic in mind, it has been architectured in such a way to allow other products to be plugged into the same `HMC eNgage` container host. This can be quite useful if we decide to offer a similar `eNgage` functionality for the VOILA product, `HMC eNgage` platform will be able to fit this requirement in quite nicely. 
-
-![Extensible Architecture](https://mosaicapi.blob.core.windows.net/images/777dd727-d7ec-4b94-a18c-ea9c441d1230.png)
-
-Internally, `HMC eNgage` routes requests to the different products and only offer a container to host the tabs and the user interaction. This extensible architecture will have a very positive impact and allows us to re-use our investment for VOILA and Sapphire, for example.
 
 ## Data Points
 
