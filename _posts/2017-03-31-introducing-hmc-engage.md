@@ -11,6 +11,18 @@ featured_image: /images/cover.jpg
 
 ## The Platform
 
+Although `HMC eNgage` was designed with Mosaic in mind, it has been architected in such a way to allow other products to be plugged into the same `HMC eNgage` container host. This can be quite useful if we decide to offer a similar `eNgage` functionality for the VOILA product, `HMC eNgage` platform will be able to fit this requirement in quite nicely. 
+
+![Extensible Architecture](https://mosaicapi.blob.core.windows.net/images/6bc41816-68ed-4511-852c-4d1508a8f064.png)
+
+Internally, `HMC eNgage` routes requests to the different products and only offer a container to host the tabs and the user interaction. This extensible architecture will have a very positive impact and allows us to re-use our investment for public-facing products such as VOILA and internal-facing products such as Sapphire!!
+
+What is with the `eNgage` name though? Well...it is up to your imagination....but when we invented the name, we thought of `explore` and `gauge`.... but then we also wanted this to be an engagement and engaging platform. So we called it conveniently `eNgage` and omitted the `u` to avoid spelling-mistake syndrome. Once you realize its full potential, I hope you will be as excited about it as we are!! :-)
+
+## Product Pillars
+
+### Program-based
+
 `HMC eNgage` is `program` based! This means that the eNgage content is based on the program hotel group ids and therefore it encompasses the different hotels, outlets, call centers, sales, app companion ecommerce site, in-house portal and mobile app that are within this program. We truly think this is the most logical way of structuring our `value` delivery to our clients. 
 
 The following are some examples of programs:
@@ -27,15 +39,7 @@ With this extreme flexibility on how we can conjure up programs, every scenario 
 
 ![Program Structure](https://mosaicapi.blob.core.windows.net/images/a4ddb9ab-0bfc-4b26-a6d4-ba092b94136c.png)
 
-Although `HMC eNgage` was designed with Mosaic in mind, it has been architectured in such a way to allow other products to be plugged into the same `HMC eNgage` container host. This can be quite useful if we decide to offer a similar `eNgage` functionality for the VOILA product, `HMC eNgage` platform will be able to fit this requirement in quite nicely. 
-
-![Extensible Architecture](https://mosaicapi.blob.core.windows.net/images/6bc41816-68ed-4511-852c-4d1508a8f064.png)
-
-Internally, `HMC eNgage` routes requests to the different products and only offer a container to host the tabs and the user interaction. This extensible architecture will have a very positive impact and allows us to re-use our investment for public-facing products such as VOILA and internal-facing products such as Sapphire!!
-
-What is with the `eNgage` name though? Well...it is up to your imagination....but when we invented the name, we thought of `explore` and `gauge`.... but then we also wanted this to be an engagement and engaging platform. So we called it conveniently `eNgage` and omitted the `u` to avoid spelling-mistake syndrome. Once you realize its full potential, I hope you will be as excited about it as we are!! :-)
-
-## Tabs
+### Tabs
 
 In order to maximize the usefulness of `HMC eNgage`, the product user interface is built on tabs. Just like a browser, `HMC eNgage` allows users to open up different tabs with different content so one can view different things at the same time. Users can open up different instances of the same type...for example, the user can have different memberships search tabs each displaying different results. 
 
@@ -49,7 +53,7 @@ This home tab acts as a reference point and a dashboard for the selected program
 
 In addition, tabs can be dismissed in one single button as shown in the above illustration reference 8. This provides an added convenience to users.
 
-## Permission Matrix
+### Permission Matrix
 
 `HMC eNgage` provides a configurable permission matrix to control how `programs` are conveyed to the user. For example, we may be able to turn off the email campaign features on some programs or turn off the ability to export members to CSV. The matrix is extensive and covers all aspects of the platform. The following are just a few examples of popular permissions:
 
@@ -66,7 +70,7 @@ Here is a sample of an Email approval request:
 2. The email actual email body is provided as a URL with sample data
 3. The email contains `Approve` and `Reject` buttons to allow approvers to approve or reject from the email itself
 
-## Dynamic Theming
+### Dynamic Theming
 
 Since `HMC eNgage` is targeted for our hotel clients and internal employees, it provides dynamic themeing based on the URL. So if the user has access to https://www.hmcengage.com, then the user sees the default product theme:
 
@@ -76,21 +80,21 @@ If a client hotel has access to their program customized URL i.e. `https://circl
 
 ![CircleM Theming](https://mosaicapi.blob.core.windows.net/images/a1c598b2-47e0-41ff-8a60-15b83a3086f1.png)
 
-## Transactional Requests
+### Transactional Requests
 
 Since most of the data points in `HMC eNgage` are aggregated per a period, the platform allows users to request the actual transactions that make up these aggregations. The transactions reports will be delivered via Email to the requestor's email address. Users will be able to make requests from `eNgage` and they will be able to monitor them as well. Due to the sensitive nature of the transactional listing, all requests are subject to approval. 
 
 `<User Interface to be added>`
 
-## Data Points
+### Data Points
 
 We envision `HMC eNgage` to be a go-to product for our hotel clients to monitor program performance in a holistic way. `HMC eNgage` provides many data points that make it easy and convenient for our client hotels to gain insights. Each one of these data points is exportable.
 
-### Dashboard
+#### Dashboard
 
 `<To be added>`
 
-### Memberships
+#### Memberships
 
 The `memberships` data access point provides an extreme flexibility in managing the program memberships., It provides advanced features such as:
 
@@ -132,25 +136,25 @@ Finally, `HMC eNgage` allows the members list to be switched to grid mode is thi
 
 ![Grid Mode](https://mosaicapi.blob.core.windows.net/images/469d8c31-0e59-435a-a16d-801993b1691c.png)
  
-### Offers
+#### Offers
 
 A complete Offers management platform which handles creation, targeting and distribution.
 
 ![Offers]({{ site.url }}/images/offers.png)
 
-### Push Messages
+#### Push Messages
 
 A complete Push Messages management platform which handles creation, targeting and distribution.
 
 ![Push]({{ site.url }}/images/push.png)
 
-### Dynamic Vouchers
+#### Dynamic Vouchers
 
 A complete Dynamic Vouchers management platform which handles creation, targeting and distribution.
 
 `<To be added>`
 
-### Email Campaigns
+#### Email Campaigns
 
 A list that shows all user-created email campaigns with stats about usage: bounces, opens, clicks, etc
 
@@ -162,15 +166,15 @@ It provides several features such as:
 2. At-a-glance quick information about each campaign
 3. Summary strip to show the total campaigns, targets, etc
 
-### SMS Campaigns
+#### SMS Campaigns
 
 Similar to the Email campaigns list, it shows all user-created SMS campaigns with stats about usage: deliveries, errors, unreachables, etc.
 
-### Push Campaigns
+#### Push Campaigns
 
 Similar to the Email campaigns list, it shows all user-created Push campaigns with stats about usage: deliveries, invocations, etc.
 
-### Tracking History
+#### Tracking History
 
 A drillable list that shows all program-bound tracking transactions aggergated per period. The list can be further grouped by country, hotel and outlets:
 
@@ -198,7 +202,7 @@ The top spenders dialog is pretty powerful!
 
 ![Top Spenders eCerts](https://mosaicapi.blob.core.windows.net/images/ffc40605-c37e-4201-8903-d1a3e0ba1a8f.png)
 
-### Reservation History
+#### Reservation History
 
 A drillable list that shows all program-bound reservation transactions aggregated per month. The list can be further grouped by country and hotel.
 
@@ -206,7 +210,7 @@ A drillable list that shows all program-bound reservation transactions aggregate
 
 **The reservation history list provides similar features as the tracking history. The difference is that this list shows top bookers as opposed to spenders**
 
-### Static & Dynamic Voucher Redemption History
+#### Static & Dynamic Voucher Redemption History
 
 A drillable list that shows all program-bound redemptions generated from static or dynamic vocuhers aggergated per period. The list can be further grouped by country, hotel and outlet.
 
@@ -216,7 +220,7 @@ A drillable list that shows all program-bound redemptions generated from static 
 
 **Since we wanted to provide both static and dynamic voucher redemptions in the same tab, we provided a switch to allow users to switch between the two voucher types.**
 
-### Sales History
+#### Sales History
 
 A drillable list that shows all program-bound sales transactions aggregated per month. The list can be further grouped by country and package item.
 
@@ -224,7 +228,7 @@ A drillable list that shows all program-bound sales transactions aggregated per 
 
 The left summary strip shows the top 3 popular packages and the top 3 performing countries.
 
-### Ecommerce Sales History
+#### Ecommerce Sales History
 
 A drillable list that shows all program-bound ecommerce sales transactions aggregated per month. The list can be further grouped by country and package item.
 
@@ -232,7 +236,7 @@ A drillable list that shows all program-bound ecommerce sales transactions aggre
 
 The left summary strip shows the top 3 popular packages and the top 3 performing countries.
 
-### In-House Sales History
+#### In-House Sales History
 
 A drillable list that shows all program-bound in-house sales transactions aggregated per month. The list can be further grouped by country, hotel and user.
 
@@ -240,37 +244,37 @@ A drillable list that shows all program-bound in-house sales transactions aggreg
 
 The left summary strip shows the top 3 popular packages and the top 3 performing countries.
 
-### Mobile Apps Stats
+#### Mobile Apps Stats
 
 A collection of mobile apps stat charts to convey the effectiveness of the mobile apps.
 
 ![App Stats](https://mosaicapi.blob.core.windows.net/images/931a2fee-79c3-458d-afdf-ce6794cbf46c.png)
 
-### Ecommerce Site Stats
+#### Ecommerce Site Stats
 
 A collection of ecommerce site (the app companion site) stat charts to convey the effectiveness of the site.
 
 ![Ecommerce Stats](https://mosaicapi.blob.core.windows.net/images/90a73399-b700-4800-86ca-736b20e2cd59.png)
 
-### Email Stats
+#### Email Stats
 
 A collection of email stat charts to convey the effectiveness of our email collection.
 
 ![Email Stats](https://mosaicapi.blob.core.windows.net/images/b8f6526e-6ae5-441e-b445-f401cffbe0ce.png)
 
-### SMS Stats
+#### SMS Stats
 
 A collection of SMS stat charts to convey the effectiveness of our SMS notifications and its sources.
 
 ![SMS Stats](https://mosaicapi.blob.core.windows.net/images/88fca013-4981-4c0e-991d-86b93a99b82a.png)
 
-### Renewal Ratios
+#### Renewal Ratios
 
 A drillable list that shows all program-bound renewal rations aggergated per month. The list can be further grouped by country and package items.
 
 ![Renewal Ratios](https://mosaicapi.blob.core.windows.net/images/3f86e0e7-d584-40d3-ac9f-d68390000718.png)
 
-### Canned Reports
+#### Canned Reports
 
 A collection of program-bound pre-built reports for different purposes. Reports are available in PDF, CSV or Excel. You can read more about canned reports [here](http://hmccode.github.io/2017-03-31/canned-reports-processing). The main idea is to make additional reports catered for each program in a convenient way and minimal download time. Each canned report can have its own set of parameters, run period and refresh interval.
 
