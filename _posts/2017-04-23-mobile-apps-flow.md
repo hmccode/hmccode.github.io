@@ -2,7 +2,7 @@
 layout: post
 author: "Khaled A"
 title:  "Mobile Apps Flow"
-date:   2017-04-11 10:12:45
+date:   2017-04-24 10:12:45
 summary: "Mobile Apps Flow"
 categories: HMC Mosaic
 tags: Mosaic API
