@@ -1,7 +1,7 @@
 ---
 layout: post
 author: "Khaled A"
-title:  "Booking Flow"
+title:  "Mobile Apps Flow"
 date:   2017-04-11 10:12:45
 summary: "Mobile Apps Flow"
 categories: HMC Mosaic
