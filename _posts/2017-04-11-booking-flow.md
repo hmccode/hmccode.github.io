@@ -30,3 +30,4 @@ featured_image: /images/cover.jpg
 - Once the confirmation email is received, the agent will proceed with the manual booking, generate a confirmation email and send it to the member. Alternatively, the agent can pick up the booking request, fill in the confirmation detail and send the confirmation email from our own system.
 - We will need to provide a way to cancel the reservation which will undo all the steps above including refund the credit card
 - The good thing about this is that it works the same for both in and out of network  
+
