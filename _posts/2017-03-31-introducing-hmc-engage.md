@@ -51,7 +51,7 @@ This home tab acts as a reference point and a dashboard for the selected program
 
 ![Example of Tabs]({{ site.url }}/images/tabs.png)
 
-In addition, tabs can be dismissed in one single button as shown in the above illustration reference 8. This provides an added convenience to users.
+In addition, tabs can be dismissed in one single button as shown in the above illustration. This provides an added convenience to users.
 
 ### Permission Matrix
 
@@ -82,7 +82,7 @@ If a client hotel has access to their program customized URL i.e. `https://circl
 
 ### Transactional Requests
 
-Since most of the data points in `HMC eNgage` are aggregated per a period, the platform allows users to request the actual transactions that make up these aggregations. The transactions reports will be delivered via Email to the requestor's email address. Users will be able to make requests from `eNgage` and they will be able to monitor them as well. Due to the sensitive nature of the transactional listing, all requests are subject to approval.
+Since most of the data points in `HMC eNgage` are aggregated per a period, the platform allows users to request the actual transactions that make up these aggregations. The transactions reports will be delivered via convenient links if and when the request is approved. Users will be able to make requests from `eNgage` and they will be able to monitor them as well. Due to the sensitive nature of the transactional listing, all requests are subject to approval.
 
 ![Transactional Requests]({{ site.url }}/images/requests.png)
 
@@ -114,7 +114,7 @@ The `memberships` data access point provides an extreme flexibility in managing 
 
 Asking for more details about a specific memberships opens up a dialog that details everything about the membership including F&B tracking records, reservation records, purchase transactions, member comments, etc.
 
-![Membership Detail]({{ site.url }}/images/meber.png)
+![Membership Detail]({{ site.url }}/images/member.png)
 
 To add more convenience, several membership detail dialogs can be invoked to allow viewing details for several memberships at the same time.  
 

@@ -9,7 +9,7 @@ tags: Mosaic Digital Membership
 featured_image: /images/cover.jpg
 ---
 
-The new version of Mosaic API will have substantial changes! They new changes are mainly to support dynamic vouchers, member makes member and digital memberships. Because the API surface got exponentially bigger and more complicated, I wanted to subject the Mosaic API layer to substantial testing. 
+The new version of Mosaic API will have substantial changes! They new changes are mainly to support dynamic vouchers, member makes member and digital memberships. Because the API surface got exponentially bigger and more complicated, I wanted to subject the Mosaic API layer to substantial testing. There is also a client version to this [testing]({{ site.url }}/2017-03-13/mosaic-api-client-testing) that you can check out. 
 
 To do this, I deployed dynamic tests using Azure functions to 4 different regions in Azure and hammered the API from 4 different regions: West US, West Europe,, West Japan and South Brazil. I collected the results in PowerBI. The tests are divided into 3 main categories:
 

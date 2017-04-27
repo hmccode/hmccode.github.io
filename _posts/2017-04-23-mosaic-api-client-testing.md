@@ -1,13 +1,28 @@
 ---
 layout: post
 author: "Khaled A"
-title:  "Mobile Apps Flow"
+title:  "Mobile API Client Testing"
 date:   2017-04-24 10:12:45
-summary: "Mobile Apps Flow"
-categories: HMC Mosaic
-tags: Mosaic API
-featured_image: /images/cover.jpg
+summary: "Mobile API Client Testing"
+categories: HMC Mosaic API
+tags: Mosaic API Client Testing
+featured_image: /images/cover.jpg Client Testing
 ---
+
+The new version of Mosaic API will have substantial [changes]({{ site.url }}/2017-03-04/introducing-digital-transformation)! They new changes are mainly to support dynamic vouchers, member makes member and digital memberships. Because the API surface got exponentially bigger and more complicated, I wanted to subject the Mosaic API layer to substantial testing. There is also a web version to this [testing]({{ site.url }}/2017-03-13/mosaic-api-web-testing) that you can check out. 
+
+I divided the product API Surface to 4 sections:
+
+- Mobile Apps
+- POS Agents
+- Backoffice
+- Ecommerce
+- In-House
+
+I created a client UWP app that is capable of launching multiple threads at the same time to run a specific test scenario. The app will reports its test results to a database that we can then find out best runs and averages and other significant indicators: 
+
+
+# Mobile Apps
 
 ## Prior to Login
 
@@ -214,24 +229,215 @@ Where validity is one of:
 	- Creates a request in Mosaic API `Core.ContactSupportRequest`
 	- Need to send this to a Logic App to continue the work flow in case there is any
 
-## Enqueued Oracle Requests
+## Test Results
 
-In certain key of the application, we are using eventual consistency against Oracle as opposed to immediate consistency. So voucher redemption and tracking recording and others are usually queued up to Oracle for eventual processing. There are several benefits:
-- Still works even if Oracle is not available for some reason.
-- All requests are sent to Oracle are visible and can be examined
-- Since we only have a single database for production and test, changes to the database will not happen because the Oracle requests periodic firer doe snot run in test environments! 
+This is how the client app records its results for each run of the test:
 
-# Product Pillars
-**Explain about digital membership and program Blob storage**
-**Explain about sessions**
-**Explain about layers**
-**Explain about digital membership membership refreshes**
-**Explain about digital membership membership imports**
-**Explain about digital membership discount codes**
-**Explain about digital membership redemptions**
-**Explain about digital membership communication**
-**Explain about digital membership shadows**
-**Explain about digital program refreshes**
+```
+[
+	{
+	  "name": "Mosaic Mobile Apps",
+	  "product": "Mosaic",
+	  "section": "Mobile Apps",
+	  "type": 1,
+	  "threadId": 1,
+	  "thread": "1",
+	  "duration": 21327.3583,
+	  "successes": 1,
+	  "failures": 0,
+	  "invocations": 20,
+	  "isCancelled": false,
+	  "isCompleted": true,
+	  "startTime": "2017-04-27T07:47:59.3268801Z",
+	  "endTime": "2017-04-27T07:48:20.6715871Z",
+	  "invocationRuns": [
+	    {
+	      "name": "Validate Slim Build",
+	      "duration": 1541.6280000000001
+	    },
+	    {
+	      "name": "Download Slim Content",
+	      "duration": 2917.8804000000004
+	    },
+	    {
+	      "name": "Download Slim Strings",
+	      "duration": 751.6731999999993
+	    },
+	    {
+	      "name": "Validate Build",
+	      "duration": 422.6359000000002
+	    },
+	    {
+	      "name": "Download Content",
+	      "duration": 1669.7884000000003
+	    },
+	    {
+	      "name": "Request Activation via SMS",
+	      "duration": 2235.5507
+	    },
+	    {
+	      "name": "Reactivate Request",
+	      "duration": 457.6898999999994
+	    },
+	    {
+	      "name": "Login Request",
+	      "duration": 858.929900000001
+	    },
+	    {
+	      "name": "Register Device",
+	      "duration": 922.0594999999994
+	    },
+	    {
+	      "name": "Submit analytic event",
+	      "duration": 569.4340000000011
+	    },
+	    {
+	      "name": "Retrieve offers",
+	      "duration": 688.1891999999989
+	    },
+	    {
+	      "name": "Retrieve static vouchers",
+	      "duration": 857.8167000000012
+	    },
+	    {
+	      "name": "Retrieve transactions",
+	      "duration": 729.511199999999
+	    },
+	    {
+	      "name": "Generate Discount Code",
+	      "duration": 1068.7627000000011
+	    },
+	    {
+	      "name": "Unredeem Voucher",
+	      "duration": 1148.5445999999992
+	    },
+	    {
+	      "name": "Retrieve static vouchers",
+	      "duration": 772.6765999999989
+	    },
+	    {
+	      "name": "Redeem voucher",
+	      "duration": 1704.0325000000011
+	    },
+	    {
+	      "name": "Update profile",
+	      "duration": 533.3040000000001
+	    },
+	    {
+	      "name": "Refer a friend",
+	      "duration": 893.2145999999993
+	    },
+	    {
+	      "name": "Contact Us",
+	      "duration": 582.038700000001
+	    }
+	  ],
+	  "id": "a4fe5581-f1e6-4400-95a6-6c0e2c8c6d46"
+	},
+	{
+	  "name": "Mosaic Mobile Apps",
+	  "product": "Mosaic",
+	  "section": "Mobile Apps",
+	  "type": 1,
+	  "threadId": 2,
+	  "thread": "2",
+	  "duration": 18234.2583,
+	  "successes": 1,
+	  "failures": 0,
+	  "invocations": 20,
+	  "isCancelled": false,
+	  "isCompleted": true,
+	  "startTime": "2017-04-27T07:48:52.9993854Z",
+	  "endTime": "2017-04-27T07:49:11.2432676Z",
+	  "invocationRuns": [
+	    {
+	      "name": "Validate Slim Build",
+	      "duration": 463.5835
+	    },
+	    {
+	      "name": "Download Slim Content",
+	      "duration": 1404.2027
+	    },
+	    {
+	      "name": "Download Slim Strings",
+	      "duration": 788.8830000000003
+	    },
+	    {
+	      "name": "Validate Build",
+	      "duration": 400.12599999999975
+	    },
+	    {
+	      "name": "Download Content",
+	      "duration": 1439.4107
+	    },
+	    {
+	      "name": "Request Activation via SMS",
+	      "duration": 1638.4400000000005
+	    },
+	    {
+	      "name": "Reactivate Request",
+	      "duration": 425.16249999999945
+	    },
+	    {
+	      "name": "Login Request",
+	      "duration": 874.1108000000004
+	    },
+	    {
+	      "name": "Register Device",
+	      "duration": 1055.5220000000008
+	    },
+	    {
+	      "name": "Submit analytic event",
+	      "duration": 600.119999999999
+	    },
+	    {
+	      "name": "Retrieve offers",
+	      "duration": 681.1486000000004
+	    },
+	    {
+	      "name": "Retrieve static vouchers",
+	      "duration": 812.4212000000007
+	    },
+	    {
+	      "name": "Retrieve transactions",
+	      "duration": 863.1482999999989
+	    },
+	    {
+	      "name": "Generate Discount Code",
+	      "duration": 1337.482100000001
+	    },
+	    {
+	      "name": "Unredeem Voucher",
+	      "duration": 1222.4844999999986
+	    },
+	    {
+	      "name": "Retrieve static vouchers",
+	      "duration": 817.1194000000014
+	    },
+	    {
+	      "name": "Redeem voucher",
+	      "duration": 1754.4588999999978
+	    },
+	    {
+	      "name": "Update profile",
+	      "duration": 507.1645000000026
+	    },
+	    {
+	      "name": "Refer a friend",
+	      "duration": 625.1369999999988
+	    },
+	    {
+	      "name": "Contact us",
+	      "duration": 523.1434000000008
+	    }
+	  ],
+	  "id": "005fd84b-18f7-4302-99d2-ae9039a83baa"
+	}
+]
+```
+
+# POS Agents
+
 
  
 
