@@ -184,9 +184,54 @@ Where validity is one of:
 	- No Oracle is involved
 	- These discount codes will persist with the membership allowing us to detect offline transactions from POS Agents
 
+## Update Profile
+
+- Authentication: Token
+- Method: `PUT`
+- API: `api/mobileapps/profile`
+- Notes: It is used to update a member profile in Mosaic. 
+	- Program and Activation Code are injected by the controller from the access token
+	- Calls an Oracle stored procedure `MOSAIC_API.UPDATE_PROFILE` to update in Mosaic
+
+## Refer a friend
+
+- Authentication: Token
+- Method: `POST`
+- API: `api/mobileapps/refer`
+- Notes: It is used to create a referrel request. 
+	- Program and Activation Code are injected by the controller from the access token
+	- Creates a request in Mosaic API `Core.ReferralRequest`
+	- Calls an Oracle stored procedure `MOSAIC_API.REFER_FRIEND` to create a referral in Mosaic
+	- Need to send this to a Logic App to continue the work flow in case there is any
+
+## Contact Support
+
+- Authentication: Token
+- Method: `POST`
+- API: `api/mobileapps/contactsupport`
+- Notes: It is used to create a contact us request. 
+	- Program and Activation Code are injected by the controller from the access token
+	- Creates a request in Mosaic API `Core.ContactSupportRequest`
+	- Need to send this to a Logic App to continue the work flow in case there is any
+
 ## Enqueued Oracle Requests
 
-In certain key of the application, we are using eventual consistency against Oracle as opposed to immediate consistency. So voucher redemption and tracking recording and others are usually queued up to Oracle for eventual processing. There are several benefits to this especially if Oracle is not available for some reason.
+In certain key of the application, we are using eventual consistency against Oracle as opposed to immediate consistency. So voucher redemption and tracking recording and others are usually queued up to Oracle for eventual processing. There are several benefits:
+- Still works even if Oracle is not available for some reason.
+- All requests are sent to Oracle are visible and can be examined
+- Since we only have a single database for production and test, changes to the database will not happen because the Oracle requests periodic firer doe snot run in test environments! 
+
+# Product Pillars
+**Explain about digital membership and program Blob storage**
+**Explain about sessions**
+**Explain about layers**
+**Explain about digital membership membership refreshes**
+**Explain about digital membership membership imports**
+**Explain about digital membership discount codes**
+**Explain about digital membership redemptions**
+**Explain about digital membership communication**
+**Explain about digital membership shadows**
+**Explain about digital program refreshes**
 
  
 
