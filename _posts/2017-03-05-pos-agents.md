@@ -80,6 +80,11 @@ Here is a settings file sample:
   "OfflineProcessorInMinutes": 60
 }
 ```
+## Centralized Discount 
+
+The new back-end supports the notion of a centralized discounts computation. In this new version, the discount is defined at the program level but can be overridden at the outlet level if need be. More on this issue later!!
+
+So we are a lot closer to provide a way for the server to compute the discounts :-)
 
 ## Easier Testing
 

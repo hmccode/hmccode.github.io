@@ -13,6 +13,10 @@ Digital Memberships refer to the memberships that are delivered to the members v
 
 # Product Pillars
 
+Product PillarsCache heavy
+Program-based
+
+
 - Enqueued Oracle Requests
 	- In certain key of the application, we are using eventual consistency against Oracle as opposed to immediate consistency. So voucher redemption and tracking recording and others are usually queued up to Oracle for eventual processing. There are several benefits:
 	- Still works even if Oracle is not available for some reason.
@@ -30,6 +34,9 @@ Digital Memberships refer to the memberships that are delivered to the members v
 - **Explain about digital membership shadows**
 - **Explain about digital program refreshes**
 
+Digital Memberships are basically containers of all sort of things. But their state is volatile and is best effort.....we use the shadow state to check on things. So all the operations that need answers, we go against the shadow state.
+
+Digital Memberships could be best realized as Service Fabric actors! But because this is not feasible tight now, we cannot use it.
 
 Digital Memberships support 3 modes of operation for the mobile app:
 

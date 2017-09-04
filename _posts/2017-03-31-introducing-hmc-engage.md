@@ -17,6 +17,10 @@ Although `HMC eNgage` was designed with Mosaic in mind, it has been architected 
 
 Internally, `HMC eNgage` routes requests to the different products and only offer a container to host the tabs and the user interaction. This extensible architecture will have a very positive impact and allows us to re-use our investment for public-facing products such as VOILA and internal-facing products such as Sapphire!!
 
+Similarly, `HMC eNgage` can be thought of as a collection of services pulled together to provide one single version of the truth:
+
+![Architecture]({{ site.url }}/images/engage-architecture.png)
+
 What is with the `eNgage` name though? Well...it is up to your imagination....but when we invented the name, we thought of `explore` and `gauge`.... but then we also wanted this to be an engagement and engaging platform. So we called it conveniently `eNgage` and omitted the `u` to avoid spelling-mistake syndrome. Once you realize its full potential, I hope you will be as excited about it as we are!! :-)
 
 ## Product Pillars
@@ -37,7 +41,7 @@ The following are some examples of programs:
 
 With this extreme flexibility on how we can conjure up programs, every scenario should be supported. Our customers can choose to monitor programs from a very high level i.e CH, monitor an individual country i.e. CHME-UAE or even an individual hotel (discouraged). The `HMC eNgage` platform will auto-adjust and self-refresh to accommodate the different programs and cater to their specific requirement. This is an example of Clubhotel parent and child programs:
 
-![Program Structure](https://mosaicapi.blob.core.windows.net/images/a4ddb9ab-0bfc-4b26-a6d4-ba092b94136c.png)
+![Program Structure]({{ site.url }}/images/program-sample.png)
 
 ### Tabs
 
@@ -114,7 +118,7 @@ The `memberships` data access point provides an extreme flexibility in managing 
 
 Asking for more details about a specific memberships opens up a dialog that details everything about the membership including F&B tracking records, reservation records, purchase transactions, member comments, etc.
 
-![Membership Detail]({{ site.url }}/images/member.png)
+![Membership Detail]({{ site.url }}/images/membership-detail.png)
 
 To add more convenience, several membership detail dialogs can be invoked to allow viewing details for several memberships at the same time.  
 
@@ -130,6 +134,8 @@ The dialog offers several nice features:
 4. The dialog offers preview option to allow users to preview the campaign before it is actually sent to real members
 5. The dialog offers two modes for delivery: immediate or scheduled
 
+More about campaigns later on.
+
 The user can create and load saved queries so they don't have to re-filter the search list every time. In other words, members tabs do not have to start from scratch, `HMC eNgage` allows users to load saved queries:
 
 ![Query Open]({{ site.url }}/images/open-query.png)
@@ -144,6 +150,10 @@ A complete Offers management platform which handles creation, targeting and dist
 
 ![Offers]({{ site.url }}/images/offers.png)
 
+There is a special kind of offer used as a template. Template offers allow users to pick offer-based push campaigns as we will discuss shortly below. When we create new offers, we can designate them as template offers by checking the `is template` flag in the editor:
+
+![Offers]({{ site.url }}/images/offer-editor.png)
+
 #### Push Messages
 
 A complete Push Messages management platform which handles creation, targeting and distribution.
@@ -156,7 +166,40 @@ A complete Dynamic Vouchers management platform which handles creation, targetin
 
 `<To be added>`
 
-#### Email Campaigns
+#### Campaigns
+
+Campaigns target some specific members from within `eNgage` for some promotions. There are three types of campaigns:
+- Email
+- SMS
+- Push
+
+As mentioned above, the campaigns can be turned off and on based on program permission matrix. We are finding that most programs require that push campaigns be supported while email and SMS must be turned off. 
+
+In any case, the `eNgage` campaigns have the following data flow:
+
+![Campaigns Flow]({{ site.url }}/images/campaigns-flow.png)
+ 
+As depicted, the audience can come from:
+- Members Search
+- Top Spenders
+- Top Bookers
+- Top Redeemers
+- Membership Detail
+- Others
+
+This set of audience becomes the campaign target. The following are the supported campaign types:
+- Ad-Hoc campaign - allow users to type in a message directly to be sent to the target members
+	- Supports Email, SMS and Push campaigns
+- E-cert based campaign - allow users to pick a template from a collection of manual e-certs
+	- Supports Push campaigns only
+- Offer based campaign - allow users to pick a template from a collection of template offers
+	- Supports Push campaigns only
+
+This is an example of offer-based push campaign where we picked the `Ball Game` template and the language and then customized the strings:
+
+![Offer-based campaign]({{ site.url }}/images/offer-based-campaign.png)
+
+##### Email Campaigns Management
 
 A list that shows all user-created email campaigns with stats about usage: bounces, opens, clicks, etc
 
@@ -168,11 +211,11 @@ It provides several features such as:
 2. At-a-glance quick information about each campaign
 3. Summary strip to show the total campaigns, targets, etc
 
-#### SMS Campaigns
+##### SMS Campaigns Management
 
 Similar to the Email campaigns list, it shows all user-created SMS campaigns with stats about usage: deliveries, errors, unreachables, etc.
 
-#### Push Campaigns
+##### Push Campaigns Management
 
 Similar to the Email campaigns list, it shows all user-created Push campaigns with stats about usage: deliveries, invocations, etc.
 
@@ -194,15 +237,15 @@ The top spenders dialog is pretty powerful!
 
 - It shows the top spenders list ranked from high to low and the the engagement for each i.e. covers, food, beverage, discount and total:
 
-![Top Spenders List]({{ site.url }}/images/topspend1.png)
+![Top Spenders Dialog]({{ site.url }}/images/top-spenders-dlg.png)
 
-- It allows users to send SMS or push campaigns directly from the dialog targeting the actual currently visible top spenders:
+- It allows users to send push campaigns directly from the dialog targeting the actual currently visible (and selected) top spenders:
 
-![Top Spenders Campaigns]({{ site.url }}/images/topspend2.png)
+![Top Spenders Campaigns]({{ site.url }}/images/top-spenders-push-dlg.png)
 
-- To add more convenience, the dialog also allows users to award dynamic vouchers i.e. eCerts directly from th dialog making it extremely efficient to target and award members:
+- To add more convenience, the dialog also allows users to award dynamic vouchers i.e. eCerts directly from the dialog making it extremely efficient to target and award members:
 
-![Top Spenders eCerts]({{ site.url }}/images/topspend3.png)
+![Top Spenders eCerts]({{ site.url }}/images/top-spenders-award-dlg.png)
 
 #### Reservation History
 
