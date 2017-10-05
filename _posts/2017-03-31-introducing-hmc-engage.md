@@ -96,9 +96,11 @@ We envision `HMC eNgage` to be a go-to product for our hotel clients to, well as
 
 #### Dashboard
 
-It is the home for `HMC eNgage`! It contains different visualizations from different parts of the system. I suspect this will change quite a bit before we settle on something. For now, this is what we have:
+It is the home for `HMC eNgage`! It contains different visualizations from different parts of the system. I suspect this will change quite a bit before we settle on something. For now, this is what we have and it shows glance-able information on how 
 
-![Dashboard]({{ site.url }}/images/dashboard.png)
+![Dashboard]({{ site.url }}/images/engage-dashboard.png)
+
+Notice the day selector. If you click on each dashboard element, it will navigate to the corresponding tab.
 
 #### Memberships
 
@@ -160,9 +162,9 @@ A complete Push Messages management platform which handles creation, targeting a
 
 ![Push]({{ site.url }}/images/push.png)
 
-#### Dynamic Vouchers
+#### E-certs
 
-A complete Dynamic Vouchers management platform which handles creation, targeting and distribution.
+A complete e-certs management platform which handles creation, targeting and distribution.
 
 `<To be added>`
 
@@ -195,9 +197,29 @@ This set of audience becomes the campaign target. The following are the supporte
 - Offer based campaign - allow users to pick a template from a collection of template offers
 	- Supports Push campaigns only
 
-This is an example of offer-based push campaign where we picked the `Ball Game` template and the language and then customized the strings:
+##### Push Campaigns Management
 
-![Offer-based campaign]({{ site.url }}/images/offer-based-campaign.png)
+Let us say you are in the members search and got the target that you are interested in, click the create campaign to show the dialog:
+
+![Offer-based campaign]({{ site.url }}/images/engage-create-push-campaign1.png)
+
+Choose the type of campaign: Ad Hoc, Offer based or e-cert based. If there are templates loaded in the system, they will appear here and you get to replace the offer strings if any. Similarly you can choose e-cert based campaigns and a list of manual (or promotion) campaigns would should show up:
+
+To create an offer template, very simple….all u do is create a new offer and designate it as a template:
+
+![Offer-based campaign]({{ site.url }}/images/engage-create-template-offer.png)
+
+In the offer template description, if u include any value surrounded by {}, they will be a candidate for replacement:
+
+![Offer-based campaign]({{ site.url }}/images/engage-create-template-offer2.png)
+
+And the offer is shown in the list as template:
+
+![Offer-based campaign]({{ site.url }}/images/engage-create-template-offer3.png)
+
+Now if you go back and show the campaign again, it will show the new template offer that you created:
+
+![Offer-based campaign]({{ site.url }}/images/engage-create-push-campaign2.png)
 
 ##### Email Campaigns Management
 
