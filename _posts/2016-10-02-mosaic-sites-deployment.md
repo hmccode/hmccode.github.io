@@ -32,3 +32,24 @@ This might take a minute or so! Once it is done, you need to make sure that the 
 If the build ends with a failure message, then you must re-queue the build. This is how a failure might look like:
 
 ![Bad Build](http://i.imgur.com/zg0jKuB.png)
+
+## Mapped Sites:
+
+| Site  | Slot| NOTES |
+| :---- |:----|:----- |
+| circlem.movenpick.com| ecommerce-sdda-circlem.azurewebsites.net | |
+| clubhotel.eu| ecommerce-sdda-mymazaya.azurewebsites.net | |
+| clubhotel.me| ecommerce-sdda-mymazaya.azurewebsites.net | |
+| mymazayam.com| ecommerce-sdda-mymazaya.azurewebsites.net | |
+| clubmataam.com| app-companion-me-clubmataam-production.azurewebsites.net | |
+| diningplusme.com| app-companion-me-diningplus-production.azurewebsites.net | Radisson blu |
+| grandprivilege.com| app-companion-me-gpdoha-production.azurewebsites.net  | Grand Hyatt Doha |
+| dusitprivilege.com| app-companion-me2-dusitthani-production.azurewebsites.net  | Dusit Thani|
+| pasaportegourmet.com| app-companion-la-oroverde-production.azurewebsites.net  | Oro Verde|
+| premiumclubasia.com| ecommerce-sdda-pcasia.azurewebsites.net  | PC ASia |
+| premiumclubme.com| ecommerce-sdda-pcme.azurewebsites.net  | PC Middle East |
+| swissotelgourmetclub.com| ecommerce-sdda-gourmetclub.azurewebsites.net  |  |
+| mpmdiningprivileges.com| app-companion-asia-mpmdining-production.azurewebsites.net  |  |
+| marcopoloelitemanila.com| app-companion-asia2.azurewebsites.net  |  |
+| goldenpalmtreepremiumclub.com| app-companion-asia2-avani-production.azurewebsites.net  | Avani  |
+| qube.com| app-companion-asia2-qube-production.azurewebsites.net  | Qube  |
