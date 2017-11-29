@@ -50,6 +50,8 @@ If the build ends with a failure message, then you must re-queue the build. This
 | premiumclubme.com| ecommerce-sdda-pcme.azurewebsites.net  | PC Middle East |
 | swissotelgourmetclub.com| ecommerce-sdda-gourmetclub.azurewebsites.net  |  |
 | mpmdiningprivileges.com| app-companion-asia-mpmdining-production.azurewebsites.net  |  |
+| onefarrer.com| app-companion-asia-onefarrer-production.azurewebsites.net  |  |
+| aryaduta.com| app-companion-asia-aryaduta-production.azurewebsites.net  |  |
 | marcopoloelitemanila.com| app-companion-asia2.azurewebsites.net  |  |
 | goldenpalmtreepremiumclub.com| app-companion-asia2-avani-production.azurewebsites.net  | Avani  |
-| qube.com| app-companion-asia2-qube-production.azurewebsites.net  | Qube  |
+| anandi.com| app-companion-asia2-anandi-production.azurewebsites.net  | Anandi  |
